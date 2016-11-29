@@ -1,0 +1,42 @@
+﻿l_english:
+
+  AddEquipmentTools_idea:0 "添加装备小工具"
+  addeq_infantry_ideas:0 "添加步兵装备"
+
+  addeq_infantry_0:0 "添加基础步兵装备"
+  addeq_infantry_1:0 "添加一级步兵装备"
+  addeq_infantry_2:0 "添加二级步兵装备"
+  addeq_infantry_3:0 "添加三级步兵装备"
+
+  #addeq_supp:0 "添加补给"
+
+  
+
+ #事件
+ addeq.event.common.a:0 "确定"
+ addeq.event.common.b:0 "关闭"
+
+ #步兵装备
+ #步兵装备数量
+ addeq.event.infantry.amount.a:0 "2000"
+ addeq.event.infantry.amount.b:0 "5000"
+ addeq.event.infantry.amount.c:0 "10000"
+ 
+
+ addeq.event.infantry.80000.t:0 "添加基础步兵装备"
+ addeq.event.infantry.80000.d:0 "添加基础步兵装备\n请选择数量"
+
+ addeq.event.infantry.80100.t:0 "添加一级步兵装备"
+ addeq.event.infantry.80100.d:0 "添加一级步兵装备\n请选择数量"
+
+ addeq.event.infantry.80200.t:0 "添加二级步兵装备"
+ addeq.event.infantry.80200.d:0 "添加二级步兵装备\n请选择数量"
+
+ addeq.event.infantry.80300.t:0 "添加三级步兵装备"
+ addeq.event.infantry.80300.d:0 "添加三级步兵装备\n请选择数量"
+
+
+
+
+
+ 

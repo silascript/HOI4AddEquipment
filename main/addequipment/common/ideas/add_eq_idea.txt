@@ -1,0 +1,46 @@
+ideas = {
+	addeq_infantry_ideas = {
+
+		#添加基础步兵装备
+		addeq_infantry_0 = {
+			picture = generic_infantry_bonus
+
+			on_add = {
+				country_event = addeq.event.infantry.80000	
+			}
+		}
+
+
+		#添加一级步兵装备
+		addeq_infantry_1 = {
+			picture = generic_infantry_bonus
+
+			on_add = {
+				country_event = addeq.event.infantry.80100
+			}
+		}
+
+		#添加二级步兵装备
+		addeq_infantry_2 = {
+			picture = generic_infantry_bonus
+
+			on_add = {
+				country_event = addeq.event.infantry.80200
+			}
+		}
+
+		#添加三级步兵装备
+		addeq_infantry_3 = {
+			picture = generic_infantry_bonus
+
+			on_add = {
+				country_event = addeq.event.infantry.80300
+			}
+		}
+
+
+	}
+
+
+
+}
