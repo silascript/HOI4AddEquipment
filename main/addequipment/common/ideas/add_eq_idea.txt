@@ -1,4 +1,6 @@
 ideas = {
+	
+	#步兵装备
 	addeq_infantry_ideas = {
 
 		#添加基础步兵装备
@@ -41,6 +43,6 @@ ideas = {
 
 	}
 
-
+	#炮兵装备
 
 }
