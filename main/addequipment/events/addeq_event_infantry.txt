@@ -7,9 +7,9 @@
 
 #添加基础步兵装备#
 country_event = {
-	id = addeq.event.infantry.80000
-	title = addeq.event.infantry.80000.t
-	desc = addeq.event.infantry.80000.d
+	id = addeq.event.infantry.80100
+	title = addeq.event.infantry.80100.t
+	desc = addeq.event.infantry.80100.d
 
 	is_triggered_only = yes
 	trigger = {
@@ -70,9 +70,9 @@ country_event = {
 
 #添加一级步兵装备
 country_event = {
-	id = addeq.event.infantry.80100
-	title = addeq.event.infantry.80100.t
-	desc = addeq.event.infantry.80100.d
+	id = addeq.event.infantry.80101
+	title = addeq.event.infantry.80101.t
+	desc = addeq.event.infantry.80101.d
 
 	is_triggered_only = yes
 	trigger = {
@@ -130,9 +130,9 @@ country_event = {
 
 #添加二级步兵装备
 country_event = {
-	id = addeq.event.infantry.80200
-	title = addeq.event.infantry.80200.t
-	desc = addeq.event.infantry.80200.d
+	id = addeq.event.infantry.80102
+	title = addeq.event.infantry.80102.t
+	desc = addeq.event.infantry.80102.d
 
 	is_triggered_only = yes
 	trigger = {
@@ -191,9 +191,9 @@ country_event = {
 
 #添加三级步兵装备
 country_event = {
-	id = addeq.event.infantry.80300
-	title = addeq.event.infantry.80300.t
-	desc = addeq.event.infantry.80300.d
+	id = addeq.event.infantry.80103
+	title = addeq.event.infantry.80103.t
+	desc = addeq.event.infantry.80103.d
 
 	is_triggered_only = yes
 	trigger = {
@@ -248,4 +248,7 @@ country_event = {
 		name = addeq.event.common.b
 	}
 }
+
+
+
 

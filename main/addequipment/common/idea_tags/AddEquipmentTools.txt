@@ -1,6 +1,7 @@
 idea_categories = {
 	AddEquipmentTools_idea = {
 		slot = addeq_infantry_ideas
+		slot = addeq_artillery_ideas
 
 		cost = 0
 		removal_cost = 0

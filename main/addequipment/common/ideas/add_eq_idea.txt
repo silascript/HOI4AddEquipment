@@ -8,7 +8,7 @@ ideas = {
 			picture = generic_infantry_bonus
 
 			on_add = {
-				country_event = addeq.event.infantry.80000	
+				country_event = addeq.event.infantry.80100	
 			}
 		}
 
@@ -18,7 +18,7 @@ ideas = {
 			picture = generic_infantry_bonus
 
 			on_add = {
-				country_event = addeq.event.infantry.80100
+				country_event = addeq.event.infantry.80101
 			}
 		}
 
@@ -27,7 +27,7 @@ ideas = {
 			picture = generic_infantry_bonus
 
 			on_add = {
-				country_event = addeq.event.infantry.80200
+				country_event = addeq.event.infantry.80102
 			}
 		}
 
@@ -36,13 +36,61 @@ ideas = {
 			picture = generic_infantry_bonus
 
 			on_add = {
-				country_event = addeq.event.infantry.80300
+				country_event = addeq.event.infantry.80103
 			}
 		}
 
 
 	}
 
+	#========================================#
+
 	#炮兵装备
+	#artillery_equipment
+
+	addeq_artillery_ideas = {
+
+		#添加一级炮兵装备
+		addeq_artillery_1 = {
+			picture = generic_intel_bonus
+
+			on_add = {
+				country_event = addeq.event.artillery.80211	
+			}
+		}
+
+		#添加二级炮兵装备
+		addeq_artillery_2 = {
+			picture = generic_intel_bonus
+
+			on_add = {
+				country_event = addeq.event.artillery.80212	
+			}
+		}
+
+		#添加三级炮兵装备
+		addeq_artillery_3 = {
+			picture = generic_intel_bonus
+
+			on_add = {
+				country_event = addeq.event.artillery.80213	
+			}
+		}
+
+
+
+		#-------------------------------------#
+
+		#rocket_artillery_equipment
+
+		#-------------------------------------#
+
+		#motorized_rocket_equipment
+
+
+	}
+
+	
+
 
 }
