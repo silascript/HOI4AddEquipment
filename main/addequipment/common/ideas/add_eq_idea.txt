@@ -50,7 +50,7 @@ ideas = {
 
 	addeq_artillery_ideas = {
 
-		#添加一级炮兵装备
+		#添加一级火炮
 		addeq_artillery_1 = {
 			picture = generic_intel_bonus
 
@@ -59,7 +59,7 @@ ideas = {
 			}
 		}
 
-		#添加二级炮兵装备
+		#添加二级火炮
 		addeq_artillery_2 = {
 			picture = generic_intel_bonus
 
@@ -68,7 +68,7 @@ ideas = {
 			}
 		}
 
-		#添加三级炮兵装备
+		#添加三级火炮
 		addeq_artillery_3 = {
 			picture = generic_intel_bonus
 
@@ -79,13 +79,41 @@ ideas = {
 
 
 
-		#-------------------------------------#
+		#-----------------------------------------------#
 
-		#rocket_artillery_equipment
+		#火箭炮
 
-		#-------------------------------------#
+		#添加一级火箭炮
+		addeq_artillery_rocket_1 = {
+			picture = combined_bomber_offensive
 
-		#motorized_rocket_equipment
+			on_add = {
+				country_event = addeq.event.artillery.80221	
+			}
+
+		}
+
+		#添加二级火箭炮
+		addeq_artillery_rocket_2 = {
+			picture = combined_bomber_offensive
+
+			on_add = {
+				country_event = addeq.event.artillery.80222	
+			}
+		}
+
+		#-----------------------------------------------#
+
+		#自行火箭炮
+
+		#motorized_rocket_equipment_1
+		addeq_artillery_motorized_rocket_1 = {
+			picture = combined_bomber_offensive
+
+			on_add = {
+				country_event = addeq.event.artillery.80231	
+			}
+		}
 
 
 	}

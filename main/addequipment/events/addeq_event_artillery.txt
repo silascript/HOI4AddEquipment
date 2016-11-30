@@ -196,7 +196,189 @@ country_event = {
 
 #-------------------火箭炮-------------------#
 
+#添加一级火箭炮
+country_event = {
+	id = addeq.event.artillery.80221
+	title = addeq.event.artillery.80221.t
+	desc = addeq.event.artillery.80221.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_artillery_rocket_1
+		}
+	}
+
+	#添加500
+	option = {
+		name =addeq.event.artillery.amount.a
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1000
+	option = {
+		name =addeq.event.artillery.amount.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+
+	}
+
+	#添加3000
+	option = {
+		name =addeq.event.artillery.amount.c
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_1 
+			amount = 3000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
 
 
+#添加二级火箭炮
+country_event = {
+	id = addeq.event.artillery.80222
+	title = addeq.event.artillery.80222.t
+	desc = addeq.event.artillery.80222.d
 
-#------------------摩托火箭炮------------------#
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_artillery_rocket_2
+		}
+	}
+
+	#添加500
+	option = {
+		name =addeq.event.artillery.amount.a
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_2
+			amount = 500
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1000
+	option = {
+		name =addeq.event.artillery.amount.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_2 
+			amount = 1000
+			producer = <TAG>
+		}
+
+	}
+
+	#添加3000
+	option = {
+		name =addeq.event.artillery.amount.c
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_2
+			amount = 3000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+#------------------自行火箭炮------------------#
+
+#添加自行火箭炮
+country_event = {
+	id = addeq.event.artillery.80231
+	title = addeq.event.artillery.80231.t
+	desc = addeq.event.artillery.80231.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_artillery_motorized_rocket_1
+		}
+	}
+
+	#添加500
+	option = {
+		name =addeq.event.artillery.amount.a
+
+		add_equipment_to_stockpile = {
+			type = motorized_rocket_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1000
+	option = {
+		name =addeq.event.artillery.amount.b
+
+		add_equipment_to_stockpile = {
+			type = motorized_rocket_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+
+	}
+
+	#添加3000
+	option = {
+		name =addeq.event.artillery.amount.c
+
+		add_equipment_to_stockpile = {
+			type = motorized_rocket_equipment_1 
+			amount = 3000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}

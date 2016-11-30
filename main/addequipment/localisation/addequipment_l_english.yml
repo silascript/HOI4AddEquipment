@@ -14,6 +14,11 @@
   addeq_artillery_2:0 "添加二级火炮"
   addeq_artillery_3:0 "添加三级火炮"
 
+  addeq_artillery_rocket_1:0 "添加一级火箭炮"
+  addeq_artillery_rocket_2:0 "添加二级火箭炮"
+
+  addeq_artillery_motorized_rocket_1:0 "添加自行火箭炮"
+
   #addeq_supp:0 "添加补给"
 
   
@@ -55,6 +60,15 @@
 
  addeq.event.artillery.80213.t:0 "添加三级火炮"
  addeq.event.artillery.80213.d:0 "添加三级火炮\n请选择数量"
+
+ addeq.event.artillery.80221.t:0 "添加一级火箭炮"
+ addeq.event.artillery.80221.d:0 "添加一级火箭炮\n请选择数量"
+
+ addeq.event.artillery.80222.t:0 "添加二级火箭炮"
+ addeq.event.artillery.80222.d:0 "添加二级火箭炮\n请选择数量"
+
+ addeq.event.artillery.80231.t:0 "添加自行火箭炮"
+ addeq.event.artillery.80231.d:0 "添加自行火箭炮\n请选择数量"
 
 
 
