@@ -1,0 +1,385 @@
+
+add_namespace = addeq.event.anti
+
+##############################################
+#					防空反坦					    #
+##############################################
+
+#添加一级防空炮
+country_event = {
+	id = addeq.event.anti.80311
+	title = addeq.event.anti.80311.t
+	desc = addeq.event.anti.80311.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_anti_air_1
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.anti.amount.a
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_1 
+			amount = 400
+			producer = <TAG>
+		}
+
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.anti.amount.b
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_1 
+			amount = 800
+			producer = <TAG>
+		}
+
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.anti.amount.c
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_1 
+			amount = 2000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+#添加二级防空炮
+country_event = {
+	id = addeq.event.anti.80312
+	title = addeq.event.anti.80312.t
+	desc = addeq.event.anti.80312.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_anti_air_2
+		}
+	}
+
+
+	#添加400
+	option = {
+		name = addeq.event.anti.amount.a
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_2
+			amount = 400
+			producer = <TAG>
+		}
+
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.anti.amount.b
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_2
+			amount = 800
+			producer = <TAG>
+		}
+
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.anti.amount.c
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_2
+			amount = 2000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#添加三级防空炮
+country_event = {
+	id = addeq.event.anti.80313
+	title = addeq.event.anti.80313.t
+	desc = addeq.event.anti.80313.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_anti_air_3
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.anti.amount.a
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_3
+			amount = 400
+			producer = <TAG>
+		}
+
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.anti.amount.b
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_3
+			amount = 800
+			producer = <TAG>
+		}
+
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.anti.amount.c
+
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_3
+			amount = 2000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+#====================反坦======================#
+
+#添加一级反坦炮
+country_event = {
+	id = addeq.event.anti.80321
+	title = addeq.event.anti.80321.t
+	desc = addeq.event.anti.80321.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_anti_tank_1
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.anti.amount.a
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_1 
+			amount = 400
+			producer = <TAG>
+		}
+
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.anti.amount.b
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_1 
+			amount = 800
+			producer = <TAG>
+		}
+
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.anti.amount.c
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_1 
+			amount = 2000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+#添加二级反坦炮
+country_event = {
+	id = addeq.event.anti.80322
+	title = addeq.event.anti.80322.t
+	desc = addeq.event.anti.80322.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_anti_tank_2
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.anti.amount.a
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_2
+			amount = 400
+			producer = <TAG>
+		}
+
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.anti.amount.b
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_2
+			amount = 800
+			producer = <TAG>
+		}
+
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.anti.amount.c
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_2 
+			amount = 2000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#添加三级反坦炮
+country_event = {
+	id = addeq.event.anti.80323
+	title = addeq.event.anti.80323.t
+	desc = addeq.event.anti.80323.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_anti_tank_3
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.anti.amount.a
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_3
+			amount = 400
+			producer = <TAG>
+		}
+
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.anti.amount.b
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_3
+			amount = 800
+			producer = <TAG>
+		}
+
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.anti.amount.c
+
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_3
+			amount = 2000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+

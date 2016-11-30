@@ -1,14 +1,20 @@
 ﻿l_english:
-
+  
+  #####################标题#####################
+  #
   AddEquipmentTools_idea:0 "添加装备小工具"
   addeq_infantry_ideas:0 "添加步兵装备"
   addeq_artillery_ideas:0 "添加炮兵装备"
+  addeq_anti_ideas:0 "添加防空及反坦装备"
 
+  #步兵装备(枪)
+ 
   addeq_infantry_0:0 "添加基础步兵装备"
   addeq_infantry_1:0 "添加一级步兵装备"
   addeq_infantry_2:0 "添加二级步兵装备"
   addeq_infantry_3:0 "添加三级步兵装备"
-
+ 
+  #火炮及火箭炮
 
   addeq_artillery_1:0 "添加一级火炮"
   addeq_artillery_2:0 "添加二级火炮"
@@ -19,11 +25,21 @@
 
   addeq_artillery_motorized_rocket_1:0 "添加自行火箭炮"
 
+  #防空及反坦
+  addeq_anti_air_1:0 "添加一级防空炮"
+  addeq_anti_air_2:0 "添加二级防空炮"
+  addeq_anti_air_3:0 "添加三级防空炮"
+  
+  addeq_anti_tank_1:0 "添加一级反坦克炮"
+  addeq_anti_tank_2:0 "添加二级反坦克炮"
+  addeq_anti_tank_3:0 "添加三级反坦克炮"
+
   #addeq_supp:0 "添加补给"
 
   
 
- #事件
+ #####################事件#####################
+ #
  addeq.event.common.a:0 "确定"
  addeq.event.common.b:0 "关闭"
 
@@ -70,6 +86,29 @@
  addeq.event.artillery.80231.t:0 "添加自行火箭炮"
  addeq.event.artillery.80231.d:0 "添加自行火箭炮\n请选择数量"
 
+ #防空及反坦
+ addeq.event.anti.amount.a:0 "400"
+ addeq.event.anti.amount.b:0 "800"
+ addeq.event.anti.amount.c:0 "2000"
+
+ addeq.event.anti.80311.t:0 "添加一级防空炮"
+ addeq.event.anti.80311.d:0 "添加一级防空炮\n请选择数量"
+
+ addeq.event.anti.80312.t:0 "添加二级防空炮"
+ addeq.event.anti.80312.d:0 "添加二级防空炮\n请选择数量"
+
+ addeq.event.anti.80313.t:0 "添加三级防空炮"
+ addeq.event.anti.80313.d:0 "添加三级防空炮\n请选择数量"
+ 
+ addeq.event.anti.80321.t:0 "添加一级反坦克炮"
+ addeq.event.anti.80321.d:0 "添加一级反坦克炮\n请选择数量"
+
+ addeq.event.anti.80322.t:0 "添加二级反坦克炮"
+ addeq.event.anti.80322.d:0 "添加二级反坦克炮\n请选择数量"
+
+ addeq.event.anti.80323.t:0 "添加三级反坦克炮"
+ addeq.event.anti.80323.d:0 "添加三级反坦克炮\n请选择数量"
+ 
 
 
 

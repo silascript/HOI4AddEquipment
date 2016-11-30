@@ -1,0 +1,77 @@
+
+ideas = {
+	
+	#防空与反坦克	
+	addeq_anti_ideas = {
+	
+		#防空
+		#添加一级防空炮
+		#anti_air_equipment_1
+		addeq_anti_air_1 = {
+			picture = generic_pp_unity_bonus
+
+			on_add = {
+				country_event = addeq.event.anti.80311	
+			}
+		}
+
+		#添加二级防空炮
+		addeq_anti_air_2 = {
+			picture = generic_pp_unity_bonus
+
+			on_add = {
+				country_event = addeq.event.anti.80312	
+			}
+		}
+
+		#添加三级防空炮
+		addeq_anti_air_3 = {
+			picture = generic_pp_unity_bonus
+
+			on_add = {
+				country_event = addeq.event.anti.80313
+			}
+		}
+
+
+		#============================================#
+
+		#反坦克
+		#anti_tank_equipment_1
+
+		#添加一级反坦克炮
+		addeq_anti_tank_1 = {
+			picture = generic_fascism_drift_bonus
+
+			on_add = {
+				country_event = addeq.event.anti.80321	
+			}
+		}
+
+		#添加二级反坦克炮
+		addeq_anti_tank_2 = {
+			picture = generic_fascism_drift_bonus
+
+			on_add = {
+				country_event = addeq.event.anti.80322
+			}
+		}
+
+		#添加三级反坦克炮
+		addeq_anti_tank_3 = {
+			picture = generic_fascism_drift_bonus
+
+			on_add = {
+				country_event = addeq.event.anti.80323
+			}
+		}
+
+
+
+	}
+
+
+	
+	
+
+}
