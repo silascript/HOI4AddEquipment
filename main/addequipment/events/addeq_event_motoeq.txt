@@ -1,0 +1,66 @@
+add_namespace = addeq.event.motoeq
+
+##############################################
+#					摩托化装备				    #
+##############################################
+
+#添加摩托化装备
+country_event = {
+	id = addeq.event.motoeq.82001
+	title = addeq.event.motoeq.82001.t
+	desc = addeq.event.motoeq.82001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_motoeq_1
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.motoeq.amount.a
+
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.motoeq.amount.b
+
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.motoeq.amount.c
+
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1 
+			amount = 2000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}	
+
+}

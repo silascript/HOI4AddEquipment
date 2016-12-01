@@ -7,6 +7,7 @@
   addeq_artillery_ideas:0 "添加炮兵装备"
   addeq_anti_ideas:0 "添加防空及反坦装备"
   addeq_support_ideas:0 "添加支援装备"
+  addeq_motoeq_ideas:0 "添加摩托化装备"
 
   #步兵装备(枪)
  
@@ -28,6 +29,9 @@
 
   #支援装备
   addeq_support_1:0 "添加支援装备"
+
+  #摩托化装备
+  addeq_motoeq_1:0 "添加摩托化装备"
 
   #防空及反坦
   addeq_anti_air_1:0 "添加一级防空炮"
@@ -74,6 +78,14 @@
 
  addeq.event.support.81001.t:0 "添加支援装备"
  addeq.event.support.81001.d:0 "添加支援装备\n请选择数量"
+
+ #摩托化装备
+ addeq.event.motoeq.amount.a:0 "500"
+ addeq.event.motoeq.amount.b:0 "1000"
+ addeq.event.motoeq.amount.c:0 "2000"
+
+ addeq.event.motoeq.82001.t:0 "添加摩托化装备"
+ addeq.event.motoeq.82001.d:0 "添加摩托化装备\n请选择数量"
 
  #炮兵装备
  addeq.event.artillery.amount.a:0 "500"

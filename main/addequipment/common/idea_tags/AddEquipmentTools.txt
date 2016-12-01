@@ -2,6 +2,7 @@ idea_categories = {
 	AddEquipmentTools_idea = {
 		slot = addeq_infantry_ideas
 		slot = addeq_support_ideas
+		slot = addeq_motoeq_ideas
 		slot = addeq_artillery_ideas
 		slot = addeq_anti_ideas
 

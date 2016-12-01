@@ -134,4 +134,19 @@ ideas = {
 		}
 	}
 
+
+	#========================================#
+
+	#摩托化装备
+	#motorized_equipment_1
+	addeq_motoeq_ideas = {
+		#添加摩托化装备
+		addeq_motoeq_1 = {
+			picture = FRA_matignon_agreements
+
+			on_add = {
+				country_event = addeq.event.motoeq.82001	
+			}
+		}
+	}
 }
