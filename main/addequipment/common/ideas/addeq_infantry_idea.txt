@@ -119,6 +119,19 @@ ideas = {
 	}
 
 	
+	#========================================#
 
+	#支援装备
+	addeq_support_ideas = {
+
+		#添加支援装备
+		addeq_support_1 = {
+			picture = FRA_matignon_agreements
+
+			on_add = {
+				country_event = addeq.event.support.81001	
+			}
+		}
+	}
 
 }

@@ -1,0 +1,71 @@
+
+add_namespace = addeq.event.support
+
+##############################################
+#					支援装备					    #
+##############################################
+
+#添加支援装备
+country_event = {
+	id = addeq.event.support.81001
+	title = addeq.event.support.81001.t
+	desc = addeq.event.support.81001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_support_1
+		}
+	}
+
+	#添加300
+	option = {
+		name = addeq.event.support.amount.a
+
+		add_equipment_to_stockpile = {
+			type = support_equipment_1 
+			amount = 300
+			producer = <TAG>
+		}
+
+	}
+
+
+	#添加600
+	option = {
+		name = addeq.event.support.amount.b
+
+		add_equipment_to_stockpile = {
+			type = support_equipment_1 
+			amount = 600
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1500
+	option = {
+		name = addeq.event.support.amount.c
+
+		add_equipment_to_stockpile = {
+			type = support_equipment_1 
+			amount = 1500
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+

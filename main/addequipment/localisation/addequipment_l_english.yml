@@ -6,6 +6,7 @@
   addeq_infantry_ideas:0 "添加步兵装备"
   addeq_artillery_ideas:0 "添加炮兵装备"
   addeq_anti_ideas:0 "添加防空及反坦装备"
+  addeq_support_ideas:0 "添加支援装备"
 
   #步兵装备(枪)
  
@@ -24,6 +25,9 @@
   addeq_artillery_rocket_2:0 "添加二级火箭炮"
 
   addeq_artillery_motorized_rocket_1:0 "添加自行火箭炮"
+
+  #支援装备
+  addeq_support_1:0 "添加支援装备"
 
   #防空及反坦
   addeq_anti_air_1:0 "添加一级防空炮"
@@ -61,6 +65,15 @@
 
  addeq.event.infantry.80103.t:0 "添加三级步兵装备"
  addeq.event.infantry.80103.d:0 "添加三级步兵装备\n请选择数量"
+
+
+ #支援装备
+ addeq.event.support.amount.a:0 "300"
+ addeq.event.support.amount.b:0 "600"
+ addeq.event.support.amount.c:0 "1500"
+
+ addeq.event.support.81001.t:0 "添加支援装备"
+ addeq.event.support.81001.d:0 "添加支援装备\n请选择数量"
 
  #炮兵装备
  addeq.event.artillery.amount.a:0 "500"
