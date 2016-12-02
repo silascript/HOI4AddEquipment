@@ -8,6 +8,8 @@
   addeq_anti_ideas:0 "添加防空及反坦装备"
   addeq_support_ideas:0 "添加支援装备"
   addeq_motoeq_ideas:0 "添加摩托化装备"
+  addeq_navy_ideas:0 "添加海军装备"
+
 
   #步兵装备(枪)
  
@@ -43,6 +45,9 @@
   addeq_anti_tank_3:0 "添加三级反坦克炮"
 
   #addeq_supp:0 "添加补给"
+
+  #运输船
+  addeq_convoy_1:0 "添加运输船"
 
   
 
@@ -134,7 +139,18 @@
  addeq.event.anti.80323.t:0 "添加三级反坦克炮"
  addeq.event.anti.80323.d:0 "添加三级反坦克炮\n请选择数量"
  
+ #####################################################
 
+ #海军
+ #运输船
+ addeq.event.navy.amount.a:0 "10"
+ addeq.event.navy.amount.b:0 "30"
+ addeq.event.navy.amount.c:0 "50"
+ addeq.event.navy.amount.d:0 "100"
+
+
+ addeq.event.navy.85101.t:0 "添加运输船"
+ addeq.event.navy.85101.d:0 "添加运输船\n请选择数量"
 
 
 

@@ -5,6 +5,7 @@ idea_categories = {
 		slot = addeq_motoeq_ideas
 		slot = addeq_artillery_ideas
 		slot = addeq_anti_ideas
+		slot = addeq_navy_ideas
 
 		cost = 0
 		removal_cost = 0
