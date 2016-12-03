@@ -3,6 +3,8 @@ ideas = {
 	#步兵装备
 	addeq_infantry_ideas = {
 
+		#------------步兵枪------------#
+
 		#添加基础步兵装备
 		addeq_infantry_0 = {
 			picture = generic_infantry_bonus
@@ -11,7 +13,6 @@ ideas = {
 				country_event = addeq.event.infantry.80100	
 			}
 		}
-
 
 		#添加一级步兵装备
 		addeq_infantry_1 = {
@@ -40,6 +41,24 @@ ideas = {
 			}
 		}
 
+		#------------支援及摩托化装备------------#
+		#添加支援装备
+		addeq_support_1 = {
+			picture = FRA_matignon_agreements
+
+			on_add = {
+				country_event = addeq.event.support.81001	
+			}
+		}
+
+		#添加摩托化装备
+		addeq_motoeq_1 = {
+			picture = FRA_matignon_agreements
+
+			on_add = {
+				country_event = addeq.event.motoeq.82001	
+			}
+		}
 
 	}
 
@@ -122,31 +141,28 @@ ideas = {
 	#========================================#
 
 	#支援装备
-	addeq_support_ideas = {
-
-		#添加支援装备
-		addeq_support_1 = {
-			picture = FRA_matignon_agreements
-
-			on_add = {
-				country_event = addeq.event.support.81001	
-			}
-		}
-	}
+	#addeq_support_ideas = {
+	#	#添加支援装备
+	#	addeq_support_1 = {
+	#		picture = FRA_matignon_agreements
+	#		on_add = {
+	#			country_event = addeq.event.support.81001	
+	#		}
+	#	}
+	#}
 
 
 	#========================================#
 
 	#摩托化装备
 	#motorized_equipment_1
-	addeq_motoeq_ideas = {
-		#添加摩托化装备
-		addeq_motoeq_1 = {
-			picture = FRA_matignon_agreements
-
-			on_add = {
-				country_event = addeq.event.motoeq.82001	
-			}
-		}
-	}
+	#addeq_motoeq_ideas = {
+	#	#添加摩托化装备
+	#	addeq_motoeq_1 = {
+	#		picture = FRA_matignon_agreements
+	#		on_add = {
+	#			country_event = addeq.event.motoeq.82001	
+	#		}
+	#	}
+	#}
 }

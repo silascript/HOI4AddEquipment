@@ -6,8 +6,8 @@
   addeq_infantry_ideas:0 "添加步兵装备"
   addeq_artillery_ideas:0 "添加炮兵装备"
   addeq_anti_ideas:0 "添加防空及反坦装备"
-  addeq_support_ideas:0 "添加支援装备"
-  addeq_motoeq_ideas:0 "添加摩托化装备"
+  #addeq_support_ideas:0 "添加支援装备"
+  #addeq_motoeq_ideas:0 "添加摩托化装备"
   addeq_navy_ideas:0 "添加海军装备"
 
 
