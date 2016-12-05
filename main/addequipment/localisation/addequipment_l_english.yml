@@ -50,6 +50,7 @@
 
   addeq_artillery_motorized_rocket_1:0 "添加自行火箭炮"
 
+
   #支援装备
   addeq_support_1:0 "添加支援装备"
 
@@ -77,6 +78,7 @@
   addeq_tank_gw:0 "添加一战坦克"
   addeq_tank_light:0 "添加轻型坦克"
   addeq_tank_light_artillery:0 "添加轻型自行火炮"
+  addeq_tank_light_destroyer:0 "添加轻型自行反坦克炮"
 
 
   #---------------中型坦克---------------#
@@ -246,7 +248,23 @@
 
   addeq.event.tank.light.86113.t:0 "添加轻型自行火炮III型"
   addeq.event.tank.light.86113.d:0 "添加轻型自行火炮III型\n请选择数量"
+  
+  #轻型自行反坦克炮
+  addeq.event.tank.light.86126.a:0 "添加轻型自行反坦克炮I型"
+  addeq.event.tank.light.86126.b:0 "添加轻型自行反坦克炮II型"
+  addeq.event.tank.light.86126.c:0 "添加轻型自行反坦克炮III型"
 
+  addeq.event.tank.light.86126.t:0 "添加轻型自行反坦克炮"
+  addeq.event.tank.light.86126.d:0 "添加轻型自行反坦克炮\n请选择类型"
+
+  addeq.event.tank.light.86121.t:0 "添加轻型自行反坦克炮I型"
+  addeq.event.tank.light.86121.d:0 "添加轻型自行反坦克炮I型\n请选择数量"
+
+  addeq.event.tank.light.86122.t:0 "添加轻型自行反坦克炮II型"
+  addeq.event.tank.light.86122.d:0 "添加轻型自行反坦克炮II型\n请选择数量"
+  
+  addeq.event.tank.light.86123.t:0 "添加轻型自行反坦克炮II型"
+  addeq.event.tank.light.86123.d:0 "添加轻型自行反坦克炮II型\n请选择数量"
 
   #---------------中型坦克---------------#
   
