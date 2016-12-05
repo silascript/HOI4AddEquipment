@@ -76,6 +76,7 @@
   #---------------轻型坦克---------------#
   addeq_tank_gw:0 "添加一战坦克"
   addeq_tank_light:0 "添加轻型坦克"
+  addeq_tank_light_artillery:0 "添加轻型自行火炮"
 
 
   #---------------中型坦克---------------#
@@ -209,9 +210,9 @@
   addeq.event.tank.light.amount.b:0 "1200"
   addeq.event.tank.light.amount.c:0 "2500"
   
-  addeq.event.tank.light.a:0 "添加轻型I型坦克"
-  addeq.event.tank.light.b:0 "添加轻型II型坦克"
-  addeq.event.tank.light.c:0 "添加轻型III型坦克"
+  addeq.event.tank.light.86106.a:0 "添加轻型坦克I型"
+  addeq.event.tank.light.86106.b:0 "添加轻型坦克II型"
+  addeq.event.tank.light.86106.c:0 "添加轻型坦克III型"
  
   addeq.event.tank.light.86100.t:0 "添加一战坦克"
   addeq.event.tank.light.86100.d:0 "添加一战坦克\n请选择数量"
@@ -219,15 +220,32 @@
   addeq.event.tank.light.86106.t:0 "添加轻型坦克"
   addeq.event.tank.light.86106.d:0 "添加轻型坦克\n请选择类型"
 
-  addeq.event.tank.light.86101.t:0 "添加轻型I型坦克"
-  addeq.event.tank.light.86101.d:0 "添加轻型I型坦克\n请选择数量"
+  addeq.event.tank.light.86101.t:0 "添加轻型坦克I型"
+  addeq.event.tank.light.86101.d:0 "添加轻型坦克I型\n请选择数量"
 
-  addeq.event.tank.light.86102.t:0 "添加轻型II型坦克"
-  addeq.event.tank.light.86102.d:0 "添加轻型II型坦克\n请选择数量"
+  addeq.event.tank.light.86102.t:0 "添加轻型坦克II型"
+  addeq.event.tank.light.86102.d:0 "添加轻型坦克II型\n请选择数量"
 
-  addeq.event.tank.light.86103.t:0 "添加轻型III型坦克"
-  addeq.event.tank.light.86103.d:0 "添加轻型III型坦克\n请选择数量"
+  addeq.event.tank.light.86103.t:0 "添加轻型坦克III型"
+  addeq.event.tank.light.86103.d:0 "添加轻型坦克III型\n请选择数量"
+  
+  #轻型自行火炮
+  
+  addeq.event.tank.light.86116.a:0 "添加轻型自行火炮I型"
+  addeq.event.tank.light.86116.b:0 "添加轻型自行火炮II型"
+  addeq.event.tank.light.86116.c:0 "添加轻型自行火炮III型"
 
+  addeq.event.tank.light.86116.t:0 "添加轻型自行火炮"
+  addeq.event.tank.light.86116.d:0 "添加轻型自行火炮\n请选择类型"
+  
+  addeq.event.tank.light.86111.t:0 "添加轻型自行火炮I型"
+  addeq.event.tank.light.86111.d:0 "添加轻型自行火炮I型\n请选择数量"
+
+  addeq.event.tank.light.86112.t:0 "添加轻型自行火炮II型"
+  addeq.event.tank.light.86112.d:0 "添加轻型自行火炮II型\n请选择数量"
+
+  addeq.event.tank.light.86113.t:0 "添加轻型自行火炮III型"
+  addeq.event.tank.light.86113.d:0 "添加轻型自行火炮III型\n请选择数量"
 
 
   #---------------中型坦克---------------#

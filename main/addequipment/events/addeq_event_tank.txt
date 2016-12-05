@@ -88,7 +88,7 @@ country_event = {
 
 	#轻型I级坦克
 	option = {
-		name = addeq.event.tank.light.a
+		name = addeq.event.tank.light.86106.a
 		
 		country_event = {
 			id = addeq.event.tank.light.86101
@@ -97,7 +97,7 @@ country_event = {
 
 	#轻型II级坦克
 	option = {
-		name = addeq.event.tank.light.b
+		name = addeq.event.tank.light.86106.b
 
 		country_event = {
 			id = addeq.event.tank.light.86102
@@ -106,7 +106,7 @@ country_event = {
 
 	#轻型III级坦克
 	option = {
-		name = addeq.event.tank.light.c
+		name = addeq.event.tank.light.86106.c
 
 		country_event = {
 			id = addeq.event.tank.light.86103 
@@ -178,7 +178,9 @@ country_event = {
 
 }
 
-#添加轻型二级坦克
+
+
+#添加轻型II级坦克
 country_event = {
 	id = addeq.event.tank.light.86102
 	title = addeq.event.tank.light.86102.t
@@ -199,16 +201,31 @@ country_event = {
 	#添加600
 	option = {
 		name = addeq.event.tank.light.amount.a
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment_2
+			amount = 600
+			producer = <TAG>
+		}
 	}
 
 	#添加1200
 	option = {
 		name = addeq.event.tank.light.amount.b
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment_2
+			amount = 1200
+			producer = <TAG>
+		}
 	}
 
 	#添加2500
 	option = {
 		name = addeq.event.tank.light.amount.c
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment_2
+			amount = 2500
+			producer = <TAG>
+		}
 	}
 
 	#上一页
@@ -221,7 +238,7 @@ country_event = {
 
 }
 
-#添加轻型三级坦克
+#添加轻型III级坦克
 country_event = {
 	id = addeq.event.tank.light.86103
 	title = addeq.event.tank.light.86103.t
@@ -242,16 +259,31 @@ country_event = {
 	#添加600
 	option = {
 		name = addeq.event.tank.light.amount.a
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment_3
+			amount = 600
+			producer = <TAG>
+		}
 	}
 
 	#添加1200
 	option = {
 		name = addeq.event.tank.light.amount.b
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment_3
+			amount = 1200
+			producer = <TAG>
+		}
 	}
 
 	#添加2500
 	option = {
 		name = addeq.event.tank.light.amount.c
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment_3
+			amount = 2500
+			producer = <TAG>
+		}
 	}
 
 	#上一页
@@ -271,6 +303,223 @@ country_event = {
 #light_tank_artillery_equipment_2
 #light_tank_artillery_equipment_3
 
+#添加轻型自行火炮I/II/III型
+country_event = {
+	id = addeq.event.tank.light.86116
+	title = addeq.event.tank.light.86116.t
+	desc = addeq.event.tank.light.86116.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_light_artillery
+		}
+	}
+
+	#轻型I级自行火炮
+	option = {
+		name = addeq.event.tank.light.86116.a
+		
+		country_event = {
+			id = addeq.event.tank.light.86111
+		}
+	}
+
+	#轻型II级自行火炮
+	option = {
+		name = addeq.event.tank.light.86116.b
+
+		country_event = {
+			id = addeq.event.tank.light.86112
+		}
+	}
+
+	#轻型III级自行火炮
+	option = {
+		name = addeq.event.tank.light.86116.c
+
+		country_event = {
+			id = addeq.event.tank.light.86113 
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#添加轻型I自行火炮
+country_event = {
+	id = addeq.event.tank.light.86111
+	title = addeq.event.tank.light.86111.t
+	desc = addeq.event.tank.light.86111.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_light_artillery
+		}
+	}
+
+	#添加600
+	option = {
+		name = addeq.event.tank.light.amount.a
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_1 
+			amount = 600
+			producer = <TAG>
+		}
+	}
+
+	#添加1200
+	option = {
+		name = addeq.event.tank.light.amount.b
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_1 
+			amount = 1200
+			producer = <TAG>
+		}
+	}
+
+	#添加2500
+	option = {
+		name = addeq.event.tank.light.amount.c
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_1 
+			amount = 2500
+			producer = <TAG>
+		}
+	}
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+	}
+
+}
+
+
+#添加轻型II自行火炮
+country_event = {
+	id = addeq.event.tank.light.86112
+	title = addeq.event.tank.light.86112.t
+	desc = addeq.event.tank.light.86112.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_light_artillery
+		}
+	}
+
+	#添加600
+	option = {
+		name = addeq.event.tank.light.amount.a
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_2
+			amount = 600
+			producer = <TAG>
+		}
+	}
+
+	#添加1200
+	option = {
+		name = addeq.event.tank.light.amount.b
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_2
+			amount = 1200
+			producer = <TAG>
+		}
+	}
+
+	#添加2500
+	option = {
+		name = addeq.event.tank.light.amount.c
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_2
+			amount = 2500
+			producer = <TAG>
+		}
+	}
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+	}
+
+}
+
+#添加轻型III自行火炮
+country_event = {
+	id = addeq.event.tank.light.86113
+	title = addeq.event.tank.light.86113.t
+	desc = addeq.event.tank.light.86113.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_light_artillery
+		}
+	}
+
+	#添加600
+	option = {
+		name = addeq.event.tank.light.amount.a
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_3
+			amount = 600
+			producer = <TAG>
+		}
+	}
+
+	#添加1200
+	option = {
+		name = addeq.event.tank.light.amount.b
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_3
+			amount = 1200
+			producer = <TAG>
+		}
+	}
+
+	#添加2500
+	option = {
+		name = addeq.event.tank.light.amount.c
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_equipment_3
+			amount = 2500
+			producer = <TAG>
+		}
+	}
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+	}
+
+}
 
 #---------------轻型自行反坦克炮---------------#
 
