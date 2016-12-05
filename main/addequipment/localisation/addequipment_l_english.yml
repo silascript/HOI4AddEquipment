@@ -79,6 +79,7 @@
   addeq_tank_light:0 "添加轻型坦克"
   addeq_tank_light_artillery:0 "添加轻型自行火炮"
   addeq_tank_light_destroyer:0 "添加轻型自行反坦克炮"
+  addeq_tank_light_aa:0 "添加轻型自行防空炮"
 
 
   #---------------中型坦克---------------#
@@ -265,6 +266,23 @@
   
   addeq.event.tank.light.86123.t:0 "添加轻型自行反坦克炮II型"
   addeq.event.tank.light.86123.d:0 "添加轻型自行反坦克炮II型\n请选择数量"
+  
+  #轻型自行防空炮
+  addeq.event.tank.light.86136.a:0 "添加轻型自行防空炮I型"
+  addeq.event.tank.light.86136.b:0 "添加轻型自行防空炮II型"
+  addeq.event.tank.light.86136.c:0 "添加轻型自行防空炮III型"
+
+  addeq.event.tank.light.86136.t:0 "添加轻型自行防空炮"
+  addeq.event.tank.light.86136.d:0 "添加轻型自行防空炮\n请选择类型"
+
+  addeq.event.tank.light.86131.t:0 "添加轻型自行防空炮I型"
+  addeq.event.tank.light.86131.d:0 "添加轻型自行防空炮I型\n请选择数量"
+
+  addeq.event.tank.light.86132.t:0 "添加轻型自行防空炮II型"
+  addeq.event.tank.light.86132.d:0 "添加轻型自行防空炮II型\n请选择数量"
+
+  addeq.event.tank.light.86133.t:0 "添加轻型自行防空炮III型"
+  addeq.event.tank.light.86133.d:0 "添加轻型自行防空炮III型\n请选择数量"
 
   #---------------中型坦克---------------#
   

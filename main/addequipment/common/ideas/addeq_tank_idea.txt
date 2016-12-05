@@ -43,7 +43,13 @@ ideas = {
 		}
 
 		#添加轻型自行防空炮
+		addeq_tank_light_aa = {
+			picture = generic_democratic_drift_bonus
 
+			on_add = {
+				country_event = addeq.event.tank.light.86136	
+			}
+		}
 		
 
 	}	
