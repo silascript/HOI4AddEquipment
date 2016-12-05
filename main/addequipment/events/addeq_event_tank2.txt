@@ -1,0 +1,27 @@
+﻿add_namespace = addeq.event.tank.medium
+
+##############################################
+#					坦克装备 				     #
+##############################################
+
+#------------------中型坦克------------------#
+
+#中型坦克
+#medium_tank_equipment_1
+#medium_tank_equipment_2
+#medium_tank_equipment_3
+
+#中型自行火炮
+#medium_tank_artillery_equipment_1
+#medium_tank_artillery_equipment_2
+#medium_tank_artillery_equipment_3
+
+#中型自行反坦克炮
+#medium_tank_destroyer_equipment_1
+#medium_tank_destroyer_equipment_2
+#medium_tank_destroyer_equipment_3
+
+#中型自行防空炮
+#medium_tank_aa_equipment_1
+#medium_tank_aa_equipment_2
+#medium_tank_aa_equipment_3

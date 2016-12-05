@@ -1,0 +1,24 @@
+﻿
+add_namespace = addeq.event.tank
+
+##############################################
+#					坦克装备 				     #
+##############################################
+
+#------------------超重坦克------------------#
+
+#超重坦克
+#super_heavy_tank_equipment_1
+
+
+#超重自行火炮
+#super_heavy_tank_artillery_equipment_1
+
+
+#超重自行反坦克炮
+#super_heavy_tank_destroyer_equipment_1
+
+
+#超重自行防空炮
+#super_heavy_tank_aa_equipment_1
+

@@ -13,6 +13,7 @@ ideas = {
 				country_event = addeq.event.navy.85101	
 			}
 		}
+
 	}
 
 }

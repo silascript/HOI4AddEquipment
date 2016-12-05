@@ -1,0 +1,21 @@
+﻿
+add_namespace = addeq.event.tank
+
+##############################################
+#					坦克装备 				     #
+##############################################
+
+#------------------现代坦克------------------#
+
+#现代坦克
+#modern_tank_equipment_1
+
+#现代自行火炮
+#modern_tank_artillery_equipment_1
+
+#现代自行反坦克炮
+#modern_tank_destroyer_equipment_1
+
+#现代自行防空炮
+#modern_tank_aa_equipment_1
+

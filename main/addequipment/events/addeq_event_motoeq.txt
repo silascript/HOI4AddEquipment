@@ -1,4 +1,4 @@
-add_namespace = addeq.event.motoeq
+﻿add_namespace = addeq.event.motoeq
 
 ##############################################
 #					摩托化装备				    #
