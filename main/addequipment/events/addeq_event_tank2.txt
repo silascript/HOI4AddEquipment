@@ -11,17 +11,968 @@
 #medium_tank_equipment_2
 #medium_tank_equipment_3
 
+#添加中型坦克I/II/III型
+country_event = {
+	id = addeq.event.tank.medium.86206
+	title = addeq.event.tank.medium.86206.t
+	desc = addeq.event.tank.medium.86206.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium
+		}
+	}
+
+	#添加中型坦克I型
+	option = {
+		name = addeq.event.tank.medium.86206.a
+		
+		country_event = {
+			id = addeq.event.tank.medium.86201
+		}
+	}
+
+	#添加中型坦克II型
+	option = {
+		name = addeq.event.tank.medium.86206.b
+		
+		country_event = {
+			id = addeq.event.tank.medium.86202
+		}
+	}
+
+	#添加中型坦克III型
+	option = {
+		name = addeq.event.tank.medium.86206.c
+		
+		country_event = {
+			id = addeq.event.tank.medium.86203
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+#添加中型坦克I型
+country_event = {
+	id = addeq.event.tank.medium.86201
+	title = addeq.event.tank.medium.86201.t
+	desc = addeq.event.tank.medium.86201.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_1 
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86206
+		}
+	}
+
+}
+
+#添加中型坦克II型
+country_event = {
+	id = addeq.event.tank.medium.86202
+	title = addeq.event.tank.medium.86202.t
+	desc = addeq.event.tank.medium.86202.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_2
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_2
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_2
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86206
+		}
+	}
+
+}
+
+
+#添加中型坦克III型
+country_event = {
+	id = addeq.event.tank.medium.86203
+	title = addeq.event.tank.medium.86203.t
+	desc = addeq.event.tank.medium.86203.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_3
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_3
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment_3
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86206
+		}
+	}
+
+}
+
+
+#-------------------------------------------------#
+
 #中型自行火炮
 #medium_tank_artillery_equipment_1
 #medium_tank_artillery_equipment_2
 #medium_tank_artillery_equipment_3
+
+#添加中型自行火炮I/II/III型
+country_event = {
+	id = addeq.event.tank.medium.86216
+	title = addeq.event.tank.medium.86216.t
+	desc = addeq.event.tank.medium.86216.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_artillery
+		}
+	}
+
+	#添加自行火炮I型
+	option = {
+		name = addeq.event.tank.medium.86216.a
+		
+		country_event = {
+			id = addeq.event.tank.medium.86211
+		}
+	}
+
+	#添加中型自行火炮II型
+	option = {
+		name = addeq.event.tank.medium.86216.b
+		
+		country_event = {
+			id = addeq.event.tank.medium.86212
+		}
+	}
+
+	#添加中型自行火炮III型
+	option = {
+		name = addeq.event.tank.medium.86216.c
+		
+		country_event = {
+			id = addeq.event.tank.medium.86213
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#添加中型自行火炮I型
+country_event = {
+	id = addeq.event.tank.medium.86211
+	title = addeq.event.tank.medium.86211.t
+	desc = addeq.event.tank.medium.86211.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_artillery
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_1 
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86216
+		}
+	}
+
+}
+
+#添加中型自行火炮II型
+country_event = {
+	id = addeq.event.tank.medium.86212
+	title = addeq.event.tank.medium.86212.t
+	desc = addeq.event.tank.medium.86212.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_artillery
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_2 
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_2 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_2 
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86216
+		}
+	}
+
+}
+
+#添加中型自行火炮III型
+country_event = {
+	id = addeq.event.tank.medium.86213
+	title = addeq.event.tank.medium.86213.t
+	desc = addeq.event.tank.medium.86213.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_artillery
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_3 
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_3 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_artillery_equipment_3 
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86216
+		}
+	}
+
+}
+
+#-------------------------------------------------#
 
 #中型自行反坦克炮
 #medium_tank_destroyer_equipment_1
 #medium_tank_destroyer_equipment_2
 #medium_tank_destroyer_equipment_3
 
+#添加中型自行反坦克炮I/II/III型
+country_event = {
+	id = addeq.event.tank.medium.86226
+	title = addeq.event.tank.medium.86226.t
+	desc = addeq.event.tank.medium.86226.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_destroyer
+		}
+	}
+
+	#添加自行火炮I型
+	option = {
+		name = addeq.event.tank.medium.86226.a
+		
+		country_event = {
+			id = addeq.event.tank.medium.86221
+		}
+	}
+
+	#添加中型自行火炮II型
+	option = {
+		name = addeq.event.tank.medium.86226.b
+		
+		country_event = {
+			id = addeq.event.tank.medium.86222
+		}
+	}
+
+	#添加中型自行火炮III型
+	option = {
+		name = addeq.event.tank.medium.86226.c
+		
+		country_event = {
+			id = addeq.event.tank.medium.86223
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+#添加中型自行反坦克炮I型
+country_event = {
+	id = addeq.event.tank.medium.86221
+	title = addeq.event.tank.medium.86221.t
+	desc = addeq.event.tank.medium.86221.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_destroyer
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_1 
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86226
+		}
+	}
+
+}
+
+#添加中型自行反坦克炮II型
+country_event = {
+	id = addeq.event.tank.medium.86222
+	title = addeq.event.tank.medium.86222.t
+	desc = addeq.event.tank.medium.86222.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_destroyer
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_2
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_2
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_2 
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86226
+		}
+	}
+
+}
+
+#添加中型自行反坦克炮III型
+country_event = {
+	id = addeq.event.tank.medium.86223
+	title = addeq.event.tank.medium.86223.t
+	desc = addeq.event.tank.medium.86223.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_destroyer
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_3
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_3
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_equipment_3
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86226
+		}
+	}
+
+}
+
+#-------------------------------------------------#
+
 #中型自行防空炮
 #medium_tank_aa_equipment_1
 #medium_tank_aa_equipment_2
 #medium_tank_aa_equipment_3
+
+#添加中型自行防空炮I/II/III型
+country_event = {
+	id = addeq.event.tank.medium.86236
+	title = addeq.event.tank.medium.86236.t
+	desc = addeq.event.tank.medium.86236.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_aa
+		}
+	}
+
+	#添加自行防空炮I型
+	option = {
+		name = addeq.event.tank.medium.86236.a
+		
+		country_event = {
+			id = addeq.event.tank.medium.86231
+		}
+	}
+
+	#添加中型自行防空炮II型
+	option = {
+		name = addeq.event.tank.medium.86236.b
+		
+		country_event = {
+			id = addeq.event.tank.medium.86232
+		}
+	}
+
+	#添加中型自行防空炮III型
+	option = {
+		name = addeq.event.tank.medium.86236.c
+		
+		country_event = {
+			id = addeq.event.tank.medium.86233
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#添加中型自行防空炮I型
+country_event = {
+	id = addeq.event.tank.medium.86231
+	title = addeq.event.tank.medium.86231.t
+	desc = addeq.event.tank.medium.86231.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_aa
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_1 
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86236
+		}
+	}	
+
+}
+
+#添加中型自行防空炮II型
+country_event = {
+	id = addeq.event.tank.medium.86232
+	title = addeq.event.tank.medium.86232.t
+	desc = addeq.event.tank.medium.86232.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_aa
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_2
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_2 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_2
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86236
+		}
+	}	
+
+}
+
+#添加中型自行防空炮III型
+country_event = {
+	id = addeq.event.tank.medium.86233
+	title = addeq.event.tank.medium.86233.t
+	desc = addeq.event.tank.medium.86233.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_medium_aa
+		}
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.tank.medium.amount.a
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_3
+			amount = 500
+			producer = <TAG>
+		}
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.tank.medium.amount.b
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_3 
+			amount = 1000
+			producer = <TAG>
+		}
+	}
+
+	#添加2000
+	option = {
+		name = addeq.event.tank.medium.amount.c
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_equipment_3
+			amount = 2000
+			producer = <TAG>
+		}
+	}
+
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+
+		country_event = {
+			id = addeq.event.tank.medium.86236
+		}
+	}	
+
+}
+

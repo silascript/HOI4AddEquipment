@@ -61,12 +61,41 @@ ideas = {
 	addeq_tank_medium_ideas = {
 
 		#添加中型坦克
+		addeq_tank_medium = {
+			picture = generic_pp_unity_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.medium.86206	
+			}
+		}
 
 		#添加中型自行火炮
+		addeq_tank_medium_artillery = {
+			picture = german_advisors
+
+			on_add = {
+				country_event = addeq.event.tank.medium.86216	
+			}
+		}
 
 		#添加中型自行反坦克炮
+		addeq_tank_medium_destroyer = {
+			picture = generic_democratic_drift_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.medium.86226	
+			}
+		}
 
 		#添加中型自行防空炮
+		addeq_tank_medium_aa = {
+			picture = FRA_scw_intervention_republicans_focus
+
+			on_add = {
+				country_event = addeq.event.tank.medium.86236	
+			}
+		}
+
 			
 	}
 
