@@ -1,5 +1,5 @@
 ﻿
-add_namespace = addeq.event.tank
+add_namespace = addeq.event.tank.superheavy
 
 ##############################################
 #					坦克装备 				     #

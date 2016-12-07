@@ -91,6 +91,10 @@
 
 
   #---------------重型坦克---------------#
+  addeq_tank_heavy:0 "添加重型坦克"
+  addeq_tank_heavy_artillery:0 "添加重型自行火炮"
+  addeq_tank_heavy_destroyer:0 "添加重型自行反坦克炮"
+  addeq_tank_heavy_aa:0 "添加重型自行防空炮"
   
   
   #---------------超重坦克---------------#
@@ -366,7 +370,81 @@
 
 
   #---------------重型坦克---------------#
+
+  addeq.event.tank.heavy.amount.a:0 "400"
+  addeq.event.tank.heavy.amount.b:0 "800"
+  addeq.event.tank.heavy.amount.c:0 "1500"
   
+  addeq.event.tank.heavy.86306.a:0 "添加重型坦克I型"
+  addeq.event.tank.heavy.86306.b:0 "添加重型坦克II型"
+  addeq.event.tank.heavy.86306.c:0 "添加重型坦克III型"
+  
+  addeq.event.tank.heavy.86306.t:0 "添加重型坦克"
+  addeq.event.tank.heavy.86306.d:0 "添加重型坦克\n请选择类型"
+
+  addeq.event.tank.heavy.86301.t:0 "添加重型坦克I型"
+  addeq.event.tank.heavy.86301.d:0 "添加重型坦克I型\n请选择数量"
+
+  addeq.event.tank.heavy.86302.t:0 "添加重型坦克II型"
+  addeq.event.tank.heavy.86302.d:0 "添加重型坦克II型\n请选择数量"
+
+  addeq.event.tank.heavy.86303.t:0 "添加重型坦克III型"
+  addeq.event.tank.heavy.86303.d:0 "添加重型坦克III型\n请选择数量"
+
+  #重型自行火炮
+
+  addeq.event.tank.heavy.86316.a:0 "添加重型自行火炮I型"
+  addeq.event.tank.heavy.86316.b:0 "添加重型自行火炮II型"
+  addeq.event.tank.heavy.86316.c:0 "添加重型自行火炮III型"
+
+  addeq.event.tank.heavy.86316.t:0 "添加重型自行火炮"
+  addeq.event.tank.heavy.86316.d:0 "添加重型自行火炮\n请选择类型"
+
+  addeq.event.tank.heavy.86311.t:0 "添加重型自行火炮I型"
+  addeq.event.tank.heavy.86311.d:0 "添加重型自行火炮I型\n请选择数量"
+  
+  addeq.event.tank.heavy.86312.t:0 "添加重型自行火炮II型"
+  addeq.event.tank.heavy.86312.d:0 "添加重型自行火炮II型\n请选择数量"
+
+  addeq.event.tank.heavy.86313.t:0 "添加重型自行火炮III型"
+  addeq.event.tank.heavy.86313.d:0 "添加重型自行火炮III型\n请选择数量" 
+  
+  #重型自行反坦克炮
+  
+  addeq.event.tank.heavy.86326.a:0 "添加重型自行反坦克炮I型"
+  addeq.event.tank.heavy.86326.b:0 "添加重型自行反坦克炮II型"
+  addeq.event.tank.heavy.86326.c:0 "添加重型自行反坦克炮III型"
+
+  addeq.event.tank.heavy.86326.t:0 "添加重型自行反坦克炮"
+  addeq.event.tank.heavy.86326.d:0 "添加重型自行反坦克炮\n请选择类型"
+  
+  addeq.event.tank.heavy.86321.t:0 "添加重型自行反坦克炮I型"
+  addeq.event.tank.heavy.86321.d:0 "添加重型自行反坦克炮I型\n请选择数量"
+  
+  addeq.event.tank.heavy.86322.t:0 "添加重型自行反坦克炮II型"
+  addeq.event.tank.heavy.86322.d:0 "添加重型自行反坦克炮II型\n请选择数量"
+
+  addeq.event.tank.heavy.86323.t:0 "添加重型自行反坦克炮III型"
+  addeq.event.tank.heavy.86323.d:0 "添加重型自行反坦克炮III型\n请选择数量"
+
+
+  #重型自行防空炮
+
+  addeq.event.tank.heavy.86336.a:0 "添加重型自行防空炮I型"
+  addeq.event.tank.heavy.86336.b:0 "添加重型自行防空炮II型"
+  addeq.event.tank.heavy.86336.c:0 "添加重型自行防空炮III型"
+
+  addeq.event.tank.heavy.86336.t:0 "添加重型自行防空炮"
+  addeq.event.tank.heavy.86336.d:0 "添加重型自行防空炮\n请选择类型"
+  
+  addeq.event.tank.heavy.86331.t:0 "添加重型自行防空炮I型"
+  addeq.event.tank.heavy.86331.d:0 "添加重型自行防空炮I型\n请选择数量"
+  
+  addeq.event.tank.heavy.86332.t:0 "添加重型自行防空炮II型"
+  addeq.event.tank.heavy.86332.d:0 "添加重型自行防空炮II型\n请选择数量"
+
+  addeq.event.tank.heavy.86333.t:0 "添加重型自行防空炮III型"
+  addeq.event.tank.heavy.86333.d:0 "添加重型自行防空炮III型\n请选择数量" 
   
   #---------------超重坦克---------------#
   #

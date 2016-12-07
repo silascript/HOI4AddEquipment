@@ -105,12 +105,40 @@ ideas = {
 	addeq_tank_heavy_ideas = {
 
 		#添加重型坦克
+		addeq_tank_heavy = {
+			picture = FRA_army_of_aggression_focus
+
+			on_add = {
+				country_event = addeq.event.tank.heavy.86306	
+			}
+		}
 
 		#添加重型自行火炮
+		addeq_tank_heavy_artillery = {
+			picture = FRA_scw_intervention_nationalists_focus
+
+			on_add = {
+				country_event = addeq.event.tank.heavy.86316	
+			}
+		}
 
 		#添加重型自行反坦克炮
+		addeq_tank_heavy_destroyer = {
+			picture = generic_pp_unity_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.heavy.86326	
+			}
+		}
 
 		#添加重型自行防空炮
+		addeq_tank_heavy_aa = {
+			picture = generic_democratic_drift_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.heavy.86336	
+			}
+		}
 
 	}
 
@@ -135,6 +163,8 @@ ideas = {
 	addeq_tank_superheavy_ideas = {
 
 		#添加超重坦克
+
+
 
 		#添加超重自行火炮
 
