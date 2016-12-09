@@ -11,6 +11,7 @@
   addeq_artillery_ideas:0 "添加炮兵装备"
   addeq_anti_ideas:0 "添加牵引式防空及反坦装备"
   addeq_navy_ideas:0 "添加海军装备"
+  addeq_mechanized_ideas:0 "添加机械化装备"
 
   #坦克
   #轻型坦克
@@ -57,6 +58,11 @@
   #摩托化装备
   addeq_motoeq_1:0 "添加摩托化装备"
 
+  #机械化装备
+  addeq_mechanized_1:0 "添加机械化装备I型"
+  addeq_mechanized_2:0 "添加机械化装备II型"
+  addeq_mechanized_3:0 "添加机械化装备III型"
+
   #防空及反坦
   addeq_anti_air_1:0 "添加I级牵引式防空炮"
   addeq_anti_air_2:0 "添加II级牵引式防空炮"
@@ -67,6 +73,7 @@
   addeq_anti_tank_3:0 "添加III级牵引式反坦克炮"
 
   #addeq_supp:0 "添加补给"
+
 
   #运输船
   addeq_convoy_1:0 "添加运输船"
@@ -110,107 +117,120 @@
 
  ######################事件######################
 
- #事件通用按钮文本
- addeq.event.common.a:0 "确定"
- addeq.event.common.b:0 "关闭"
- addeq.event.common.c:0 "上一页"
- addeq.event.common.d:0 "下一页"
+  #事件通用按钮文本
+  addeq.event.common.a:0 "确定"
+  addeq.event.common.b:0 "关闭"
+  addeq.event.common.c:0 "上一页"
+  addeq.event.common.d:0 "下一页"
+ 
+  #步兵装备
+  #步兵装备数量
+  addeq.event.infantry.amount.a:0 "2000"
+  addeq.event.infantry.amount.b:0 "5000"
+  addeq.event.infantry.amount.c:0 "10000"
+  
+ 
+  addeq.event.infantry.80100.t:0 "添加基础步兵装备"
+  addeq.event.infantry.80100.d:0 "添加基础步兵装备\n请选择数量"
 
- #步兵装备
- #步兵装备数量
- addeq.event.infantry.amount.a:0 "2000"
- addeq.event.infantry.amount.b:0 "5000"
- addeq.event.infantry.amount.c:0 "10000"
+  addeq.event.infantry.80101.t:0 "添加I级步兵装备"
+  addeq.event.infantry.80101.d:0 "添加I级步兵装备\n请选择数量"
+  
+  addeq.event.infantry.80102.t:0 "添加II级步兵装备"
+  addeq.event.infantry.80102.d:0 "添加II级步兵装备\n请选择数量"
+  
+  addeq.event.infantry.80103.t:0 "添加III级步兵装备"
+  addeq.event.infantry.80103.d:0 "添加III级步兵装备\n请选择数量"
+
+
+  #支援装备
+  addeq.event.support.amount.a:0 "300"
+  addeq.event.support.amount.b:0 "600"
+  addeq.event.support.amount.c:0 "1500"
+ 
+  addeq.event.support.81001.t:0 "添加支援装备"
+  addeq.event.support.81001.d:0 "添加支援装备\n请选择数量"
+ 
+  #摩托化装备
+  addeq.event.motoeq.amount.a:0 "500"
+  addeq.event.motoeq.amount.b:0 "1000"
+  addeq.event.motoeq.amount.c:0 "2000"
+
+  addeq.event.motoeq.82001.t:0 "添加摩托化装备"
+  addeq.event.motoeq.82001.d:0 "添加摩托化装备\n请选择数量"
+ 
+  #炮兵装备
+  addeq.event.artillery.amount.a:0 "500"
+  addeq.event.artillery.amount.b:0 "1000"
+  addeq.event.artillery.amount.c:0 "3000"
  
 
- addeq.event.infantry.80100.t:0 "添加基础步兵装备"
- addeq.event.infantry.80100.d:0 "添加基础步兵装备\n请选择数量"
-
- addeq.event.infantry.80101.t:0 "添加I级步兵装备"
- addeq.event.infantry.80101.d:0 "添加I级步兵装备\n请选择数量"
-
- addeq.event.infantry.80102.t:0 "添加II级步兵装备"
- addeq.event.infantry.80102.d:0 "添加II级步兵装备\n请选择数量"
-
- addeq.event.infantry.80103.t:0 "添加III级步兵装备"
- addeq.event.infantry.80103.d:0 "添加III级步兵装备\n请选择数量"
-
-
- #支援装备
- addeq.event.support.amount.a:0 "300"
- addeq.event.support.amount.b:0 "600"
- addeq.event.support.amount.c:0 "1500"
-
- addeq.event.support.81001.t:0 "添加支援装备"
- addeq.event.support.81001.d:0 "添加支援装备\n请选择数量"
-
- #摩托化装备
- addeq.event.motoeq.amount.a:0 "500"
- addeq.event.motoeq.amount.b:0 "1000"
- addeq.event.motoeq.amount.c:0 "2000"
-
- addeq.event.motoeq.82001.t:0 "添加摩托化装备"
- addeq.event.motoeq.82001.d:0 "添加摩托化装备\n请选择数量"
-
- #炮兵装备
- addeq.event.artillery.amount.a:0 "500"
- addeq.event.artillery.amount.b:0 "1000"
- addeq.event.artillery.amount.c:0 "3000"
+  addeq.event.artillery.80211.t:0 "添加I级火炮"
+  addeq.event.artillery.80211.d:0 "添加I级火炮\n请选择数量"
  
-
- addeq.event.artillery.80211.t:0 "添加I级火炮"
- addeq.event.artillery.80211.d:0 "添加I级火炮\n请选择数量"
-
- addeq.event.artillery.80212.t:0 "添加II级火炮"
- addeq.event.artillery.80212.d:0 "添加II级火炮\n请选择数量"
-
- addeq.event.artillery.80213.t:0 "添加III级火炮"
- addeq.event.artillery.80213.d:0 "添加III级火炮\n请选择数量"
-
- addeq.event.artillery.80221.t:0 "添加I级火箭炮"
- addeq.event.artillery.80221.d:0 "添加I级火箭炮\n请选择数量"
-
- addeq.event.artillery.80222.t:0 "添加II级火箭炮"
- addeq.event.artillery.80222.d:0 "添加II级火箭炮\n请选择数量"
-
- addeq.event.artillery.80231.t:0 "添加自行火箭炮"
- addeq.event.artillery.80231.d:0 "添加自行火箭炮\n请选择数量"
-
- #防空及反坦
- addeq.event.anti.amount.a:0 "400"
- addeq.event.anti.amount.b:0 "800"
- addeq.event.anti.amount.c:0 "2000"
-
- addeq.event.anti.80311.t:0 "添加I级牵引式防空炮"
- addeq.event.anti.80311.d:0 "添加I级牵引式防空炮\n请选择数量"
-
- addeq.event.anti.80312.t:0 "添加II级牵引式防空炮"
- addeq.event.anti.80312.d:0 "添加II级牵引式防空炮\n请选择数量"
-
- addeq.event.anti.80313.t:0 "添加III级牵引式防空炮"
- addeq.event.anti.80313.d:0 "添加III级牵引式防空炮\n请选择数量"
+  addeq.event.artillery.80212.t:0 "添加II级火炮"
+  addeq.event.artillery.80212.d:0 "添加II级火炮\n请选择数量"
  
- addeq.event.anti.80321.t:0 "添加I级牵引式反坦克炮"
- addeq.event.anti.80321.d:0 "添加I级牵引式反坦克炮\n请选择数量"
-
- addeq.event.anti.80322.t:0 "添加II级牵引式反坦克炮"
- addeq.event.anti.80322.d:0 "添加II级牵引式反坦克炮\n请选择数量"
-
- addeq.event.anti.80323.t:0 "添加III级牵引式反坦克炮"
- addeq.event.anti.80323.d:0 "添加III级牵引式反坦克炮\n请选择数量"
+  addeq.event.artillery.80213.t:0 "添加III级火炮"
+  addeq.event.artillery.80213.d:0 "添加III级火炮\n请选择数量"
  
+  addeq.event.artillery.80221.t:0 "添加I级火箭炮"
+  addeq.event.artillery.80221.d:0 "添加I级火箭炮\n请选择数量"
+ 
+  addeq.event.artillery.80222.t:0 "添加II级火箭炮"
+  addeq.event.artillery.80222.d:0 "添加II级火箭炮\n请选择数量"
+
+  addeq.event.artillery.80231.t:0 "添加自行火箭炮"
+  addeq.event.artillery.80231.d:0 "添加自行火箭炮\n请选择数量"
+ 
+  #防空及反坦
+  addeq.event.anti.amount.a:0 "400"
+  addeq.event.anti.amount.b:0 "800"
+  addeq.event.anti.amount.c:0 "2000"
+
+  addeq.event.anti.80311.t:0 "添加I级牵引式防空炮"
+  addeq.event.anti.80311.d:0 "添加I级牵引式防空炮\n请选择数量"
+ 
+  addeq.event.anti.80312.t:0 "添加II级牵引式防空炮"
+  addeq.event.anti.80312.d:0 "添加II级牵引式防空炮\n请选择数量"
+ 
+  addeq.event.anti.80313.t:0 "添加III级牵引式防空炮"
+  addeq.event.anti.80313.d:0 "添加III级牵引式防空炮\n请选择数量"
+ 
+  addeq.event.anti.80321.t:0 "添加I级牵引式反坦克炮"
+  addeq.event.anti.80321.d:0 "添加I级牵引式反坦克炮\n请选择数量"
+ 
+  addeq.event.anti.80322.t:0 "添加II级牵引式反坦克炮"
+  addeq.event.anti.80322.d:0 "添加II级牵引式反坦克炮\n请选择数量"
+ 
+  addeq.event.anti.80323.t:0 "添加III级牵引式反坦克炮"
+  addeq.event.anti.80323.d:0 "添加III级牵引式反坦克炮\n请选择数量"
+
+  #机械化装备
+  addeq.event.mechanize.amount.a:0 "300"
+  addeq.event.mechanize.amount.b:0 "500"
+  addeq.event.mechanize.amount.c:0 "1000"
+ 
+  addeq.event.mechanize.83001.t:0 "添加I级机械化装备"
+  addeq.event.mechanize.83001.d:0 "添加I级机械化装备\n请选择数量"
+ 
+  addeq.event.mechanize.83002.t:0 "添加II级机械化装备"
+  addeq.event.mechanize.83002.d:0 "添加II级机械化装备\n请选择数量"
+
+  addeq.event.mechanize.83003.t:0 "添加III级机械化装备"
+  addeq.event.mechanize.83003.d:0 "添加III级机械化装备\n请选择数量"
+  
  #####################################################
 
- #海军
- #运输船
- addeq.event.navy.amount.a:0 "10"
- addeq.event.navy.amount.b:0 "30"
- addeq.event.navy.amount.c:0 "50"
- addeq.event.navy.amount.d:0 "100"
-
-
- addeq.event.navy.85101.t:0 "添加运输船"
- addeq.event.navy.85101.d:0 "添加运输船\n请选择数量"
+  #海军
+  #运输船
+  addeq.event.navy.amount.a:0 "10"
+  addeq.event.navy.amount.b:0 "30"
+  addeq.event.navy.amount.c:0 "50"
+  addeq.event.navy.amount.d:0 "100"
+ 
+  addeq.event.navy.85101.t:0 "添加运输船"
+  addeq.event.navy.85101.d:0 "添加运输船\n请选择数量"
 
 
  #===================坦克===================#

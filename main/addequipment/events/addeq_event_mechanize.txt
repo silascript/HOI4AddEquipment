@@ -1,0 +1,193 @@
+﻿
+add_namespace = addeq.event.mechanize
+
+##############################################
+#					机械化装备				 #
+##############################################
+
+#mechanized_equipment_1
+#mechanized_equipment_2
+#mechanized_equipment_3
+
+#添加机械化装备I型
+country_event = {
+	id = addeq.event.mechanize.83001
+	title = addeq.event.mechanize.83001.t
+	desc = addeq.event.mechanize.83001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_mechanized_1
+		}
+	}
+
+	#添加300
+	option = {
+		name = addeq.event.mechanize.amount.a
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_1 
+			amount = 300
+			producer = <TAG>
+		}
+
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.mechanize.amount.b
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.mechanize.amount.c
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_1 
+			amount = 1000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#添加机械化装备II型
+country_event = {
+	id = addeq.event.mechanize.83002
+	title = addeq.event.mechanize.83002.t
+	desc = addeq.event.mechanize.83002.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_mechanized_2
+		}
+	}
+
+	#添加300
+	option = {
+		name = addeq.event.mechanize.amount.a
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_2 
+			amount = 300
+			producer = <TAG>
+		}
+
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.mechanize.amount.b
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_2 
+			amount = 500
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.mechanize.amount.c
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_2
+			amount = 1000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#添加机械化装备III型
+country_event = {
+	id = addeq.event.mechanize.83003
+	title = addeq.event.mechanize.83003.t
+	desc = addeq.event.mechanize.83003.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_mechanized_3
+		}
+	}
+
+	#添加300
+	option = {
+		name = addeq.event.mechanize.amount.a
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_3
+			amount = 300
+			producer = <TAG>
+		}
+
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.mechanize.amount.b
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_3 
+			amount = 500
+			producer = <TAG>
+		}
+
+	}
+
+	#添加1000
+	option = {
+		name = addeq.event.mechanize.amount.c
+
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_3
+			amount = 1000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}

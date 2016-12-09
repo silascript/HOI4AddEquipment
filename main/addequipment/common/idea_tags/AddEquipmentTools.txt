@@ -1,10 +1,11 @@
 idea_categories = {
 	AddEquipmentTools_Idea = {
 
-		#步兵、火炮、运输船
+		#步兵、火炮、支援、防空、机械化装备及运输船
 		slot = addeq_infantry_ideas
 		slot = addeq_artillery_ideas
 		slot = addeq_anti_ideas
+		slot = addeq_mechanized_ideas
 		slot = addeq_navy_ideas
 
 

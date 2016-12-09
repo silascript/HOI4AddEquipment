@@ -1,0 +1,35 @@
+
+ideas = {
+	#机械化装备
+	addeq_mechanized_ideas = {
+		#添加一级机械化装备
+		addeq_mechanized_1 = {
+			picture = FRA_fortification_focus
+
+			on_add = {
+				country_event = addeq.event.mechanize.83001	
+			}
+		}	
+
+		#添加二级机械化装备
+		addeq_mechanized_2 = {
+			picture = FRA_fortification_focus
+
+			on_add = {
+				country_event = addeq.event.mechanize.83002
+			}
+		}
+
+		#添加二级机械化装备
+		addeq_mechanized_3 = {
+			picture = FRA_fortification_focus
+
+			on_add = {
+				country_event = addeq.event.mechanize.83003
+			}
+		}
+
+	}
+
+}
+
