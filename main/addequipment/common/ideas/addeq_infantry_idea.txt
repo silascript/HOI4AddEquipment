@@ -60,12 +60,30 @@ ideas = {
 			}
 		}
 
+		#疯狂添加支援装备
+		addeq_support_2 = {
+			picture = FRA_matignon_agreements
+
+			on_add = {
+				country_event = addeq.event.support.81002	
+			}
+		}
+
 		#添加摩托化装备
 		addeq_motoeq_1 = {
 			picture = FRA_matignon_agreements
 
 			on_add = {
 				country_event = addeq.event.motoeq.82001	
+			}
+		}
+
+		#疯狂添加摩托化装备
+		addeq_motoeq_2 = {
+			picture = FRA_matignon_agreements
+
+			on_add = {
+				country_event = addeq.event.motoeq.82002	
 			}
 		}
 

@@ -64,3 +64,42 @@ country_event = {
 	}	
 
 }
+
+
+#疯狂添加摩托化装备
+country_event = {
+	id = addeq.event.motoeq.82002
+	title = addeq.event.motoeq.82002.t
+	desc = addeq.event.motoeq.82002.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_motoeq_2
+		}
+	}
+
+	#添加10W摩托化装备
+	option = {
+		name = addeq.event.motoeq.amount.d
+
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1 
+			amount = 100000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}	
+
+}

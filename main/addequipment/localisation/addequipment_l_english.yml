@@ -55,9 +55,11 @@
 
   #支援装备
   addeq_support_1:0 "添加支援装备"
+  addeq_support_2:0 "疯狂添加支援装备"
 
   #摩托化装备
   addeq_motoeq_1:0 "添加摩托化装备"
+  addeq_motoeq_2:0 "疯狂添加摩托化装备"
 
   #机械化装备
   addeq_mechanized_1:0 "添加机械化装备I型"
@@ -158,17 +160,25 @@
   addeq.event.support.amount.a:0 "300"
   addeq.event.support.amount.b:0 "600"
   addeq.event.support.amount.c:0 "1500"
+  addeq.event.support.amount.d:0 "添加10W支援装备"
  
   addeq.event.support.81001.t:0 "添加支援装备"
   addeq.event.support.81001.d:0 "添加支援装备\n请选择数量"
+
+  addeq.event.support.81002.t:0 "疯狂添加支援装备"
+  addeq.event.support.81002.d:0 "疯狂添加10W支援装备"
  
   #摩托化装备
   addeq.event.motoeq.amount.a:0 "500"
   addeq.event.motoeq.amount.b:0 "1000"
   addeq.event.motoeq.amount.c:0 "2000"
+  addeq.event.motoeq.amount.d:0 "添加10W摩托化装备"
 
   addeq.event.motoeq.82001.t:0 "添加摩托化装备"
   addeq.event.motoeq.82001.d:0 "添加摩托化装备\n请选择数量"
+
+  addeq.event.motoeq.82002.t:0 "疯狂添加摩托化装备"
+  addeq.event.motoeq.82002.d:0 "疯狂添加10W摩托化装备"
  
   #炮兵装备
   addeq.event.artillery.amount.a:0 "500"

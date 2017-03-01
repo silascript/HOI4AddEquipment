@@ -68,4 +68,42 @@ country_event = {
 }
 
 
+#疯狂添加支援装备
+country_event = {
+	id = addeq.event.support.81002
+	title = addeq.event.support.81002.t
+	desc = addeq.event.support.81002.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_support_2
+		}
+	}
+
+	#添加10W支援装备
+	option = {
+		name = addeq.event.support.amount.d
+
+		add_equipment_to_stockpile = {
+			type = support_equipment_1 
+			amount = 100000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
 
