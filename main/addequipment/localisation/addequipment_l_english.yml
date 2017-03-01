@@ -46,11 +46,14 @@
   addeq_artillery_1:0 "添加I级火炮"
   addeq_artillery_2:0 "添加II级火炮"
   addeq_artillery_3:0 "添加III级火炮"
+  addeq_artillery_4:0 "疯狂添加各级火炮"
 
   addeq_artillery_rocket_1:0 "添加I级火箭炮"
   addeq_artillery_rocket_2:0 "添加II级火箭炮"
+  addeq_artillery_rocket_3:0 "疯狂添加各级火箭炮"
 
   addeq_artillery_motorized_rocket_1:0 "添加自行火箭炮"
+  addeq_artillery_motorized_rocket_2:0 "疯狂添加自行火箭炮"
 
 
   #支援装备
@@ -184,6 +187,15 @@
   addeq.event.artillery.amount.a:0 "500"
   addeq.event.artillery.amount.b:0 "1000"
   addeq.event.artillery.amount.c:0 "3000"
+
+  addeq.event.artillery.amount.d:0 "添加5W I级火炮"
+  addeq.event.artillery.amount.e:0 "添加5W II级火炮"
+  addeq.event.artillery.amount.f:0 "添加5W III级火炮"
+
+  addeq.event.artillery.amount.g:0 "添加5W I级火箭炮"
+  addeq.event.artillery.amount.h:0 "添加5W II级火箭炮"
+
+  addeq.event.artillery.amount.i:0 "添加3W自行火箭炮"
  
 
   addeq.event.artillery.80211.t:0 "添加I级火炮"
@@ -194,6 +206,9 @@
  
   addeq.event.artillery.80213.t:0 "添加III级火炮"
   addeq.event.artillery.80213.d:0 "添加III级火炮\n请选择数量"
+
+  addeq.event.artillery.80214.t:0 "疯狂添加各级火炮"
+  addeq.event.artillery.80214.d:0 "疯狂添加5W火炮"
  
   addeq.event.artillery.80221.t:0 "添加I级火箭炮"
   addeq.event.artillery.80221.d:0 "添加I级火箭炮\n请选择数量"
@@ -201,8 +216,14 @@
   addeq.event.artillery.80222.t:0 "添加II级火箭炮"
   addeq.event.artillery.80222.d:0 "添加II级火箭炮\n请选择数量"
 
+  addeq.event.artillery.80223.t:0 "疯狂添加各级火箭炮"
+  addeq.event.artillery.80223.d:0 "疯狂添加5W火箭炮"
+
   addeq.event.artillery.80231.t:0 "添加自行火箭炮"
   addeq.event.artillery.80231.d:0 "添加自行火箭炮\n请选择数量"
+
+  addeq.event.artillery.80232.t:0 "疯狂添加自行火箭炮"
+  addeq.event.artillery.80232.d:0 "疯狂添加3W自行火箭炮"
  
   #防空及反坦
   addeq.event.anti.amount.a:0 "400"

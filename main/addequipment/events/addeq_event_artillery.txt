@@ -193,6 +193,69 @@ country_event = {
 }
 
 
+#疯狂添加各级炮兵装备
+#一次添加5W
+country_event = {
+	id = addeq.event.artillery.80214
+	title = addeq.event.artillery.80214.t
+	desc = addeq.event.artillery.80214.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_artillery_4
+		}
+	}
+
+	#疯狂添加I级火炮
+	option = {
+		name =addeq.event.artillery.amount.d
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 50000
+			producer = <TAG>
+		}
+
+	}
+
+	#疯狂添加II级火炮
+	option = {
+		name =addeq.event.artillery.amount.e
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_2
+			amount = 50000
+			producer = <TAG>
+		}
+
+	}
+
+	#疯狂添加III级火炮
+	option = {
+		name =addeq.event.artillery.amount.f
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_3
+			amount = 50000
+			producer = <TAG>
+		}
+
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
 
 #-------------------火箭炮-------------------#
 
@@ -320,6 +383,58 @@ country_event = {
 }
 
 
+#疯狂添加各级火箭炮
+country_event = {
+	id = addeq.event.artillery.80223
+	title = addeq.event.artillery.80223.t
+	desc = addeq.event.artillery.80223.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_artillery_rocket_3
+		}
+	}
+
+	#疯狂添加I级火箭炮
+	#一次添加5W
+	option = {
+		name =addeq.event.artillery.amount.g
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_1
+			amount = 50000
+			producer = <TAG>
+		}
+
+	}
+
+	#疯狂添加II级火箭炮
+	option = {
+		name =addeq.event.artillery.amount.h
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_2 
+			amount = 50000
+			producer = <TAG>
+		}
+
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
 #------------------自行火箭炮------------------#
 
 #添加自行火箭炮
@@ -375,6 +490,47 @@ country_event = {
 		}
 
 	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+
+
+#疯狂添加自行火箭炮
+#一次加3W
+country_event = {
+	id = addeq.event.artillery.80232
+	title = addeq.event.artillery.80232.t
+	desc = addeq.event.artillery.80232.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_artillery_motorized_rocket_2
+		}
+	}
+
+	#疯狂添加自行火箭炮
+	option = {
+		name =addeq.event.artillery.amount.i
+
+		add_equipment_to_stockpile = {
+			type = motorized_rocket_equipment_1 
+			amount = 30000
+			producer = <TAG>
+		}
+
+	}
+
 
 	#关闭
 	option = {
