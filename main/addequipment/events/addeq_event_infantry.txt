@@ -249,6 +249,122 @@ country_event = {
 	}
 }
 
+#疯狂添加各级步兵装备页1
+#添加基础及I级步兵枪
+country_event = {
+	id = addeq.event.infantry.80104
+	title = addeq.event.infantry.80104.t
+	desc = addeq.event.infantry.80104.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_infantry_4
+		}
+	}
+
+	#添加基础枪
+	option = {
+		name =addeq.event.infantry.amount.d
+
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_0
+			amount = 500000
+			producer = <TAG>
+		}
+
+	}
+
+	#添加I级枪
+	option = {
+		name =addeq.event.infantry.amount.e
+
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 500000
+			producer = <TAG>
+		}
+
+	}
+
+	#下一页
+	option = {
+		name = addeq.event.common.d
+		country_event = { 
+			id = addeq.event.infantry.80105
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#疯狂添加各级步兵装备页2
+#添加II级和III级步兵枪
+country_event = {
+	id = addeq.event.infantry.80105
+	title = addeq.event.infantry.80105.t
+	desc = addeq.event.infantry.80105.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_infantry_4
+		}
+	}
+
+	#添加II级枪
+	option = {
+		name =addeq.event.infantry.amount.f
+
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2 
+			amount = 500000
+			producer = <TAG>
+		}
+
+	}
+
+	#添加III级枪
+	option = {
+		name =addeq.event.infantry.amount.g
+
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_3 
+			amount = 500000
+			producer = <TAG>
+		}
+
+	}
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = { 
+			id = addeq.event.infantry.80104
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
 
 
 

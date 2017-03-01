@@ -39,6 +39,7 @@
   addeq_infantry_1:0 "添加I级步兵装备"
   addeq_infantry_2:0 "添加II级步兵装备"
   addeq_infantry_3:0 "添加III级步兵装备"
+  addeq_infantry_4:0 "疯狂添加步兵装备"
  
   #火炮及火箭炮
 
@@ -128,6 +129,11 @@
   addeq.event.infantry.amount.a:0 "2000"
   addeq.event.infantry.amount.b:0 "5000"
   addeq.event.infantry.amount.c:0 "10000"
+
+  addeq.event.infantry.amount.d:0 "添加50W套基础步兵枪"
+  addeq.event.infantry.amount.e:0 "添加50W套I级步兵枪"
+  addeq.event.infantry.amount.f:0 "添加50W套II级步兵枪"
+  addeq.event.infantry.amount.g:0 "添加50W套III级步兵枪"
   
  
   addeq.event.infantry.80100.t:0 "添加基础步兵装备"
@@ -141,7 +147,12 @@
   
   addeq.event.infantry.80103.t:0 "添加III级步兵装备"
   addeq.event.infantry.80103.d:0 "添加III级步兵装备\n请选择数量"
+  
+  addeq.event.infantry.80104.t:0 "疯狂添加步兵装备"
+  addeq.event.infantry.80104.d:0 "疯狂添加步兵装备\n请选择"
 
+  addeq.event.infantry.80105.t:0 "疯狂添加II级及III级步兵装备"
+  addeq.event.infantry.80105.d:0 "疯狂添加II级及III级步兵装备\n请选择"
 
   #支援装备
   addeq.event.support.amount.a:0 "300"

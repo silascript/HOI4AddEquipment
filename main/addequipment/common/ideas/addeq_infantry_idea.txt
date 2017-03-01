@@ -41,6 +41,15 @@ ideas = {
 			}
 		}
 
+		#疯狂添加各级步兵装备
+		addeq_infantry_4 = {
+			picture = generic_infantry_bonus
+
+			on_add = {
+				country_event = addeq.event.infantry.80104
+			}
+		}
+
 		#------------支援及摩托化装备------------#
 		#添加支援装备
 		addeq_support_1 = {
