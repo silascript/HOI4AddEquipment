@@ -206,10 +206,33 @@ ideas = {
 
 
 		#添加超重自行火炮
+		addeq_tank_superheavy_artillery = {
+			picture = FRA_scw_intervention_nationalists_focus
+
+			on_add = {
+				country_event = addeq.event.tank.superheavy.86516	
+			}
+		}
 
 		#添加超重自行反坦克炮
+		addeq_tank_superheavy_destroyer = {
+			picture = generic_pp_unity_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.superheavy.86526	
+			}
+		}
 
 		#添加超重自行防空炮
+		addeq_tank_superheavy_aa = {
+			picture = generic_democratic_drift_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.superheavy.86536	
+			}
+		}
+
+
 	}
 
 

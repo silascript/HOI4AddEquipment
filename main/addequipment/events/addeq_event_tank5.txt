@@ -60,12 +60,155 @@ country_event = {
 
 #超重自行火炮
 #super_heavy_tank_artillery_equipment_1
+country_event = {
+	id = addeq.event.tank.superheavy.86516
+	title = addeq.event.tank.superheavy.86516.t
+	desc = addeq.event.tank.superheavy.86516.d
 
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_superheavy_artillery
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.tank.superheavy.amount.a
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_artillery_equipment_1 
+			amount = 200
+			producer = <TAG>
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.tank.superheavy.amount.b
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_artillery_equipment_1 
+			amount = 400
+			producer = <TAG>
+		}
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.tank.superheavy.amount.c
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_artillery_equipment_1 
+			amount = 800
+			producer = <TAG>
+		}
+	}
+
+
+}
 
 #超重自行反坦克炮
 #super_heavy_tank_destroyer_equipment_1
+country_event = {
+	id = addeq.event.tank.superheavy.86526
+	title = addeq.event.tank.superheavy.86526.t
+	desc = addeq.event.tank.superheavy.86526.d
 
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_superheavy_destroyer
+		}
+	}
+
+
+	#添加200
+	option = {
+		name = addeq.event.tank.superheavy.amount.a
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_destroyer_equipment_1 
+			amount = 200
+			producer = <TAG>
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.tank.superheavy.amount.b
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_destroyer_equipment_1 
+			amount = 400
+			producer = <TAG>
+		}
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.tank.superheavy.amount.c
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_destroyer_equipment_1 
+			amount = 800
+			producer = <TAG>
+		}
+	}
+
+}
 
 #超重自行防空炮
 #super_heavy_tank_aa_equipment_1
+country_event = {
+	id = addeq.event.tank.superheavy.86536
+	title = addeq.event.tank.superheavy.86536.t
+	desc = addeq.event.tank.superheavy.86536.d
 
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_tank_superheavy_aa
+		}
+	}
+	
+	#添加200
+	option = {
+		name = addeq.event.tank.superheavy.amount.a
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_aa_equipment_1 
+			amount = 200
+			producer = <TAG>
+		}
+	}
+
+	#添加400
+	option = {
+		name = addeq.event.tank.superheavy.amount.b
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_aa_equipment_1 
+			amount = 400
+			producer = <TAG>
+		}
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.tank.superheavy.amount.c
+		add_equipment_to_stockpile = {
+			type = super_heavy_tank_aa_equipment_1 
+			amount = 800
+			producer = <TAG>
+		}
+	}
+
+}
