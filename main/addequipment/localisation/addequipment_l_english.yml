@@ -114,6 +114,7 @@
   #
 
   #---------------现代坦克---------------#
+  addeq_tank_modern:0 "添加现代坦克"
   
 
   
@@ -512,6 +513,13 @@
   #
 
   #---------------现代坦克---------------#
+  
+  addeq.event.tank.modern.amount.a:0 "350"
+  addeq.event.tank.modern.amount.b:0 "650"
+  addeq.event.tank.modern.amount.c:0 "1000"
+  
+  addeq.event.tank.modern.86406.t:0 "添加现代坦克"
+  addeq.event.tank.modern.86406.d:0 "添加现代坦克"
   
 
   
