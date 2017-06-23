@@ -115,6 +115,9 @@
 
   #---------------现代坦克---------------#
   addeq_tank_modern:0 "添加现代坦克"
+  addeq_tank_modern_artillery:0 "添加现代自行火炮"
+  addeq_tank_modern_destroyer:0 "添加现代自行反坦克炮"
+  addeq_tank_modern_aa:0 "添加现代自行防空炮"
   
 
   
@@ -520,7 +523,21 @@
   
   addeq.event.tank.modern.86406.t:0 "添加现代坦克"
   addeq.event.tank.modern.86406.d:0 "添加现代坦克"
+
   
+  #现代自行火炮
+  addeq.event.tank.modern.86416.t:0 "添加现代自行火炮"
+  addeq.event.tank.modern.86416.d:0 "添加现代自行火炮"
+
+
+  # 现代自行反坦克炮
+  addeq.event.tank.modern.86426.t:0 "添加现代自行反坦克炮"
+  addeq.event.tank.modern.86426.d:0 "添加现代自行反坦克炮"
+
+
+  #现代自行防空炮
+  addeq.event.tank.modern.86436.t:0 "添加现代自行防空炮"
+  addeq.event.tank.modern.86436.d:0 "添加现代自行防空炮"
 
   
   #===================飞机===================# 

@@ -158,10 +158,35 @@ ideas = {
 		}	
 
 		#添加现代自行火炮
+		addeq_tank_modern_artillery = {
+			picture = FRA_scw_intervention_nationalists_focus
+
+			on_add = {
+				country_event = addeq.event.tank.modern.86416	
+			}
+
+		}
 
 		#添加现代自行反坦克炮
+		addeq_tank_modern_destroyer = {
+			picture = generic_pp_unity_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.modern.86426	
+			}
+
+		}
+
 
 		#添加现代自行防空炮
+		addeq_tank_modern_aa = {
+			picture = generic_democratic_drift_bonus
+
+			on_add = {
+				country_event = addeq.event.tank.modern.86436	
+			}
+
+		}
 
 	}
 
