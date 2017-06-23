@@ -195,6 +195,13 @@ ideas = {
 	addeq_tank_superheavy_ideas = {
 
 		#添加超重坦克
+		addeq_tank_superheavy = {
+			picture = FRA_army_of_aggression_focus
+
+			on_add = {
+				country_event = addeq.event.tank.superheavy.86506	
+			}
+		}	
 
 
 

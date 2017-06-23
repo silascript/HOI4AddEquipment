@@ -22,7 +22,7 @@ idea_categories = {
 		slot = addeq_tank_medium_ideas
 		slot = addeq_tank_heavy_ideas
 		slot = addeq_tank_modern_ideas
-		solt = addeq_tank_superheavy_ideas
+		slot = addeq_tank_superheavy_ideas
 
 		cost = 0
 		removal_cost = 0

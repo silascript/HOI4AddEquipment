@@ -111,7 +111,9 @@
   
   
   #---------------超重坦克---------------#
-  #
+  addeq_tank_superheavy:0 "添加超重坦克"
+
+
 
   #---------------现代坦克---------------#
   addeq_tank_modern:0 "添加现代坦克"
@@ -125,7 +127,7 @@
 
 
 
- ######################事件######################
+ ###########################事件###########################
 
   #事件通用按钮文本
   addeq.event.common.a:0 "确定"
@@ -279,10 +281,10 @@
   addeq.event.navy.85101.d:0 "添加运输船\n请选择数量"
 
 
- #===================坦克===================#
+ #=====================坦克=====================#
   
   
-  #---------------轻型坦克---------------#
+  #-----------------轻型坦克-----------------#
   addeq.event.tank.light.amount.a:0 "600"
   addeq.event.tank.light.amount.b:0 "1200"
   addeq.event.tank.light.amount.c:0 "2500"
@@ -358,7 +360,7 @@
   addeq.event.tank.light.86133.t:0 "添加轻型自行防空炮III型"
   addeq.event.tank.light.86133.d:0 "添加轻型自行防空炮III型\n请选择数量"
 
-  #---------------中型坦克---------------#
+  #-----------------中型坦克-----------------#
 
   addeq.event.tank.medium.amount.a:0 "500"
   addeq.event.tank.medium.amount.b:0 "1000"
@@ -435,7 +437,7 @@
   addeq.event.tank.medium.86233.d:0 "添加中型自行防空炮III型\n请选择数量"
 
 
-  #---------------重型坦克---------------#
+  #-----------------重型坦克-----------------#
 
   addeq.event.tank.heavy.amount.a:0 "400"
   addeq.event.tank.heavy.amount.b:0 "800"
@@ -512,10 +514,27 @@
   addeq.event.tank.heavy.86333.t:0 "添加重型自行防空炮III型"
   addeq.event.tank.heavy.86333.d:0 "添加重型自行防空炮III型\n请选择数量" 
   
-  #---------------超重坦克---------------#
-  #
+  #-----------------超重坦克-----------------#
+  
+  addeq.event.tank.superheavy.amount.a:0 "200"
+  addeq.event.tank.superheavy.amount.b:0 "400"
+  addeq.event.tank.superheavy.amount.c:0 "800"
 
-  #---------------现代坦克---------------#
+  addeq.event.tank.superheavy.86506.t:0 "添加超重坦克"
+  addeq.event.tank.superheavy.86506.d:0 "添加超重坦克"
+
+  #超重自行火炮
+  
+  
+
+  #超重自行反坦克炮
+
+  
+  #超重自行防空炮
+
+
+
+  #-----------------现代坦克-----------------#
   
   addeq.event.tank.modern.amount.a:0 "350"
   addeq.event.tank.modern.amount.b:0 "650"
@@ -540,7 +559,7 @@
   addeq.event.tank.modern.86436.d:0 "添加现代自行防空炮"
 
   
-  #===================飞机===================# 
+  #========================飞机========================# 
 
 
  
