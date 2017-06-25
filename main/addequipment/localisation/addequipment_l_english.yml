@@ -595,14 +595,14 @@
   addeq.event.air.figher.amount.b:0 "500"
   addeq.event.air.figher.amount.c:0 "800"
   
-  #早期战斗机
+  #####早期战斗机#####
   addeq.event.air.figher.87000.t:0 "添加早期战斗机"
   addeq.event.air.figher.87000.d:0 "添加早期战斗机"
 
   addeq.event.air.figher.87010.t:0 "添加早期舰载战斗机"
   addeq.event.air.figher.87010.d:0 "添加早期舰载战斗机"
 
-  #轻型战斗机
+  #####轻型战斗机#####
   
   addeq.event.air.figher.87106.t:0 "添加轻型战斗类型"
   addeq.event.air.figher.87106.d:0 "选择轻型战斗类型\n请选择类型"
@@ -623,7 +623,7 @@
   addeq.event.air.figher.87103.t:0 "添加III型轻型战斗机"
   addeq.event.air.figher.87103.d:0 "添加III型轻型战斗机\n请选择添加的数量"
 
-  #舰载轻型战斗机 
+  #####舰载轻型战斗机#####
 
   addeq.event.air.figher.87116.a:0 "选择I型舰载轻型战斗机"
   addeq.event.air.figher.87116.b:0 "选择II型舰载轻型战斗机"
@@ -642,13 +642,32 @@
   addeq.event.air.figher.87113.d:0 "添加III型舰载轻型战斗机\n请选择添加的数量"
 
 
-  #近距支援机
+  #####近距支援机#####
+  
+  addeq.event.air.figher.87206.a:0 "选择I型近距支援机"
+  addeq.event.air.figher.87206.b:0 "选择II型近距支援机"
+  addeq.event.air.figher.87206.c:0 "选择III型近距支援机"
+
+  addeq.event.air.figher.87206.t:0 "添加近距支援机"
+  addeq.event.air.figher.87206.d:0 "添加近距支援机\n请选择类型"
 
 
-  #舰载近距支援机
+  #I型
+  addeq.event.air.figher.87201.t:0 "添加I型近距支援机"
+  addeq.event.air.figher.87201.d:0 "添加I型近距支援机\n请选择添加的数量"
+
+  #II型
+  addeq.event.air.figher.87202.t:0 "添加II型近距支援机"
+  addeq.event.air.figher.87202.d:0 "添加II型近距支援机\n请选择添加的数量"
+  
+  #III型
+  addeq.event.air.figher.87203.t:0 "添加III型近距支援机"
+  addeq.event.air.figher.87203.d:0 "添加III型近距支援机\n请选择添加的数量"
+
+  #####舰载近距支援机#####
 
 
-  #重型战斗机
+  #####重型战斗机#####
 
   #-------------------轰炸机-------------------#
   

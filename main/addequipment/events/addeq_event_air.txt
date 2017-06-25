@@ -632,6 +632,249 @@ country_event = {
 #	87202 II型 CAS_equipment_2
 #	87203 III型 CAS_equipment_3
 
+country_event = {
+	id = addeq.event.air.figher.87206
+	title = addeq.event.air.figher.87206.t
+	desc = addeq.event.air.figher.87206.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_CAS 
+		}
+	}	
+
+	#I型 近距支援机
+	#I型 轻型战斗机
+	option = {
+		name = addeq.event.air.figher.87206.a
+		
+		country_event = {
+			id = addeq.event.air.figher.87201
+		}
+	}
+
+
+	#II型 近距支援机
+	option = {
+		name = addeq.event.air.figher.87206.b
+		
+		country_event = {
+			id = addeq.event.air.figher.87202
+		}
+	}
+
+	#III型 近距支援机
+	option = {
+		name = addeq.event.air.figher.87206.c
+		
+		country_event = {
+			id = addeq.event.air.figher.87203
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#I型 近距支援机
+country_event = {
+	id = addeq.event.air.figher.87201
+	title = addeq.event.air.figher.87201.t
+	desc = addeq.event.air.figher.87201.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_CAS 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.figher.amount.a
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_1 
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.air.figher.amount.b
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.figher.amount.c
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_1 
+			amount = 800
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.figher.87206
+		}
+	}
+
+
+}
+
+#II型 近距支援机
+country_event = {
+	id = addeq.event.air.figher.87202
+	title = addeq.event.air.figher.87202.t
+	desc = addeq.event.air.figher.87202.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_CAS 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.figher.amount.a
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_2 
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.air.figher.amount.b
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_2 
+			amount = 500
+			producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.figher.amount.c
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_2 
+			amount = 800
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.figher.87206
+		}
+	}
+
+
+}
+
+
+#III型 近距支援机
+country_event = {
+	id = addeq.event.air.figher.87203
+	title = addeq.event.air.figher.87203.t
+	desc = addeq.event.air.figher.87203.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_CAS 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.figher.amount.a
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_3 
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.air.figher.amount.b
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_3 
+			amount = 500
+			producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.figher.amount.c
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_3 
+			amount = 800
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.figher.87206
+		}
+	}
+
+
+}
 
 #-------------------------------------------------
 

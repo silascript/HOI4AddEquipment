@@ -37,7 +37,10 @@ ideas = {
 
 		#近距支援机
 		addeq_air_CAS = {
-
+			picture = generic_democratic_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.figher.87206 
+			}
 		}
 
 		#舰载近距支援机
