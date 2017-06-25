@@ -134,7 +134,7 @@ country_event = {
 	#移除idea
 	immediate = {
 		hidden_effect = { 
-			remove_ideas = addeq_tank_light_1
+			remove_ideas = addeq_tank_light
 		}
 	}
 

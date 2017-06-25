@@ -1,0 +1,79 @@
+ideas = {
+	
+	#战斗机	
+	addeq_air_figher_ideas = {
+
+		#早期战斗机
+		addeq_air_early_fighter = {
+			picture = FRA_army_of_aggression_focus
+			on_add = {
+				country_event = addeq.event.air.figher.87000 
+			}
+		}
+
+		#早期舰载战斗机
+		addeq_air_cv_early_fighter = {
+			picture = FRA_scw_intervention_nationalists_focus
+			on_add = {
+				country_event = addeq.event.air.figher.87010 
+			}
+		}
+
+		#轻型战斗机
+		addeq_air_fighter = {
+			picture = generic_fascism_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.figher.87106 
+			}
+		}
+
+		#舰载轻型战斗机
+		addeq_air_cv_fighter = {
+
+		}
+
+		#近距支援机
+		addeq_air_CAS = {
+
+		}
+
+		#舰载近距支援机
+		addeq_air_cv_CAS = {
+		
+		}
+
+		#重型战斗机
+		addeq_air_heavy_fighter = {
+
+		}
+
+	}
+
+	#轰炸机
+	addeq_air_bomber_ideas = {
+		
+		#海轰
+
+		#舰载海轰
+
+		#战术轰炸机
+
+		#战略轰炸机
+
+	}
+	
+	#喷气式飞机
+	addeq_air_jet_ideas = {
+
+		#喷气式战斗机
+
+		#喷气式战术轰炸机
+
+		#喷气式战略轰炸机
+
+		#自杀式飞行器
+
+	}
+
+
+}

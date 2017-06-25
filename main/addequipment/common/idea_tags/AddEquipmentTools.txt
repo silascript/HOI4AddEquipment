@@ -8,9 +8,6 @@ idea_categories = {
 		slot = addeq_mechanized_ideas
 		slot = addeq_navy_ideas
 
-
-		#飞机
-
 		cost = 0
 		removal_cost = 0
 	}	
@@ -24,6 +21,21 @@ idea_categories = {
 		slot = addeq_tank_modern_ideas
 		slot = addeq_tank_superheavy_ideas
 
+		cost = 0
+		removal_cost = 0
+	}
+
+	#飞机
+	AddEquipmentTools_Air_Idea = {
+		#战斗机
+		slot = addeq_air_figher_ideas
+
+		#轰炸机
+		slot = addeq_air_bomber_ideas
+
+		#喷气式飞机
+		slot = addeq_air_jet_ideas
+		
 		cost = 0
 		removal_cost = 0
 	}

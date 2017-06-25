@@ -4,6 +4,7 @@
   #
   AddEquipmentTools_Idea:0 "添加步兵炮兵装备"
   AddEquipmentTools_Tank_Idea:0 "添加坦克"
+  AddEquipmentTools_Air_Idea:0 "添加飞机"
 
   #Idea组标题
   #步兵炮兵装备
@@ -27,6 +28,16 @@
 
   #超重坦克
   addeq_tank_superheavy_ideas:0 "添加超重型坦克"
+
+  #飞机
+  #战斗飞机
+  addeq_air_figher_ideas:0 "添加战斗机"
+
+  #轰炸飞机
+  addeq_air_bomber_ideas:0 "添加轰炸机"
+
+  #喷气式飞机
+  addeq_air_jet_ideas:0 "添加喷气式飞机"
 
 
   #####################各子idea标题#####################
@@ -125,8 +136,26 @@
   
   
   #===================飞机===================#
+  
+  #----------------战斗机----------------#
+  #早期战斗机
+  addeq_air_early_fighter:0 "添加早期战斗机"
+  addeq_air_cv_early_fighter:0 "添加早期舰载战斗机"
 
+  #轻型战斗机
+  addeq_air_fighter:0 "添加轻型战斗机"
+  addeq_air_cv_fighter:0 "添加舰载轻型战斗机"
+  
+  #近距支援机
+  addeq_air_CAS:0 "添加近距支援机"
+  addeq_air_cv_CAS:0 "添加舰载近距支援机"
 
+  #重型战斗机
+  addeq_air_heavy_fighter:0 "添加重型战斗机"
+
+  #----------------轰炸机----------------#
+
+  #--------------喷气式飞机机--------------#
 
  ###########################事件###########################
 
@@ -149,16 +178,16 @@
   
  
   addeq.event.infantry.80100.t:0 "添加基础步兵装备"
-  addeq.event.infantry.80100.d:0 "添加基础步兵装备\n请选择数量"
+  addeq.event.infantry.80100.d:0 "添加基础步兵装备\n请选择添加的数量"
 
   addeq.event.infantry.80101.t:0 "添加I级步兵装备"
-  addeq.event.infantry.80101.d:0 "添加I级步兵装备\n请选择数量"
+  addeq.event.infantry.80101.d:0 "添加I级步兵装备\n请选择添加的数量"
   
   addeq.event.infantry.80102.t:0 "添加II级步兵装备"
-  addeq.event.infantry.80102.d:0 "添加II级步兵装备\n请选择数量"
+  addeq.event.infantry.80102.d:0 "添加II级步兵装备\n请选择添加的数量"
   
   addeq.event.infantry.80103.t:0 "添加III级步兵装备"
-  addeq.event.infantry.80103.d:0 "添加III级步兵装备\n请选择数量"
+  addeq.event.infantry.80103.d:0 "添加III级步兵装备\n请选择添加的数量"
   
   addeq.event.infantry.80104.t:0 "疯狂添加步兵装备"
   addeq.event.infantry.80104.d:0 "疯狂添加步兵装备\n请选择"
@@ -173,7 +202,7 @@
   addeq.event.support.amount.d:0 "添加10W支援装备"
  
   addeq.event.support.81001.t:0 "添加支援装备"
-  addeq.event.support.81001.d:0 "添加支援装备\n请选择数量"
+  addeq.event.support.81001.d:0 "添加支援装备\n请选择添加的数量"
 
   addeq.event.support.81002.t:0 "疯狂添加支援装备"
   addeq.event.support.81002.d:0 "疯狂添加10W支援装备"
@@ -185,7 +214,7 @@
   addeq.event.motoeq.amount.d:0 "添加10W摩托化装备"
 
   addeq.event.motoeq.82001.t:0 "添加摩托化装备"
-  addeq.event.motoeq.82001.d:0 "添加摩托化装备\n请选择数量"
+  addeq.event.motoeq.82001.d:0 "添加摩托化装备\n请选择添加的数量"
 
   addeq.event.motoeq.82002.t:0 "疯狂添加摩托化装备"
   addeq.event.motoeq.82002.d:0 "疯狂添加10W摩托化装备"
@@ -206,28 +235,28 @@
  
 
   addeq.event.artillery.80211.t:0 "添加I级火炮"
-  addeq.event.artillery.80211.d:0 "添加I级火炮\n请选择数量"
+  addeq.event.artillery.80211.d:0 "添加I级火炮\n请选择添加的数量"
  
   addeq.event.artillery.80212.t:0 "添加II级火炮"
-  addeq.event.artillery.80212.d:0 "添加II级火炮\n请选择数量"
+  addeq.event.artillery.80212.d:0 "添加II级火炮\n请选择添加的数量"
  
   addeq.event.artillery.80213.t:0 "添加III级火炮"
-  addeq.event.artillery.80213.d:0 "添加III级火炮\n请选择数量"
+  addeq.event.artillery.80213.d:0 "添加III级火炮\n请选择添加的数量"
 
   addeq.event.artillery.80214.t:0 "疯狂添加各级火炮"
   addeq.event.artillery.80214.d:0 "疯狂添加5W火炮"
  
   addeq.event.artillery.80221.t:0 "添加I级火箭炮"
-  addeq.event.artillery.80221.d:0 "添加I级火箭炮\n请选择数量"
+  addeq.event.artillery.80221.d:0 "添加I级火箭炮\n请选择添加的数量"
  
   addeq.event.artillery.80222.t:0 "添加II级火箭炮"
-  addeq.event.artillery.80222.d:0 "添加II级火箭炮\n请选择数量"
+  addeq.event.artillery.80222.d:0 "添加II级火箭炮\n请选择添加的数量"
 
   addeq.event.artillery.80223.t:0 "疯狂添加各级火箭炮"
   addeq.event.artillery.80223.d:0 "疯狂添加5W火箭炮"
 
   addeq.event.artillery.80231.t:0 "添加自行火箭炮"
-  addeq.event.artillery.80231.d:0 "添加自行火箭炮\n请选择数量"
+  addeq.event.artillery.80231.d:0 "添加自行火箭炮\n请选择添加的数量"
 
   addeq.event.artillery.80232.t:0 "疯狂添加自行火箭炮"
   addeq.event.artillery.80232.d:0 "疯狂添加3W自行火箭炮"
@@ -238,22 +267,22 @@
   addeq.event.anti.amount.c:0 "2000"
 
   addeq.event.anti.80311.t:0 "添加I级牵引式防空炮"
-  addeq.event.anti.80311.d:0 "添加I级牵引式防空炮\n请选择数量"
+  addeq.event.anti.80311.d:0 "添加I级牵引式防空炮\n请选择添加的数量"
  
   addeq.event.anti.80312.t:0 "添加II级牵引式防空炮"
-  addeq.event.anti.80312.d:0 "添加II级牵引式防空炮\n请选择数量"
+  addeq.event.anti.80312.d:0 "添加II级牵引式防空炮\n请选择添加的数量"
  
   addeq.event.anti.80313.t:0 "添加III级牵引式防空炮"
-  addeq.event.anti.80313.d:0 "添加III级牵引式防空炮\n请选择数量"
+  addeq.event.anti.80313.d:0 "添加III级牵引式防空炮\n请选择添加的数量"
  
   addeq.event.anti.80321.t:0 "添加I级牵引式反坦克炮"
-  addeq.event.anti.80321.d:0 "添加I级牵引式反坦克炮\n请选择数量"
+  addeq.event.anti.80321.d:0 "添加I级牵引式反坦克炮\n请选择添加的数量"
  
   addeq.event.anti.80322.t:0 "添加II级牵引式反坦克炮"
-  addeq.event.anti.80322.d:0 "添加II级牵引式反坦克炮\n请选择数量"
+  addeq.event.anti.80322.d:0 "添加II级牵引式反坦克炮\n请选择添加的数量"
  
   addeq.event.anti.80323.t:0 "添加III级牵引式反坦克炮"
-  addeq.event.anti.80323.d:0 "添加III级牵引式反坦克炮\n请选择数量"
+  addeq.event.anti.80323.d:0 "添加III级牵引式反坦克炮\n请选择添加的数量"
 
   #机械化装备
   addeq.event.mechanize.amount.a:0 "300"
@@ -261,13 +290,13 @@
   addeq.event.mechanize.amount.c:0 "1000"
  
   addeq.event.mechanize.83001.t:0 "添加I级机械化装备"
-  addeq.event.mechanize.83001.d:0 "添加I级机械化装备\n请选择数量"
+  addeq.event.mechanize.83001.d:0 "添加I级机械化装备\n请选择添加的数量"
  
   addeq.event.mechanize.83002.t:0 "添加II级机械化装备"
-  addeq.event.mechanize.83002.d:0 "添加II级机械化装备\n请选择数量"
+  addeq.event.mechanize.83002.d:0 "添加II级机械化装备\n请选择添加的数量"
 
   addeq.event.mechanize.83003.t:0 "添加III级机械化装备"
-  addeq.event.mechanize.83003.d:0 "添加III级机械化装备\n请选择数量"
+  addeq.event.mechanize.83003.d:0 "添加III级机械化装备\n请选择添加的数量"
   
  #####################################################
 
@@ -279,7 +308,7 @@
   addeq.event.navy.amount.d:0 "100"
  
   addeq.event.navy.85101.t:0 "添加运输船"
-  addeq.event.navy.85101.d:0 "添加运输船\n请选择数量"
+  addeq.event.navy.85101.d:0 "添加运输船\n请选择添加的数量"
 
 
  #=====================坦克=====================#
@@ -295,19 +324,19 @@
   addeq.event.tank.light.86106.c:0 "添加轻型坦克III型"
  
   addeq.event.tank.light.86100.t:0 "添加一战坦克"
-  addeq.event.tank.light.86100.d:0 "添加一战坦克\n请选择数量"
+  addeq.event.tank.light.86100.d:0 "添加一战坦克\n请选择添加的数量"
 
   addeq.event.tank.light.86106.t:0 "添加轻型坦克"
   addeq.event.tank.light.86106.d:0 "添加轻型坦克\n请选择类型"
 
   addeq.event.tank.light.86101.t:0 "添加轻型坦克I型"
-  addeq.event.tank.light.86101.d:0 "添加轻型坦克I型\n请选择数量"
+  addeq.event.tank.light.86101.d:0 "添加轻型坦克I型\n请选择添加的数量"
 
   addeq.event.tank.light.86102.t:0 "添加轻型坦克II型"
-  addeq.event.tank.light.86102.d:0 "添加轻型坦克II型\n请选择数量"
+  addeq.event.tank.light.86102.d:0 "添加轻型坦克II型\n请选择添加的数量"
 
   addeq.event.tank.light.86103.t:0 "添加轻型坦克III型"
-  addeq.event.tank.light.86103.d:0 "添加轻型坦克III型\n请选择数量"
+  addeq.event.tank.light.86103.d:0 "添加轻型坦克III型\n请选择添加的数量"
   
   #轻型自行火炮
   
@@ -319,13 +348,13 @@
   addeq.event.tank.light.86116.d:0 "添加轻型自行火炮\n请选择类型"
   
   addeq.event.tank.light.86111.t:0 "添加轻型自行火炮I型"
-  addeq.event.tank.light.86111.d:0 "添加轻型自行火炮I型\n请选择数量"
+  addeq.event.tank.light.86111.d:0 "添加轻型自行火炮I型\n请选择添加的数量"
 
   addeq.event.tank.light.86112.t:0 "添加轻型自行火炮II型"
-  addeq.event.tank.light.86112.d:0 "添加轻型自行火炮II型\n请选择数量"
+  addeq.event.tank.light.86112.d:0 "添加轻型自行火炮II型\n请选择添加的数量"
 
   addeq.event.tank.light.86113.t:0 "添加轻型自行火炮III型"
-  addeq.event.tank.light.86113.d:0 "添加轻型自行火炮III型\n请选择数量"
+  addeq.event.tank.light.86113.d:0 "添加轻型自行火炮III型\n请选择添加的数量"
   
   #轻型自行反坦克炮
   addeq.event.tank.light.86126.a:0 "添加轻型自行反坦克炮I型"
@@ -336,13 +365,13 @@
   addeq.event.tank.light.86126.d:0 "添加轻型自行反坦克炮\n请选择类型"
 
   addeq.event.tank.light.86121.t:0 "添加轻型自行反坦克炮I型"
-  addeq.event.tank.light.86121.d:0 "添加轻型自行反坦克炮I型\n请选择数量"
+  addeq.event.tank.light.86121.d:0 "添加轻型自行反坦克炮I型\n请选择添加的数量"
 
   addeq.event.tank.light.86122.t:0 "添加轻型自行反坦克炮II型"
-  addeq.event.tank.light.86122.d:0 "添加轻型自行反坦克炮II型\n请选择数量"
+  addeq.event.tank.light.86122.d:0 "添加轻型自行反坦克炮II型\n请选择添加的数量"
   
   addeq.event.tank.light.86123.t:0 "添加轻型自行反坦克炮II型"
-  addeq.event.tank.light.86123.d:0 "添加轻型自行反坦克炮II型\n请选择数量"
+  addeq.event.tank.light.86123.d:0 "添加轻型自行反坦克炮II型\n请选择添加的数量"
   
   #轻型自行防空炮
   addeq.event.tank.light.86136.a:0 "添加轻型自行防空炮I型"
@@ -353,13 +382,13 @@
   addeq.event.tank.light.86136.d:0 "添加轻型自行防空炮\n请选择类型"
 
   addeq.event.tank.light.86131.t:0 "添加轻型自行防空炮I型"
-  addeq.event.tank.light.86131.d:0 "添加轻型自行防空炮I型\n请选择数量"
+  addeq.event.tank.light.86131.d:0 "添加轻型自行防空炮I型\n请选择添加的数量"
 
   addeq.event.tank.light.86132.t:0 "添加轻型自行防空炮II型"
-  addeq.event.tank.light.86132.d:0 "添加轻型自行防空炮II型\n请选择数量"
+  addeq.event.tank.light.86132.d:0 "添加轻型自行防空炮II型\n请选择添加的数量"
 
   addeq.event.tank.light.86133.t:0 "添加轻型自行防空炮III型"
-  addeq.event.tank.light.86133.d:0 "添加轻型自行防空炮III型\n请选择数量"
+  addeq.event.tank.light.86133.d:0 "添加轻型自行防空炮III型\n请选择添加的数量"
 
   #-----------------中型坦克-----------------#
 
@@ -375,13 +404,13 @@
   addeq.event.tank.medium.86206.c:0 "添加中型坦克III型"
   
   addeq.event.tank.medium.86201.t:0 "添加中型坦克I型"
-  addeq.event.tank.medium.86201.d:0 "添加中型坦克I型\n请选择数量"
+  addeq.event.tank.medium.86201.d:0 "添加中型坦克I型\n请选择添加的数量"
 
   addeq.event.tank.medium.86202.t:0 "添加中型坦克II型"
-  addeq.event.tank.medium.86202.d:0 "添加中型坦克II型\n请选择数量"
+  addeq.event.tank.medium.86202.d:0 "添加中型坦克II型\n请选择添加的数量"
 
   addeq.event.tank.medium.86203.t:0 "添加中型坦克III型"
-  addeq.event.tank.medium.86203.d:0 "添加中型坦克III型\n请选择数量"
+  addeq.event.tank.medium.86203.d:0 "添加中型坦克III型\n请选择添加的数量"
 
 
   #中型自行火炮
@@ -393,13 +422,13 @@
   addeq.event.tank.medium.86216.d:0 "添加中型自行火炮\n请选择类型"
 
   addeq.event.tank.medium.86211.t:0 "添加中型自行火炮I型"
-  addeq.event.tank.medium.86211.d:0 "添加中型自行火炮I型\n请选择数量"
+  addeq.event.tank.medium.86211.d:0 "添加中型自行火炮I型\n请选择添加的数量"
   
   addeq.event.tank.medium.86212.t:0 "添加中型自行火炮II型"
-  addeq.event.tank.medium.86212.d:0 "添加中型自行火炮II型\n请选择数量"
+  addeq.event.tank.medium.86212.d:0 "添加中型自行火炮II型\n请选择添加的数量"
   
   addeq.event.tank.medium.86213.t:0 "添加中型自行火炮III型"
-  addeq.event.tank.medium.86213.d:0 "添加中型自行火炮III型\n请选择数量"
+  addeq.event.tank.medium.86213.d:0 "添加中型自行火炮III型\n请选择添加的数量"
 
   #中型自行反坦克火炮
 
@@ -411,13 +440,13 @@
   addeq.event.tank.medium.86226.d:0 "添加自行反坦克炮\n请选择类型"
 
   addeq.event.tank.medium.86221.t:0 "添加自行反坦克炮I型"
-  addeq.event.tank.medium.86221.d:0 "添加自行反坦克炮I型\n请选择数量"
+  addeq.event.tank.medium.86221.d:0 "添加自行反坦克炮I型\n请选择添加的数量"
 
   addeq.event.tank.medium.86222.t:0 "添加自行反坦克炮II型"
-  addeq.event.tank.medium.86222.d:0 "添加自行反坦克炮II型\n请选择数量"
+  addeq.event.tank.medium.86222.d:0 "添加自行反坦克炮II型\n请选择添加的数量"
 
   addeq.event.tank.medium.86223.t:0 "添加自行反坦克炮III型"
-  addeq.event.tank.medium.86223.d:0 "添加自行反坦克炮III型\n请选择数量"
+  addeq.event.tank.medium.86223.d:0 "添加自行反坦克炮III型\n请选择添加的数量"
 
   #中型自行防空炮
 
@@ -429,13 +458,13 @@
   addeq.event.tank.medium.86236.d:0 "添加中型自行防空炮\n请选择类型"
   
   addeq.event.tank.medium.86231.t:0 "添加中型自行防空炮I型"
-  addeq.event.tank.medium.86231.d:0 "添加中型自行防空炮I型\n请选择数量"
+  addeq.event.tank.medium.86231.d:0 "添加中型自行防空炮I型\n请选择添加的数量"
 
   addeq.event.tank.medium.86232.t:0 "添加中型自行防空炮II型"
-  addeq.event.tank.medium.86232.d:0 "添加中型自行防空炮II型\n请选择数量"
+  addeq.event.tank.medium.86232.d:0 "添加中型自行防空炮II型\n请选择添加的数量"
 
   addeq.event.tank.medium.86233.t:0 "添加中型自行防空炮III型"
-  addeq.event.tank.medium.86233.d:0 "添加中型自行防空炮III型\n请选择数量"
+  addeq.event.tank.medium.86233.d:0 "添加中型自行防空炮III型\n请选择添加的数量"
 
 
   #-----------------重型坦克-----------------#
@@ -452,13 +481,13 @@
   addeq.event.tank.heavy.86306.d:0 "添加重型坦克\n请选择类型"
 
   addeq.event.tank.heavy.86301.t:0 "添加重型坦克I型"
-  addeq.event.tank.heavy.86301.d:0 "添加重型坦克I型\n请选择数量"
+  addeq.event.tank.heavy.86301.d:0 "添加重型坦克I型\n请选择添加的数量"
 
   addeq.event.tank.heavy.86302.t:0 "添加重型坦克II型"
-  addeq.event.tank.heavy.86302.d:0 "添加重型坦克II型\n请选择数量"
+  addeq.event.tank.heavy.86302.d:0 "添加重型坦克II型\n请选择添加的数量"
 
   addeq.event.tank.heavy.86303.t:0 "添加重型坦克III型"
-  addeq.event.tank.heavy.86303.d:0 "添加重型坦克III型\n请选择数量"
+  addeq.event.tank.heavy.86303.d:0 "添加重型坦克III型\n请选择添加的数量"
 
   #重型自行火炮
 
@@ -470,13 +499,13 @@
   addeq.event.tank.heavy.86316.d:0 "添加重型自行火炮\n请选择类型"
 
   addeq.event.tank.heavy.86311.t:0 "添加重型自行火炮I型"
-  addeq.event.tank.heavy.86311.d:0 "添加重型自行火炮I型\n请选择数量"
+  addeq.event.tank.heavy.86311.d:0 "添加重型自行火炮I型\n请选择添加的数量"
   
   addeq.event.tank.heavy.86312.t:0 "添加重型自行火炮II型"
-  addeq.event.tank.heavy.86312.d:0 "添加重型自行火炮II型\n请选择数量"
+  addeq.event.tank.heavy.86312.d:0 "添加重型自行火炮II型\n请选择添加的数量"
 
   addeq.event.tank.heavy.86313.t:0 "添加重型自行火炮III型"
-  addeq.event.tank.heavy.86313.d:0 "添加重型自行火炮III型\n请选择数量" 
+  addeq.event.tank.heavy.86313.d:0 "添加重型自行火炮III型\n请选择添加的数量" 
   
   #重型自行反坦克炮
   
@@ -488,13 +517,13 @@
   addeq.event.tank.heavy.86326.d:0 "添加重型自行反坦克炮\n请选择类型"
   
   addeq.event.tank.heavy.86321.t:0 "添加重型自行反坦克炮I型"
-  addeq.event.tank.heavy.86321.d:0 "添加重型自行反坦克炮I型\n请选择数量"
+  addeq.event.tank.heavy.86321.d:0 "添加重型自行反坦克炮I型\n请选择添加的数量"
   
   addeq.event.tank.heavy.86322.t:0 "添加重型自行反坦克炮II型"
-  addeq.event.tank.heavy.86322.d:0 "添加重型自行反坦克炮II型\n请选择数量"
+  addeq.event.tank.heavy.86322.d:0 "添加重型自行反坦克炮II型\n请选择添加的数量"
 
   addeq.event.tank.heavy.86323.t:0 "添加重型自行反坦克炮III型"
-  addeq.event.tank.heavy.86323.d:0 "添加重型自行反坦克炮III型\n请选择数量"
+  addeq.event.tank.heavy.86323.d:0 "添加重型自行反坦克炮III型\n请选择添加的数量"
 
 
   #重型自行防空炮
@@ -507,13 +536,13 @@
   addeq.event.tank.heavy.86336.d:0 "添加重型自行防空炮\n请选择类型"
   
   addeq.event.tank.heavy.86331.t:0 "添加重型自行防空炮I型"
-  addeq.event.tank.heavy.86331.d:0 "添加重型自行防空炮I型\n请选择数量"
+  addeq.event.tank.heavy.86331.d:0 "添加重型自行防空炮I型\n请选择添加的数量"
   
   addeq.event.tank.heavy.86332.t:0 "添加重型自行防空炮II型"
-  addeq.event.tank.heavy.86332.d:0 "添加重型自行防空炮II型\n请选择数量"
+  addeq.event.tank.heavy.86332.d:0 "添加重型自行防空炮II型\n请选择添加的数量"
 
   addeq.event.tank.heavy.86333.t:0 "添加重型自行防空炮III型"
-  addeq.event.tank.heavy.86333.d:0 "添加重型自行防空炮III型\n请选择数量" 
+  addeq.event.tank.heavy.86333.d:0 "添加重型自行防空炮III型\n请选择添加的数量" 
   
   #-----------------超重坦克-----------------#
   
@@ -560,6 +589,53 @@
 
   
   #========================飞机========================# 
+  #-------------------战斗机-------------------#
+  addeq.event.air.figher.amount.a:0 "200"
+  addeq.event.air.figher.amount.b:0 "500"
+  addeq.event.air.figher.amount.c:0 "800"
+  
+  #早期战斗机
+  addeq.event.air.figher.87000.t:0 "添加早期战斗机"
+  addeq.event.air.figher.87000.d:0 "添加早期战斗机"
 
+  addeq.event.air.figher.87010.t:0 "添加早期舰载战斗机"
+  addeq.event.air.figher.87010.d:0 "添加早期舰载战斗机"
+
+  #轻型战斗机
+  
+  addeq.event.air.figher.87106.t:0 "选择轻型战斗类型"
+  addeq.event.air.figher.87106.d:0 "选择轻型战斗类型\n请选择"
+
+  addeq.event.air.figher.87106.a:0 "选择I型轻型战斗机"
+  addeq.event.air.figher.87106.b:0 "选择II型轻型战斗机"
+  addeq.event.air.figher.87106.c:0 "选择III型轻型战斗机"
+  
+  #I型
+  addeq.event.air.figher.87101.t:0 "添加I型轻型战斗机" 
+  addeq.event.air.figher.87101.d:0 "添加I型轻型战斗机\n请选择添加的数量" 
+
+  #II型
+  addeq.event.air.figher.87102.t:0 "添加II型轻型战斗机"
+  addeq.event.air.figher.87102.d:0 "添加II型轻型战斗机\n请选择添加的数量"
+  
+  #III型
+  addeq.event.air.figher.87103.t:0 "添加III型轻型战斗机"
+  addeq.event.air.figher.87103.d:0 "添加III型轻型战斗机\n请选择添加的数量"
+
+  #舰载轻型战斗机 
+
+
+  #近距支援机
+
+
+  #舰载近距支援机
+
+
+  #重型战斗机
+
+  #-------------------轰炸机-------------------#
+  
+
+  #-----------------喷气式飞机机-----------------#
 
  
