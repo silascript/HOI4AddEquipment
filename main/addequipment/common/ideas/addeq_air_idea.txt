@@ -45,7 +45,10 @@ ideas = {
 
 		#舰载近距支援机
 		addeq_air_cv_CAS = {
-		
+			picture = generic_democratic_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.figher.87216 
+			}	
 		}
 
 		#重型战斗机
@@ -54,6 +57,8 @@ ideas = {
 		}
 
 	}
+
+	#########################################################
 
 	#轰炸机
 	addeq_air_bomber_ideas = {
@@ -68,6 +73,10 @@ ideas = {
 
 	}
 	
+
+	#########################################################
+
+
 	#喷气式飞机
 	addeq_air_jet_ideas = {
 
