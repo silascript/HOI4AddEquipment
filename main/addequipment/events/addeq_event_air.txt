@@ -426,6 +426,248 @@ country_event = {
 #	87112 II型 cv_fighter_equipment_2
 #	87113 III型 cv_fighter_equipment_3 
 
+country_event = {
+	id = addeq.event.air.figher.87116
+	title = addeq.event.air.figher.87116.t
+	desc = addeq.event.air.figher.87116.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_fighter 
+		}
+	}	
+
+	#I型 舰载轻型战斗机
+	option = {
+		name = addeq.event.air.figher.87116.a
+		
+		country_event = {
+			id = addeq.event.air.figher.87111
+		}
+	}
+
+	#II型 舰载轻型战斗机
+	option = {
+		name = addeq.event.air.figher.87116.b
+		
+		country_event = {
+			id = addeq.event.air.figher.87112
+		}
+	}
+
+	#III型 舰载轻型战斗机
+	option = {
+		name = addeq.event.air.figher.87116.c
+		
+		country_event = {
+			id = addeq.event.air.figher.87113
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#I型 舰载轻型战斗机
+country_event = {
+	id = addeq.event.air.figher.87111
+	title = addeq.event.air.figher.87111.t
+	desc = addeq.event.air.figher.87111.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_fighter 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.figher.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_1 
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.air.figher.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_1 
+			amount = 500
+			producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.figher.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_1 
+			amount = 800
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.figher.87116
+		}
+	}
+
+
+}
+
+
+#II型 舰载轻型战斗机
+country_event = {
+	id = addeq.event.air.figher.87112
+	title = addeq.event.air.figher.87112.t
+	desc = addeq.event.air.figher.87112.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_fighter 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.figher.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_2
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.air.figher.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_2 
+			amount = 500
+			producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.figher.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_2 
+			amount = 800
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.figher.87116
+		}
+	}
+
+
+}
+
+
+#III型 舰载轻型战斗机
+country_event = {
+	id = addeq.event.air.figher.87113
+	title = addeq.event.air.figher.87113.t
+	desc = addeq.event.air.figher.87113.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_fighter 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.figher.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_3
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+	#添加500
+	option = {
+		name = addeq.event.air.figher.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_3
+			amount = 500
+			producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.figher.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_fighter_equipment_3 
+			amount = 800
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.figher.87116
+		}
+	}
+
+
+}
+
 
 #-------------------------------------------------
 

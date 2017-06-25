@@ -33,6 +33,7 @@
   #战斗飞机
   addeq_air_figher_ideas:0 "添加战斗机"
 
+
   #轰炸飞机
   addeq_air_bomber_ideas:0 "添加轰炸机"
 
@@ -603,8 +604,8 @@
 
   #轻型战斗机
   
-  addeq.event.air.figher.87106.t:0 "选择轻型战斗类型"
-  addeq.event.air.figher.87106.d:0 "选择轻型战斗类型\n请选择"
+  addeq.event.air.figher.87106.t:0 "添加轻型战斗类型"
+  addeq.event.air.figher.87106.d:0 "选择轻型战斗类型\n请选择类型"
 
   addeq.event.air.figher.87106.a:0 "选择I型轻型战斗机"
   addeq.event.air.figher.87106.b:0 "选择II型轻型战斗机"
@@ -623,6 +624,22 @@
   addeq.event.air.figher.87103.d:0 "添加III型轻型战斗机\n请选择添加的数量"
 
   #舰载轻型战斗机 
+
+  addeq.event.air.figher.87116.a:0 "选择I型舰载轻型战斗机"
+  addeq.event.air.figher.87116.b:0 "选择II型舰载轻型战斗机"
+  addeq.event.air.figher.87116.c:0 "选择III型舰载轻型战斗机"
+
+  addeq.event.air.figher.87116.t:0 "添加舰载轻型战斗机"
+  addeq.event.air.figher.87116.d:0 "添加舰载轻型战斗机\n请选择类型"
+
+  addeq.event.air.figher.87111.t:0 "添加I型舰载轻型战斗机"
+  addeq.event.air.figher.87111.d:0 "添加I型舰载轻型战斗机\n请选择添加的数量"
+
+  addeq.event.air.figher.87112.t:0 "添加II型舰载轻型战斗机"
+  addeq.event.air.figher.87112.d:0 "添加II型舰载轻型战斗机\n请选择添加的数量"
+
+  addeq.event.air.figher.87113.t:0 "添加III型舰载轻型战斗机"
+  addeq.event.air.figher.87113.d:0 "添加III型舰载轻型战斗机\n请选择添加的数量"
 
 
   #近距支援机
