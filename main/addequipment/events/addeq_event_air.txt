@@ -1,52 +1,7 @@
 ﻿add_namespace = addeq.event.air.figher
 ###############################################
-#				  飞机装备					  #
+#				  战斗机装备					  #
 ###############################################
-
-#类型名称及事件编号
-####################################
-
-# 87300 海轰
-#	87301 I型 nav_bomber_equipment_1
-#	87302 II型 nav_bomber_equipment_2
-#	87303 III型 nav_bomber_equipment_3
-#
-# 87310 舰载海轰
-#	87311 I型 cv_nav_bomber_equipment_1
-#	87312 II型 cv_nav_bomber_equipment_2
-#	87313 III型 cv_nav_bomber_equipment_3
-# ---------------------------------
-
-
-# 87500 战术轰炸机
-#	87501 I型 tac_bomber_equipment_1
-#	87502 II型 tac_bomber_equipment_2
-#	87503 III型 tac_bomber_equipment_3
-# ---------------------------------
-
-# 87600 战略轰炸机
-#	87601 I型 strat_bomber_equipment_1
-#	87602 II型 strat_bomber_equipment_2
-#	87603 III型 strat_bomber_equipment_3
-# ---------------------------------
-
-# 87700 喷气型飞机
-#	
-###		喷气式战斗机
-#	877101 I型 jet_fighter_equipment_1
-#	877102 II型 jet_fighter_equipment_2
-#
-###		喷气式战术轰炸机
-#	877201 I型 jet_tac_bomber_equipment_1
-#	877202 II型 jet_tac_bomber_equipment_2
-
-###		喷气式战略轰炸机
-#	877301 jet_strat_bomber_equipment_1
-
-###		自杀式飞行器	
-#	877401 rocket_suicide_equipment_1
-
-# ----------------------------------
 
 
 ##################################################
