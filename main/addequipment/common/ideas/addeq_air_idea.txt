@@ -53,7 +53,10 @@ ideas = {
 
 		#重型战斗机
 		addeq_air_heavy_fighter = {
-
+			picture = generic_air_bonus
+			on_add = {
+				country_event = addeq.event.air.figher.87406 
+			}
 		}
 
 	}

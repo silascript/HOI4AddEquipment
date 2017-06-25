@@ -688,6 +688,25 @@
 
   #####重型战斗机#####
 
+  addeq.event.air.figher.87406.a:0 "选择I型重型战斗机"
+  addeq.event.air.figher.87406.b:0 "选择II型重型战斗机"
+  addeq.event.air.figher.87406.c:0 "选择III型重型战斗机"
+
+  addeq.event.air.figher.87406.t:0 "添加重型战斗机"
+  addeq.event.air.figher.87406.d:0 "添加重型战斗机\n请选择类型"
+
+  #I型
+  addeq.event.air.figher.87401.t:0 "添加I型重型战斗机"
+  addeq.event.air.figher.87401.d:0 "添加I型重型战斗机\n请选择添加的数量"
+  
+  #II型
+  addeq.event.air.figher.87402.t:0 "添加II型重型战斗机"
+  addeq.event.air.figher.87402.d:0 "添加II型重型战斗机\n请选择添加的数量"
+
+  #III型
+  addeq.event.air.figher.87403.t:0 "添加III型重型战斗机"
+  addeq.event.air.figher.87403.d:0 "添加III型重型战斗机\n请选择添加的数量"
+
   #-------------------轰炸机-------------------#
   
 
