@@ -129,13 +129,128 @@ country_event = {
 
 #II型 海轰 87302 nav_bomber_equipment_2
 country_event = {
-	
+	id = addeq.event.air.bomber.87302
+	title = addeq.event.air.bomber.87302.t
+	desc = addeq.event.air.bomber.87302.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_naval_bomber 
+		}
+	}
+
+	#添加300
+	option = {
+		name = addeq.event.air.bomber.amount.a
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_2 
+			amount = 300
+			producer = <TAG>
+		}	
+	}
+
+	#添加600
+	option = {
+		name = addeq.event.air.bomber.amount.b
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_2 
+			amount = 600
+			producer = <TAG>
+		}	
+	}
+
+	#添加1200
+	option = {
+		name = addeq.event.air.bomber.amount.c
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_2 
+			amount = 1200
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.bomber.87306
+		}
+	}
+
 }
 
 
 #III型 海轰 87303 nav_bomber_equipment_3
 country_event = {
-	
+	id = addeq.event.air.bomber.87303
+	title = addeq.event.air.bomber.87303.t
+	desc = addeq.event.air.bomber.87303.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_naval_bomber 
+		}
+	}
+
+
+	#添加300
+	option = {
+		name = addeq.event.air.bomber.amount.a
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_3 
+			amount = 300
+			producer = <TAG>
+		}	
+	}
+
+	#添加600
+	option = {
+		name = addeq.event.air.bomber.amount.b
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_3 
+			amount = 600
+			producer = <TAG>
+		}	
+	}
+
+	#添加1200
+	option = {
+		name = addeq.event.air.bomber.amount.c
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_3 
+			amount = 1200
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.bomber.87306
+		}
+	}
+
 }
 
 
