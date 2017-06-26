@@ -737,7 +737,26 @@
   addeq.event.air.bomber.87303.d:0 "添加III型海军轰炸机\n请选择添加的数量"
 
   #####舰载海轰#####
+
+  addeq.event.air.bomber.87316.a:0 "选择I型舰载海军轰炸机"
+  addeq.event.air.bomber.87316.b:0 "选择II型舰载海军轰炸机"
+  addeq.event.air.bomber.87316.c:0 "选择III型舰载海军轰炸机"
+
+  addeq.event.air.bomber.87316.t:0 "添加舰载海军轰炸机"
+  addeq.event.air.bomber.87316.d:0 "添加舰载海军轰炸机\n请选择类型"
+
+  #I型
+  addeq.event.air.bomber.87311.t:0 "添加I型舰载海军轰炸机"
+  addeq.event.air.bomber.87311.d:0 "添加I型舰载海军轰炸机\n请选择添加的数量"
+
+  #II型
+  addeq.event.air.bomber.87312.t:0 "添加II型舰载海军轰炸机"
+  addeq.event.air.bomber.87312.d:0 "添加II型舰载海军轰炸机\n请选择添加的数量"
   
+  #III型
+  addeq.event.air.bomber.87313.t:0 "添加III型舰载海军轰炸机"
+  addeq.event.air.bomber.87313.d:0 "添加III型舰载海军轰炸机\n请选择添加的数量"
+
 
   #####战术轰炸机#####
   
