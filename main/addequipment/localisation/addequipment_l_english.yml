@@ -777,7 +777,22 @@
   addeq.event.air.bomber.87503.d:0 "添加III型战术轰炸机\n请选择添加的数量"
 
   #####战略轰炸机#####
-  
+
+  addeq.event.air.bomber.87606.a:0 "添加I型战略轰炸机"
+  addeq.event.air.bomber.87606.b:0 "添加II型战略轰炸机"
+  addeq.event.air.bomber.87606.c:0 "添加III型战略轰炸机"
+
+  addeq.event.air.bomber.87606.t:0 "添加战略轰炸机"
+  addeq.event.air.bomber.87606.d:0 "添加战略轰炸机\n请选择类型"
+
+  addeq.event.air.bomber.87601.t:0 "添加I型战略轰炸机"
+  addeq.event.air.bomber.87601.d:0 "添加I型战略轰炸机\n请选择添加的数量"
+ 
+  addeq.event.air.bomber.87602.t:0 "添加II型战略轰炸机"
+  addeq.event.air.bomber.87602.d:0 "添加II型战略轰炸机\n请选择添加的数量"
+
+  addeq.event.air.bomber.87603.t:0 "添加III型战略轰炸机"
+  addeq.event.air.bomber.87603.d:0 "添加III型战略轰炸机\n请选择添加的数量" 
 
   #-----------------喷气式飞机机-----------------#
 
