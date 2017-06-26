@@ -759,7 +759,22 @@
 
 
   #####战术轰炸机#####
+  #
+  addeq.event.air.bomber.87506.a:0 "选择I型战术轰炸机"
+  addeq.event.air.bomber.87506.b:0 "选择II型战术轰炸机"
+  addeq.event.air.bomber.87506.c:0 "选择III型战术轰炸机"
+
+  addeq.event.air.bomber.87506.t:0 "添加战术轰炸机"
+  addeq.event.air.bomber.87506.d:0 "添加战术轰炸机\n请选择类型"
+
+  addeq.event.air.bomber.87501.t:0 "添加I型战术轰炸机"
+  addeq.event.air.bomber.87501.d:0 "添加I型战术轰炸机\n请选择添加的数量"
   
+  addeq.event.air.bomber.87502.t:0 "添加II型战术轰炸机"
+  addeq.event.air.bomber.87502.d:0 "添加II型战术轰炸机\n请选择添加的数量"
+
+  addeq.event.air.bomber.87503.t:0 "添加III型战术轰炸机"
+  addeq.event.air.bomber.87503.d:0 "添加III型战术轰炸机\n请选择添加的数量"
 
   #####战略轰炸机#####
   
