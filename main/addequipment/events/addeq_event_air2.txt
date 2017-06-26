@@ -10,25 +10,156 @@
 #	87301 I型 nav_bomber_equipment_1
 #	87302 II型 nav_bomber_equipment_2
 #	87303 III型 nav_bomber_equipment_3
-#
+country_event = {
+	
+	id = addeq.event.air.bomber.87306
+	title = addeq.event.air.bomber.87306.t
+	desc = addeq.event.air.bomber.87306.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_naval_bomber 
+		}
+	}
+
+	#I型 海轰 87301 
+	option = {
+		name = addeq.event.air.bomber.87306.a
+		
+		country_event = {
+			id = addeq.event.air.bomber.87301
+		}	
+	}
+	
+	#II型 海轰 87302 
+	option = {
+		name = addeq.event.air.bomber.87306.b
+		
+		country_event = {
+			id = addeq.event.air.bomber.87302
+		}	
+	}
+
+	#III型 海轰 87303 
+	option = {
+		name = addeq.event.air.bomber.87306.c
+		
+		country_event = {
+			id = addeq.event.air.bomber.87303
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+
+}
+
+#I型 海轰 87301 nav_bomber_equipment_1
+country_event = {
+	
+	id = addeq.event.air.bomber.87301
+	title = addeq.event.air.bomber.87301.t
+	desc = addeq.event.air.bomber.87301.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_naval_bomber 
+		}
+	}
+
+	#添加300
+	option = {
+		name = addeq.event.air.bomber.amount.a
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_1 
+			amount = 300
+			producer = <TAG>
+		}	
+	}
+
+	#添加600
+	option = {
+		name = addeq.event.air.bomber.amount.b
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_1 
+			amount = 600
+			producer = <TAG>
+		}	
+	}
+
+	#添加1200
+	option = {
+		name = addeq.event.air.bomber.amount.c
+
+		add_equipment_to_stockpile = {
+			type = nav_bomber_equipment_1 
+			amount = 1200
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.bomber.87306
+		}
+	}
+
+
+}
+
+#II型 海轰 87302 nav_bomber_equipment_2
+country_event = {
+	
+}
+
+
+#III型 海轰 87303 nav_bomber_equipment_3
+country_event = {
+	
+}
+
+
+
+# --------------------------------------
+
 # 87310 舰载海轰
 #	87311 I型 cv_nav_bomber_equipment_1
 #	87312 II型 cv_nav_bomber_equipment_2
 #	87313 III型 cv_nav_bomber_equipment_3
-# ---------------------------------
+# --------------------------------------
 
 
 # 87500 战术轰炸机
 #	87501 I型 tac_bomber_equipment_1
 #	87502 II型 tac_bomber_equipment_2
 #	87503 III型 tac_bomber_equipment_3
-# ---------------------------------
+# --------------------------------------
 
 # 87600 战略轰炸机
 #	87601 I型 strat_bomber_equipment_1
 #	87602 II型 strat_bomber_equipment_2
 #	87603 III型 strat_bomber_equipment_3
-# ---------------------------------
+# --------------------------------------
 
 #############################################
 

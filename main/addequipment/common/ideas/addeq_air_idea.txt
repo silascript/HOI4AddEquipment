@@ -67,12 +67,36 @@ ideas = {
 	addeq_air_bomber_ideas = {
 		
 		#海轰
+		addeq_air_naval_bomber = {
+			picture = anti_soviet_pact
+			on_add = {
+				country_event = addeq.event.air.bomber.87306 
+			}
+		}
 
 		#舰载海轰
+		addeq_air_cv_naval_bomber = {
+			picture = air_support_focus
+			on_add = {
+				country_event = addeq.event.air.bomber.87316 
+			}	
+		}
 
 		#战术轰炸机
+		addeq_air_tactical_bomber = {
+			picture = generic_air_bonus
+			on_add = {
+				country_event = addeq.event.air.bomber.87506 
+			}		
+		}
 
-		#战略轰炸机
+		#战略轰炸机		
+		addeq_air_strategic_bomber = {
+			picture = combined_bomber_offensive
+			on_add = {
+				country_event = addeq.event.air.bomber.87606 
+			}	
+		}
 
 	}
 	
