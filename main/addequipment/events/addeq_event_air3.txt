@@ -11,13 +11,188 @@
 ###		喷气式战斗机
 #	877101 I型 jet_fighter_equipment_1
 #	877102 II型 jet_fighter_equipment_2
-#
+country_event = {
+	id = addeq.event.air.jet.877106
+	title = addeq.event.air.jet.877106.t
+	desc = addeq.event.air.jet.877106.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_jet_fighter
+		}
+	}	
+
+	#I型 喷气式战斗机 877101
+	option = {
+		name = addeq.event.air.jet.877106.a 
+		
+		country_event = {
+			id = addeq.event.air.jet.877101
+		}
+	}
+
+	#II型 喷气式战斗机 877102
+	option = {
+		name = addeq.event.air.jet.877106.b 
+		
+		country_event = {
+			id = addeq.event.air.jet.877102
+		}
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+}
+
+#I型 喷气式战斗机 877101 jet_fighter_equipment_1
+country_event = {
+	id = addeq.event.air.jet.877101
+	title = addeq.event.air.jet.877101.t
+	desc = addeq.event.air.jet.877101.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_jet_fighter
+		}
+	}
+
+	#添加150
+	option = {
+		name = addeq.event.air.jet.amount.a
+
+		add_equipment_to_stockpile = {
+			type = jet_fighter_equipment_1 
+			amount = 150
+			producer = <TAG>
+		}	
+	}	
+
+	#添加350
+	option = {
+		name = addeq.event.air.jet.amount.b
+
+		add_equipment_to_stockpile = {
+			type = jet_fighter_equipment_1 
+			amount = 350
+			producer = <TAG>
+		}	
+	}
+	
+
+	#添加650
+	option = {
+		name = addeq.event.air.jet.amount.c
+
+		add_equipment_to_stockpile = {
+			type = jet_fighter_equipment_1 
+			amount = 650
+			producer = <TAG>
+		}	
+	}
+	
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.jet.877106
+		}
+	}	
+
+}
+
+#II型 喷气式战斗机 877102 jet_fighter_equipment_2
+country_event = {
+	id = addeq.event.air.jet.877102
+	title = addeq.event.air.jet.877102.t
+	desc = addeq.event.air.jet.877102.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_jet_fighter
+		}
+	}
+
+
+	#添加150
+	option = {
+		name = addeq.event.air.jet.amount.a
+
+		add_equipment_to_stockpile = {
+			type = jet_fighter_equipment_2 
+			amount = 150
+			producer = <TAG>
+		}	
+	}	
+
+	#添加350
+	option = {
+		name = addeq.event.air.jet.amount.b
+
+		add_equipment_to_stockpile = {
+			type = jet_fighter_equipment_2 
+			amount = 350
+			producer = <TAG>
+		}	
+	}
+	
+
+	#添加650
+	option = {
+		name = addeq.event.air.jet.amount.c
+
+		add_equipment_to_stockpile = {
+			type = jet_fighter_equipment_2 
+			amount = 650
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.air.jet.877106
+		}
+	}	
+
+}
+
+# --------------------------------------
+
 ###		喷气式战术轰炸机
 #	877201 I型 jet_tac_bomber_equipment_1
 #	877202 II型 jet_tac_bomber_equipment_2
 
+
+# --------------------------------------
+
 ###		喷气式战略轰炸机
 #	877301 jet_strat_bomber_equipment_1
+
+
+# --------------------------------------
 
 ###		自杀式飞行器	
 #	877401 rocket_suicide_equipment_1

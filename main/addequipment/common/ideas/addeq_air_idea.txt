@@ -108,12 +108,36 @@ ideas = {
 	addeq_air_jet_ideas = {
 
 		#喷气式战斗机
+		addeq_air_jet_fighter = {
+			picture = air_support_focus
+			on_add = {
+				country_event = addeq.event.air.jet.877106
+			}
+		}
 
 		#喷气式战术轰炸机
+		addeq_air_jet_tactical_bomber = {
+			picture = generic_air_bonus
+			on_add = {
+				country_event = addeq.event.air.jet.877206
+			}
+		}
 
 		#喷气式战略轰炸机
+		addeq_air_jet_strategic_bomber = {
+			picture = combined_bomber_offensive
+			on_add = {
+				country_event = addeq.event.air.jet.877306
+			}
+		}
 
 		#自杀式飞行器
+		addeq_air_jet_suicide_craft = {
+			picture = air_war_plans_division_focus
+			on_add = {
+				country_event = addeq.event.air.jet.877401
+			}
+		}
 
 	}
 

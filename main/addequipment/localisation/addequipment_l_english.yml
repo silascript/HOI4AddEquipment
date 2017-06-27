@@ -161,6 +161,10 @@
   addeq_air_strategic_bomber:0 "添加战略轰炸机"
 
   #--------------喷气式飞机机--------------#
+  addeq_air_jet_fighter:0 "添加喷气式战斗机"
+  addeq_air_jet_tactical_bomber:0 "添加喷气式战术轰炸机"
+  addeq_air_jet_strategic_bomber:0 "添加喷气式战略轰炸机"
+  addeq_air_jet_suicide_craft:0 "添加自杀式飞机"
 
  ###########################事件###########################
 
@@ -795,5 +799,28 @@
   addeq.event.air.bomber.87603.d:0 "添加III型战略轰炸机\n请选择添加的数量" 
 
   #-----------------喷气式飞机机-----------------#
+  addeq.event.air.jet.amount.a:0 "150"
+  addeq.event.air.jet.amount.b:0 "350"
+  addeq.event.air.jet.amount.c:0 "650"
 
+  #####喷气式战斗机#####
+  addeq.event.air.jet.877106.a:0 "添加I型喷气式战斗机"
+  addeq.event.air.jet.877106.b:0 "添加II型喷气式战斗机"
+  
+  addeq.event.air.jet.877106.t:0 "添加喷气战斗机"
+  addeq.event.air.jet.877106.d:0 "添加喷气战斗机\n请选择类型"
+
+  #I型
+  addeq.event.air.jet.877101.t:0 "添加I型喷气式战斗机" 
+  addeq.event.air.jet.877101.d:0 "添加I型喷气式战斗机\n请选择添加的数量"
+
+  #II型
+  addeq.event.air.jet.877102.t:0 "添加II型喷气式战斗机" 
+  addeq.event.air.jet.877102.d:0 "添加II型喷气式战斗机\n请选择添加的数量"
+
+  #####喷气式战术轰炸机#####
+
+  #####喷气式战略轰炸机#####
+
+  #####自杀式飞机#####
  
