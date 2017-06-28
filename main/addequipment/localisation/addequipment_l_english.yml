@@ -819,6 +819,22 @@
   addeq.event.air.jet.877102.d:0 "添加II型喷气式战斗机\n请选择添加的数量"
 
   #####喷气式战术轰炸机#####
+  
+  addeq.event.air.jet.877206.a:0 "添加I型喷气式战术轰炸机"
+  addeq.event.air.jet.877206.b:0 "添加II型喷气式战术轰炸机"
+
+  addeq.event.air.jet.877206.t:0 "添加喷气式战术轰炸机"
+  addeq.event.air.jet.877206.d:0 "添加喷气式战术轰炸机\n请选择类型"
+
+  addeq.event.air.jet.877201.t:0 "添加I型喷气式战术轰炸机"
+  addeq.event.air.jet.877201.d:0 "添加I型喷气式战术轰炸机\n请选择添加的数量"
+  
+  addeq.event.air.jet.877202.t:0 "添加II型喷气式战术轰炸机"
+  addeq.event.air.jet.877202.d:0 "添加II型喷气式战术轰炸机\n请选择添加的数量"
+
+  #I型
+  
+  #II型
 
   #####喷气式战略轰炸机#####
 
