@@ -457,7 +457,62 @@ country_event = {
 
 ###		自杀式飞行器	
 #	877401 rocket_suicide_equipment_1
+country_event = {
+	id = addeq.event.air.jet.877401
+	title = addeq.event.air.jet.877401.t
+	desc = addeq.event.air.jet.877401.d
 
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_jet_suicide_craft
+		}
+	}
+
+	#添加150
+	option = {
+		name = addeq.event.air.jet.amount.a
+
+		add_equipment_to_stockpile = {
+			type = rocket_suicide_equipment_1 
+			amount = 150
+			producer = <TAG>
+		}	
+	}
+
+	#添加350
+	option = {
+		name = addeq.event.air.jet.amount.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_suicide_equipment_1 
+			amount = 350
+			producer = <TAG>
+		}	
+	}
+
+	#添加650
+	option = {
+		name = addeq.event.air.jet.amount.c
+
+		add_equipment_to_stockpile = {
+			type = rocket_suicide_equipment_1 
+			amount = 650
+			producer = <TAG>
+		}	
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+	
+}
 
 ###########################################
 
