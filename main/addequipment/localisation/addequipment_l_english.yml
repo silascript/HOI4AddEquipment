@@ -33,12 +33,17 @@
   #战斗飞机
   addeq_air_figher_ideas:0 "添加战斗机"
 
-
   #轰炸飞机
   addeq_air_bomber_ideas:0 "添加轰炸机"
 
   #喷气式飞机
   addeq_air_jet_ideas:0 "添加喷气式飞机"
+
+  #截击机
+  addeq_air_rocket_ideas:0 "添加截击机"
+
+  #运输机
+  addeq_air_transport_ideas:0 "添加运输机"
 
 
   #####################各子idea标题#####################
@@ -164,7 +169,19 @@
   addeq_air_jet_fighter:0 "添加喷气式战斗机"
   addeq_air_jet_tactical_bomber:0 "添加喷气式战术轰炸机"
   addeq_air_jet_strategic_bomber:0 "添加喷气式战略轰炸机"
-  addeq_air_jet_suicide_craft:0 "添加自杀式飞机"
+  
+  
+  
+  #===================火箭===================#
+
+  #----------------喷气式截击机----------------#
+  addeq_rocket_interceptor:0 "添加喷气式截击机"
+
+  #----------------自杀式飞机----------------#
+  addeq_rocket_suicide_craft:0 "添加自杀式飞机"
+
+  #------------------运输机------------------#
+  addeq_air_transport:0 "添加运输机"
 
  ###########################事件###########################
 
@@ -173,8 +190,10 @@
   addeq.event.common.b:0 "关闭"
   addeq.event.common.c:0 "上一页"
   addeq.event.common.d:0 "下一页"
- 
-  #步兵装备
+  
+ #=====================陆军=====================#
+
+  #-------------------步兵装备-------------------#
   #步兵装备数量
   addeq.event.infantry.amount.a:0 "2000"
   addeq.event.infantry.amount.b:0 "5000"
@@ -307,7 +326,6 @@
   addeq.event.mechanize.83003.t:0 "添加III级机械化装备"
   addeq.event.mechanize.83003.d:0 "添加III级机械化装备\n请选择添加的数量"
   
- #####################################################
 
   #海军
   #运输船
@@ -597,7 +615,8 @@
   addeq.event.tank.modern.86436.d:0 "添加现代自行防空炮"
 
   
-  #========================飞机========================# 
+ #========================飞机========================# 
+
   #-------------------战斗机-------------------#
   addeq.event.air.figher.amount.a:0 "200"
   addeq.event.air.figher.amount.b:0 "500"
@@ -846,9 +865,55 @@
   addeq.event.air.jet.877301.t:0 "添加I型喷气式战略轰炸机"
   addeq.event.air.jet.877301.d:0 "添加I型喷气式战略轰炸机\n请选择添加的数量"
 
-  #####自杀式飞行器#####
   
-  addeq.event.air.jet.877401.t:0 "添加自杀式飞行器"
-  addeq.event.air.jet.877401.d:0 "添加自杀式飞行器\n请选择添加的数量"
+
+ #========================火箭========================#
+
+  #--------------------火箭拦截器--------------------#
+
+  addeq.event.rocket.interceptor.amount.a:0 "100"
+  addeq.event.rocket.interceptor.amount.b:0 "200"
+  addeq.event.rocket.interceptor.amount.c:0 "300"
+
+  addeq.event.rocket.interceptor.87806.a:0 "添加I型喷气式截击机"
+  addeq.event.rocket.interceptor.87806.b:0 "添加II型喷气式截击机"
+  addeq.event.rocket.interceptor.87806.c:0 "添加III型喷气式截击机"
+
+  addeq.event.rocket.interceptor.87806.t:0 "添加喷气式截击机"
+  addeq.event.rocket.interceptor.87806.d:0 "添加喷气式截击机\n请选择类型"
+
+  #I型
+  addeq.event.rocket.interceptor.87801.t:0 "添加I型喷气式截击机"
+  addeq.event.rocket.interceptor.87801.d:0 "添加I型喷气式截击机\n请选择添加的数量"
+
+  
+  #II型
+  addeq.event.rocket.interceptor.87802.t:0 "添加II型喷气式截击机"
+  addeq.event.rocket.interceptor.87802.d:0 "添加II型喷气式截击机\n请选择添加的数量"
+  
+  #III型
+  addeq.event.rocket.interceptor.87803.t:0 "添加III型喷气式截击机"
+  addeq.event.rocket.interceptor.87803.d:0 "添加III型喷气式截击机\n请选择添加的数量"
+
+
+  #-----------自杀式飞行器-----------#
+  
+  addeq.event.rocket.interceptor.87811.t:0 "添加自杀式飞行器"
+  addeq.event.rocket.interceptor.87811.d:0 "添加自杀式飞行器\n请选择添加的数量"
+
+  
+  #========================运输机========================#
+  
+  addeq.event.air.trans.amount.a:0 "50"
+  addeq.event.air.trans.amount.a:0 "80"
+  addeq.event.air.trans.amount.a:0 "100"
+
+  addeq.event.air.trans.87906.a:0 "添加I型运输机"
+
+  addeq.event.air.trans.87906.t:0 "添加运输机" 
+  addeq.event.air.trans.87906.d:0 "添加运输机\n请选择添加的类型" 
+
+   addeq.event.air.trans.87901.t:0 "添加I型运输机"
+   addeq.event.air.trans.87901.d:0 "添加I型运输机\n请选择添加的数量"
 
 

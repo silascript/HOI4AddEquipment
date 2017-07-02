@@ -35,9 +35,18 @@ idea_categories = {
 
 		#喷气式飞机
 		slot = addeq_air_jet_ideas
+
+		#火箭拦截器
+		slot = addeq_air_rocket_ideas
+
+		#运输机
+		slot = addeq_air_transport_ideas
 		
 		cost = 0
 		removal_cost = 0
 	}
+
+	
+
 }
 

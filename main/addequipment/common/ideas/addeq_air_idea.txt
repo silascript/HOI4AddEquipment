@@ -131,15 +131,47 @@ ideas = {
 			}
 		}
 
+		
+
+	}
+
+
+	#########################################################
+	
+	#喷气式截击机
+	addeq_air_rocket_ideas = {
+		addeq_rocket_interceptor = {
+		
+			picture = FRA_factory_strikes
+			on_add = {
+				country_event = addeq.event.rocket.interceptor.87806
+			}
+		}	
+
 		#自杀式飞行器
-		addeq_air_jet_suicide_craft = {
+		addeq_rocket_suicide_craft = {
 			picture = air_war_plans_division_focus
 			on_add = {
-				country_event = addeq.event.air.jet.877401
+				country_event = addeq.event.rocket.interceptor.87811
 			}
 		}
 
 	}
+
+	#运输机 transport_plane_equipment_1
+	addeq_air_transport_ideas = {
+
+		addeq_air_transport = {
+		
+			picture = FRA_motorized_focus
+			on_add = {
+				country_event = addeq.event.air.trans.87906
+			}
+		}	
+	}
+		
+
+
 
 
 }
