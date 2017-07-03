@@ -134,10 +134,132 @@ country_event = {
 }
 
 #II型 喷气式截击机 87802 rocket_interceptor_equipment_2
-country_event = {}
+country_event = {
+	id = addeq.event.rocket.interceptor.87802
+	title = addeq.event.rocket.interceptor.87802.t
+	desc = addeq.event.rocket.interceptor.87802.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_rocket_ideas
+		}
+	}
+
+	#添加100
+	option = {
+		name = addeq.event.rocket.interceptor.amount.a
+
+		add_equipment_to_stockpile = {
+			type = rocket_interceptor_equipment_2 
+			amount = 100
+			producer = <TAG>
+		}	
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.rocket.interceptor.amount.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_interceptor_equipment_2 
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+
+	#添加300
+	option = {
+		name = addeq.event.rocket.interceptor.amount.c
+
+		add_equipment_to_stockpile = {
+			type = rocket_interceptor_equipment_2 
+			amount = 300
+			producer = <TAG>
+		}	
+	}
+
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.rocket.interceptor.87806
+		}
+	}
+
+
+}
 
 #III型 喷气式截击机 87803 rocket_interceptor_equipment_3
-country_event = {}
+country_event = {
+	
+	id = addeq.event.rocket.interceptor.87803
+	title = addeq.event.rocket.interceptor.87803.t
+	desc = addeq.event.rocket.interceptor.87803.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_rocket_ideas
+		}
+	}
+
+	#添加100
+	option = {
+		name = addeq.event.rocket.interceptor.amount.a
+
+		add_equipment_to_stockpile = {
+			type = rocket_interceptor_equipment_3 
+			amount = 100
+			producer = <TAG>
+		}	
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.rocket.interceptor.amount.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_interceptor_equipment_3 
+			amount = 200
+			producer = <TAG>
+		}	
+	}
+
+
+	#添加300
+	option = {
+		name = addeq.event.rocket.interceptor.amount.c
+
+		add_equipment_to_stockpile = {
+			type = rocket_interceptor_equipment_3 
+			amount = 300
+			producer = <TAG>
+		}	
+	}
+
+	#上一页
+	option = {
+		name = addeq.event.common.c
+		country_event = {
+			id = addeq.event.rocket.interceptor.87806
+		}
+	}
+
+
+}
 
 
 
