@@ -63,36 +63,36 @@ country_event = {
 		}
 	}
 
-	#添加50
-	option = {
-		name = addeq.event.rocket.interceptor.amount.a
-
-		add_equipment_to_stockpile = {
-			type = transport_plane_equipment_1 
-			amount = 50
-			producer = <TAG>
-		}	
-	}
-
-	#添加80
-	option = {
-		name = addeq.event.rocket.interceptor.amount.b
-
-		add_equipment_to_stockpile = {
-			type = transport_plane_equipment_1 
-			amount = 80
-			producer = <TAG>
-		}	
-	}
-
-
 	#添加100
 	option = {
-		name = addeq.event.rocket.interceptor.amount.c
+		name = addeq.event.air.trans.amount.a
 
 		add_equipment_to_stockpile = {
 			type = transport_plane_equipment_1 
 			amount = 100
+			producer = <TAG>
+		}	
+	}
+
+	#添加150
+	option = {
+		name = addeq.event.air.trans.amount.b
+
+		add_equipment_to_stockpile = {
+			type = transport_plane_equipment_1 
+			amount = 150
+			producer = <TAG>
+		}	
+	}
+
+
+	#添加250
+	option = {
+		name = addeq.event.air.trans.amount.c
+
+		add_equipment_to_stockpile = {
+			type = transport_plane_equipment_1 
+			amount = 250
 			producer = <TAG>
 		}	
 	}
