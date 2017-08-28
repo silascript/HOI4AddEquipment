@@ -905,8 +905,8 @@
   #========================运输机========================#
   
   addeq.event.air.trans.amount.a:0 "100"
-  addeq.event.air.trans.amount.a:0 "150"
-  addeq.event.air.trans.amount.a:0 "250"
+  addeq.event.air.trans.amount.b:0 "150"
+  addeq.event.air.trans.amount.c:0 "250"
 
   addeq.event.air.trans.87906.a:0 "添加I型运输机"
 
