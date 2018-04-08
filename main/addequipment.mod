@@ -3,4 +3,4 @@ path="mod/addequipment/"
 tags={
 	"Utilities"
 }
-supported_version="1.4.*"
+supported_version="1.5.*"
