@@ -30,7 +30,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = support_equipment_1 
 			amount = 300
-			producer = <TAG>
+			#producer = <TAG>
 		}
 
 	}
@@ -43,7 +43,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = support_equipment_1 
 			amount = 600
-			producer = <TAG>
+			#producer = <TAG>
 		}
 
 	}
@@ -55,7 +55,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = support_equipment_1 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 
 	}
@@ -93,7 +93,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = support_equipment_1 
 			amount = 100000
-			producer = <TAG>
+			#producer = <TAG>
 		}
 
 	}

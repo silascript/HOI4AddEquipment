@@ -87,7 +87,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_1 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -97,7 +97,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_1 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -107,7 +107,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_1 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -148,7 +148,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_2 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -158,7 +158,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_2 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -168,7 +168,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_2 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -209,7 +209,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_3
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -219,7 +219,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_3 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -229,7 +229,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_equipment_3
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -329,7 +329,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_1 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -339,7 +339,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_1 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -349,7 +349,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_1 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -390,7 +390,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_2 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -400,7 +400,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_2 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -410,7 +410,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_2 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -451,7 +451,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_3 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -461,7 +461,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_3
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -471,7 +471,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_artillery_equipment_3
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -573,7 +573,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_1 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -583,7 +583,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_1 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -593,7 +593,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_1 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -634,7 +634,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_2 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -644,7 +644,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_2 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -654,7 +654,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_2 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -696,7 +696,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_3 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -706,7 +706,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_3 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -716,7 +716,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_destroyer_equipment_3
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -817,7 +817,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_1 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -827,7 +827,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_1 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -837,7 +837,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_1 
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -878,7 +878,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_2 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -888,7 +888,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_2 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -898,7 +898,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_2
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -939,7 +939,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_3 
 			amount = 400
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -949,7 +949,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_3 
 			amount = 800
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -959,7 +959,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = heavy_tank_aa_equipment_3
 			amount = 1500
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 

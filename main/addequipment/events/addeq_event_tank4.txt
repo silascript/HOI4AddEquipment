@@ -32,7 +32,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_equipment_1 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -42,7 +42,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_equipment_1 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -52,7 +52,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_equipment_1 
 			amount = 1000
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -85,7 +85,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_artillery_equipment_1 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -96,7 +96,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_artillery_equipment_1 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -106,7 +106,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_artillery_equipment_1 
 			amount = 1000
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -138,7 +138,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_destroyer_equipment_1 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -148,7 +148,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_destroyer_equipment_1 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -158,7 +158,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_destroyer_equipment_1 
 			amount = 1000
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -190,7 +190,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_aa_equipment_1 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -200,7 +200,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_aa_equipment_1 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 
@@ -210,7 +210,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = modern_tank_aa_equipment_1 
 			amount = 1000
-			producer = <TAG>
+			#producer = <TAG>
 		}
 	}
 

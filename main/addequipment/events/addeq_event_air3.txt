@@ -78,7 +78,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_fighter_equipment_1 
 			amount = 150
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}	
 
@@ -89,7 +89,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_fighter_equipment_1 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 	
@@ -101,7 +101,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_fighter_equipment_1 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 	
@@ -141,7 +141,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_fighter_equipment_2 
 			amount = 150
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}	
 
@@ -152,7 +152,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_fighter_equipment_2 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 	
@@ -164,7 +164,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_fighter_equipment_2 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -253,7 +253,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_tac_bomber_equipment_1 
 			amount = 150
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -264,7 +264,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_tac_bomber_equipment_1 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -275,7 +275,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_tac_bomber_equipment_1 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -315,7 +315,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_tac_bomber_equipment_2 
 			amount = 150
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -326,7 +326,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_tac_bomber_equipment_2 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -337,7 +337,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_tac_bomber_equipment_2 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -415,7 +415,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_strat_bomber_equipment_1 
 			amount = 150
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -426,7 +426,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_strat_bomber_equipment_1 
 			amount = 350
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -437,7 +437,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = jet_strat_bomber_equipment_1 
 			amount = 650
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 

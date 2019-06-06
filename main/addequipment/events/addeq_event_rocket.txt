@@ -84,7 +84,7 @@ country_event = {
 	#移除idea
 	immediate = {
 		hidden_effect = { 
-			remove_ideas = addeq_rocket_ideas
+			remove_ideas = addeq_rocket_interceptor
 		}
 	}
 
@@ -95,7 +95,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_1 
 			amount = 100
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -106,7 +106,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_1 
 			amount = 200
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -118,7 +118,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_1 
 			amount = 300
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -147,7 +147,7 @@ country_event = {
 	#移除idea
 	immediate = {
 		hidden_effect = { 
-			remove_ideas = addeq_rocket_ideas
+			remove_ideas = addeq_rocket_interceptor
 		}
 	}
 
@@ -158,7 +158,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_2 
 			amount = 100
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -169,7 +169,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_2 
 			amount = 200
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -181,7 +181,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_2 
 			amount = 300
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -212,7 +212,7 @@ country_event = {
 	#移除idea
 	immediate = {
 		hidden_effect = { 
-			remove_ideas = addeq_rocket_ideas
+			remove_ideas = addeq_rocket_interceptor
 		}
 	}
 
@@ -223,7 +223,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_3 
 			amount = 100
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -234,7 +234,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_3 
 			amount = 200
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -246,7 +246,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_interceptor_equipment_3 
 			amount = 300
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -291,7 +291,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_suicide_equipment_1 
 			amount = 100
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -302,7 +302,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_suicide_equipment_1 
 			amount = 200
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
@@ -313,7 +313,7 @@ country_event = {
 		add_equipment_to_stockpile = {
 			type = rocket_suicide_equipment_1 
 			amount = 300
-			producer = <TAG>
+			#producer = <TAG>
 		}	
 	}
 
