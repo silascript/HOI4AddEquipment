@@ -1,5 +1,5 @@
 version="6.0"
-name="HOI4AddEquipment"
+name="HOI4 Add Equipment"
 path="mod/addequipment/"
 tags={
 	"Utilities"
