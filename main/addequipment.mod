@@ -1,7 +1,7 @@
-version="6.0"
+version="7.0"
 name="HOI4 Add Equipment"
 path="mod/addequipment/"
 tags={
 	"Utilities"
 }
-supported_version="1.10.*"
+supported_version="1.11.*"

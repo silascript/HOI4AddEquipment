@@ -1,6 +1,6 @@
-version="6.0"
+version="7.0"
 tags={
 	"Utilities"
 }
 name="HOI4 Add Equipment"
-supported_version="1.10.*"
+supported_version="1.11.*"
