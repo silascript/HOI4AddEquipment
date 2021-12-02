@@ -5,12 +5,21 @@
 ##############################################
 
 #------------------轻型坦克------------------#
+#------------新版本只添加坦克底盘-------------#
+#-------------------------------------------#
 
 #轻型坦克
 #gw_tank_equipment
 #light_tank_equipment_1
 #light_tank_equipment_2
 #light_tank_equipment_3
+
+# 轻型坦克底盘
+# light_tank_chassis_0
+# light_tank_chassis_1
+# light_tank_chassis_2
+# light_tank_chassis_3
+
 
 #添加一战坦克
 country_event = {
@@ -35,7 +44,8 @@ country_event = {
 		name = addeq.event.tank.light.amount.a
 
 		add_equipment_to_stockpile = {
-			type = gw_tank_equipment 
+			# type = gw_tank_equipment 
+			type = light_tank_chassis_0
 			amount = 600
 			#producer = <TAG>
 		}	
@@ -45,7 +55,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.b
 		add_equipment_to_stockpile = {
-			type = gw_tank_equipment 
+			# type = gw_tank_equipment 
+			type = light_tank_chassis_0
 			amount = 1200
 			#producer = <TAG>
 		}
@@ -55,7 +66,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.c
 		add_equipment_to_stockpile = {
-			type = gw_tank_equipment 
+			# type = gw_tank_equipment 
+			type = light_tank_chassis_0
 			amount = 2500
 			#producer = <TAG>
 		}
@@ -142,7 +154,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.a
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_1 
+			# type = light_tank_equipment_1 
+			type = light_tank_chassis_1
 			amount = 600
 			#producer = <TAG>
 		}
@@ -152,7 +165,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.b
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_1 
+			# type = light_tank_equipment_1 
+			type = light_tank_chassis_1
 			amount = 1200
 			#producer = <TAG>
 		}
@@ -162,7 +176,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.c
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_1 
+			# type = light_tank_equipment_1 
+			type = light_tank_chassis_1
 			amount = 2500
 			#producer = <TAG>
 		}
@@ -202,7 +217,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.a
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_2
+			# type = light_tank_equipment_2
+			type = light_tank_chassis_2
 			amount = 600
 			#producer = <TAG>
 		}
@@ -212,7 +228,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.b
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_2
+			# type = light_tank_equipment_2
+			type = light_tank_chassis_2
 			amount = 1200
 			#producer = <TAG>
 		}
@@ -222,7 +239,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.c
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_2
+			# type = light_tank_equipment_2
+			type = light_tank_chassis_2
 			amount = 2500
 			#producer = <TAG>
 		}
@@ -260,7 +278,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.a
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_3
+			# type = light_tank_equipment_3
+			type = light_tank_chassis_3
 			amount = 600
 			#producer = <TAG>
 		}
@@ -270,7 +289,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.b
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_3
+			# type = light_tank_equipment_3
+			type = light_tank_chassis_3
 			amount = 1200
 			#producer = <TAG>
 		}
@@ -280,7 +300,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.c
 		add_equipment_to_stockpile = {
-			type = light_tank_equipment_3
+			# type = light_tank_equipment_3
+			type = light_tank_chassis_3
 			amount = 2500
 			#producer = <TAG>
 		}
