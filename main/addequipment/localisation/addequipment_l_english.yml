@@ -15,19 +15,22 @@
   addeq_mechanized_ideas:0 "添加机械化装备"
 
   #坦克
-  #轻型坦克
+  # 轻型坦克
   addeq_tank_light_ideas:0 "添加轻型坦克"
 
   addeq_tank_medium_ideas:0 "添加中型坦克"
 
-  #重型坦克
+  # 重型坦克
   addeq_tank_heavy_ideas:0 "添加重型坦克"
   
-  #现代坦克
+  # 现代坦克
   addeq_tank_modern_ideas:0 "添加现代坦克"
 
-  #超重坦克
+  # 超重坦克
   addeq_tank_superheavy_ideas:0 "添加超重型坦克"
+  
+  # 两栖坦克
+  addeq_tank_amphibious_ideas:0 "添加两栖坦克"
 
   #飞机
   #战斗飞机
@@ -133,6 +136,8 @@
   addeq_tank_superheavy_destroyer:0 "添加超重自行反坦克炮"
   addeq_tank_superheavy_aa:0 "添加超重自行防空炮"
 
+  #---------------两栖坦克---------------#
+  addeq_tank_amphibious:0 "添加两栖坦克"
 
   #---------------现代坦克---------------#
   addeq_tank_modern:0 "添加现代坦克"
@@ -592,6 +597,20 @@
   addeq.event.tank.superheavy.86536.t:0 "添加超重自行防空炮"
   addeq.event.tank.superheavy.86536.d:0 "添加超重自行防空炮"
 
+
+  #-----------------两栖坦克-----------------#
+
+  addeq.event.tank.amphibious.amount.a:0 "200"
+  addeq.event.tank.amphibious.amount.b:0 "400"
+  addeq.event.tank.amphibious.amount.c:0 "800"
+
+  addeq.event.tank.amphibious.86606.t:0 "添加两栖坦克"
+  addeq.event.tank.amphibious.86606.d:0 "添加两栖坦克"
+
+  addeq.event.tank.amphibious.86601.t:0 "添加两栖坦克I型"
+  addeq.event.tank.amphibious.86601.d:0 "添加两栖坦克I型"
+
+  addeq.event.tank.amphibious.86606.a:0 "添加两栖坦克I型"
 
   #-----------------现代坦克-----------------#
   

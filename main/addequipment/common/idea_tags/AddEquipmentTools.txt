@@ -20,6 +20,7 @@ idea_categories = {
 		slot = addeq_tank_heavy_ideas
 		slot = addeq_tank_modern_ideas
 		slot = addeq_tank_superheavy_ideas
+		slot = addeq_tank_amphibious_ideas
 
 		cost = 0
 		removal_cost = 0

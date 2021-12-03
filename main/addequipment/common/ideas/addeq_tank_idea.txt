@@ -235,6 +235,18 @@ ideas = {
 
 	}
 
+	#================两栖坦克================#
+
+	addeq_tank_amphibious_ideas = {
+		#添加两栖坦克
+		addeq_tank_amphibious = {
+			picture = FRA_army_of_aggression_focus
+
+			on_add = {
+				country_event = addeq.event.tank.amphibious.86606	
+			}
+		}
+	}
 
 }
 
