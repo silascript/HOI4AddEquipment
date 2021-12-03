@@ -6,9 +6,13 @@ add_namespace = addeq.event.tank.superheavy
 ##############################################
 
 #------------------超重坦克------------------#
+#-------------新版本超重坦克底盘-------------#
 
 #超重坦克
 #super_heavy_tank_equipment_1
+
+# super_heavy_tank_chassis_1 基础超重坦克底盘
+
 country_event = {
 	id = addeq.event.tank.superheavy.86506
 	title = addeq.event.tank.superheavy.86506.t
@@ -30,7 +34,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.superheavy.amount.a
 		add_equipment_to_stockpile = {
-			type = super_heavy_tank_equipment_1 
+			# type = super_heavy_tank_equipment_1 
+			type = super_heavy_tank_chassis_1
 			amount = 200
 			#producer = <TAG>
 		}
@@ -40,7 +45,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.superheavy.amount.b
 		add_equipment_to_stockpile = {
-			type = super_heavy_tank_equipment_1 
+			# type = super_heavy_tank_equipment_1 
+			type = super_heavy_tank_chassis_1
 			amount = 400
 			#producer = <TAG>
 		}
@@ -50,7 +56,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.superheavy.amount.c
 		add_equipment_to_stockpile = {
-			type = super_heavy_tank_equipment_1 
+			# type = super_heavy_tank_equipment_1 
+			type = super_heavy_tank_chassis_1
 			amount = 800
 			#producer = <TAG>
 		}
