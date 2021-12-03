@@ -6,9 +6,13 @@ add_namespace = addeq.event.tank.modern
 ##############################################
 
 #------------------现代坦克------------------#
+#-------------新版本现代坦克底盘-------------#
 
 #现代坦克
 #modern_tank_equipment_1
+
+# modern_tank_chassis_1 基础型现代坦克底盘
+
 country_event = {
 	id = addeq.event.tank.modern.86406
 	title = addeq.event.tank.modern.86406.t
@@ -30,7 +34,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.modern.amount.a
 		add_equipment_to_stockpile = {
-			type = modern_tank_equipment_1 
+			# type = modern_tank_equipment_1 
+			type = modern_tank_chassis_1
 			amount = 350
 			#producer = <TAG>
 		}
@@ -40,7 +45,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.modern.amount.b
 		add_equipment_to_stockpile = {
-			type = modern_tank_equipment_1 
+			# type = modern_tank_equipment_1 
+			type = modern_tank_chassis_1
 			amount = 650
 			#producer = <TAG>
 		}
@@ -50,7 +56,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.modern.amount.c
 		add_equipment_to_stockpile = {
-			type = modern_tank_equipment_1 
+			# type = modern_tank_equipment_1 
+			type = modern_tank_chassis_1
 			amount = 1000
 			#producer = <TAG>
 		}
