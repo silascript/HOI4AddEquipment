@@ -320,9 +320,10 @@ country_event = {
 #-----------------轻型自行火炮-----------------#
 
 #轻型自行火炮
-#light_tank_artillery_equipment_1
-#light_tank_artillery_equipment_2
-#light_tank_artillery_equipment_3
+# light_tank_artillery_equipment_1 基础型 
+# light_tank_artillery_equipment_2 改进型
+# light_tank_artillery_equipment_3 先进型
+
 
 #添加轻型自行火炮I/II/III型
 country_event = {
@@ -398,7 +399,7 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.a
 		add_equipment_to_stockpile = {
-			type = light_tank_artillery_equipment_1 
+			type = light_tank_artillery_equipment_1
 			amount = 600
 			#producer = <TAG>
 		}
@@ -408,7 +409,7 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.b
 		add_equipment_to_stockpile = {
-			type = light_tank_artillery_equipment_1 
+			type = light_tank_artillery_equipment_1
 			amount = 1200
 			#producer = <TAG>
 		}
@@ -418,7 +419,7 @@ country_event = {
 	option = {
 		name = addeq.event.tank.light.amount.c
 		add_equipment_to_stockpile = {
-			type = light_tank_artillery_equipment_1 
+			type = light_tank_artillery_equipment_1
 			amount = 2500
 			#producer = <TAG>
 		}
@@ -554,9 +555,9 @@ country_event = {
 #---------------轻型自行反坦克炮---------------#
 
 #轻型自行反坦克炮
-#light_tank_destroyer_equipment_1
-#light_tank_destroyer_equipment_2
-#light_tank_destroyer_equipment_3
+# light_tank_destroyer_equipment_1 基础型
+# light_tank_destroyer_equipment_2 改进型
+# light_tank_destroyer_equipment_3 先进型
 
 #添加轻型反坦克炮I/II/III型
 country_event = {
@@ -788,9 +789,9 @@ country_event = {
 #----------------轻型自行防空炮----------------#
 
 #轻型自行防空炮
-#light_tank_aa_equipment_1
-#light_tank_aa_equipment_2
-#light_tank_aa_equipment_3
+#light_tank_aa_equipment_1 基础型
+#light_tank_aa_equipment_2 改进型
+#light_tank_aa_equipment_3 先进型
 
 #添加轻型自行防空炮I/II/III型
 country_event = {

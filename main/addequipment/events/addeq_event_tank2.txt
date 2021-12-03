@@ -5,11 +5,18 @@
 ##############################################
 
 #------------------中型坦克------------------#
+#--------------新版本是坦克底盘--------------#
 
 #中型坦克
 #medium_tank_equipment_1
 #medium_tank_equipment_2
 #medium_tank_equipment_3
+
+# medium_tank_chassis_0 战间型中型坦克底盘
+# medium_tank_chassis_1 基础型中型坦克底盘
+# medium_tank_chassis_2 改进型中型坦克底盘
+# medium_tank_chassis_3 先进型中型坦克底盘
+
 
 #添加中型坦克I/II/III型
 country_event = {
@@ -86,7 +93,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.a
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_1 
+			# type = medium_tank_equipment_1 
+			type = medium_tank_chassis_1
 			amount = 500
 			#producer = <TAG>
 		}
@@ -96,7 +104,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.b
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_1 
+			# type = medium_tank_equipment_1 
+			type = medium_tank_chassis_1
 			amount = 1000
 			#producer = <TAG>
 		}
@@ -106,7 +115,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.c
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_1 
+			# type = medium_tank_equipment_1 
+			type = medium_tank_chassis_1
 			amount = 2000
 			#producer = <TAG>
 		}
@@ -147,7 +157,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.a
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_2
+			# type = medium_tank_equipment_2
+			type = medium_tank_chassis_2
 			amount = 500
 			#producer = <TAG>
 		}
@@ -157,7 +168,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.b
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_2
+			# type = medium_tank_equipment_2
+			type = medium_tank_chassis_2
 			amount = 1000
 			#producer = <TAG>
 		}
@@ -167,7 +179,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.c
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_2
+			# type = medium_tank_equipment_2
+			type = medium_tank_chassis_2
 			amount = 2000
 			#producer = <TAG>
 		}
@@ -209,7 +222,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.a
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_3
+			# type = medium_tank_equipment_3
+			type = medium_tank_chassis_3
 			amount = 500
 			#producer = <TAG>
 		}
@@ -219,7 +233,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.b
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_3
+			# type = medium_tank_equipment_3
+			type = medium_tank_chassis_3
 			amount = 1000
 			#producer = <TAG>
 		}
@@ -229,7 +244,8 @@ country_event = {
 	option = {
 		name = addeq.event.tank.medium.amount.c
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_3
+			# type = medium_tank_equipment_3
+			type = medium_tank_chassis_3
 			amount = 2000
 			#producer = <TAG>
 		}
