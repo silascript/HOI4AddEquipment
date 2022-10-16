@@ -1,0 +1,70 @@
+
+# 适配 1.12.* 版本 新的飞机科技
+
+ideas = {
+	
+
+	# 战间
+	# addeq.event.air.*.88000
+	# 基础
+	# addeq.event.air.*.88100
+	# 改进
+	# addeq.event.air.*.88200
+	# 先进
+	# addeq.event.air.*.88300
+	# 现代
+	# addeq.event.air.*.88400
+
+
+	#战斗机	
+	addeq_air_figher_ideas = {
+
+		
+
+	}
+
+	#########################################################
+
+	#轰炸机
+	# addeq_air_bomber_ideas = {
+		
+		
+
+	# }
+	
+
+	#########################################################
+
+
+	#喷气式飞机
+	# addeq_air_jet_ideas = {
+	
+
+	# }
+
+
+	#########################################################
+	
+	#喷气式截击机
+	# addeq_air_rocket_ideas = {
+		
+
+	# }
+
+	#运输机 transport_plane_equipment_1
+	addeq_air_transport_ideas = {
+
+		addeq_air_transport = {
+		
+			picture = FRA_motorized_focus
+			on_add = {
+				country_event = addeq.event.air.trans.87906
+			}
+		}	
+	}
+		
+
+
+
+
+}
