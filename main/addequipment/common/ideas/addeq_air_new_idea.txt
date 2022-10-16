@@ -4,18 +4,6 @@
 ideas = {
 	
 
-	# 战间
-	# addeq.event.air.*.88000
-	# 基础
-	# addeq.event.air.*.88100
-	# 改进
-	# addeq.event.air.*.88200
-	# 先进
-	# addeq.event.air.*.88300
-	# 现代
-	# addeq.event.air.*.88400
-
-
 	#战斗机	
 	addeq_air_figher_ideas = {
 
