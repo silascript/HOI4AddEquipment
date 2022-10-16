@@ -4,42 +4,53 @@
 ideas = {
 	
 
-	#战斗机	
-	addeq_air_figher_ideas = {
+	# 小型机	
+	addeq_air_small_ideas = {
 
+		# 战间小型机
+		addeq_air_small_iw = {
+
+			picture = FRA_army_of_aggression_focus
+			on_add = {
+				country_event = addeq.event.air.new.88000 
+			}
+		}
 		
 
-	}
+	} # 小型机	
+
+	#########################################################
+	# 舰载机
+	addeq_air_cv_small_ideas = {
+
+	} # 舰载机
+
 
 	#########################################################
 
-	#轰炸机
-	# addeq_air_bomber_ideas = {
+	# 中型机
+	addeq_air_medium_ideas = {
 		
 		
 
-	# }
+	} # 中型机
 	
 
 	#########################################################
 
 
-	#喷气式飞机
-	# addeq_air_jet_ideas = {
+	# 大型机
+	addeq_air_large_ideas = {
 	
 
-	# }
+	} # 大型机
 
 
 	#########################################################
 	
-	#喷气式截击机
-	# addeq_air_rocket_ideas = {
-		
+	
 
-	# }
-
-	#运输机 transport_plane_equipment_1
+	# 运输机 transport_plane_equipment_1
 	addeq_air_transport_ideas = {
 
 		addeq_air_transport = {
@@ -49,7 +60,8 @@ ideas = {
 				country_event = addeq.event.air.trans.87906
 			}
 		}	
-	}
+		
+	} # 运输机
 		
 
 

@@ -12,7 +12,7 @@
 	1 = 中型
 	2 = 大型
 	88后第2位为代差：
-	0 = 战音
+	0 = 战间
 	1 = 基础
 	2 = 改进
 	3 = 先进
@@ -20,70 +20,121 @@
 	
 	88 后第3位为飞机实际用途：
 	0 = 通用
-	1 = 舰载型
+	1 = 舰载型(cv开头的) 舰载型只有小型机
 
 	//////////////////////////////////////////////////////////////
-	
+
 	小型机
 
 	战间 
 	战间小型机
 	small_plane_airframe_0
+	addeq.event.air.new.88000
+	
 	战间小型舰载机
 	cv_small_plane_airframe_0
-
-	addeq.event.air.*.88000
+	addeq.event.air.new.88001
 
 	-------------------------------------------------
 
-	基础
 	基础小型机
 	small_plane_airframe_1
+	addeq.event.air.new.88010
+
 	基础小型舰载机
 	cv_small_plane_airframe_1
-
-	addeq.event.air.*.88010
+	addeq.event.air.new.88011
 	
 	-------------------------------------------------
 
-	改进
 	改进小型机
 	small_plane_airframe_2
+	addeq.event.air.new.88020
+
 	改进小型舰载机
 	cv_small_plane_airframe_2
-
-	addeq.event.air.*.88020
+	addeq.event.air.new.88021
 	
 	-------------------------------------------------
 	
 	先进
 	先进小型机
 	small_plane_airframe_3
+	addeq.event.air.new.88030
+
 	先进小型舰载机
 	cv_small_plane_airframe_3
-
-	addeq.event.air.*.88030
+	addeq.event.air.new.88031
 	
 
 	-------------------------------------------------
 
-	现代
+
 	现代小型机
 	small_plane_airframe_4
+	addeq.event.air.new.88040
+
 	现代小型舰载机
 	cv_small_plane_airframe_4
-
-	addeq.event.air.*.88040
+	addeq.event.air.new.88041
 
 
 	//////////////////////////////////////////////////////////////
 	中型机
 
+	战间中型机
+	medium_plane_airframe_0
+
+	addeq.event.air.new.88100
+
+	基础中型机
+	medium_plane_airframe_1
+
+	addeq.event.air.new.88110
+
+	改进中型机
+	medium_plane_airframe_2
+
+	addeq.event.air.new.88120
+
+	先进中型机
+	medium_plane_airframe_3
+
+	addeq.event.air.new.88130
+
+	现代中型机
+	medium_plane_airframe_4
+
+	addeq.event.air.new.88140
 
 
 	//////////////////////////////////////////////////////////////
 	大型机
 
+	战间大型机
+	large_plane_airframe_0
+
+	addeq.event.air.new.88200
+
+	基础大型机
+	large_plane_airframe_1
+
+	addeq.event.air.new.88210
+
+	改进大型机
+	large_plane_airframe_2
+
+	addeq.event.air.new.88220
+
+	先进大型机
+	large_plane_airframe_3
+
+	addeq.event.air.new.88230
+
+	现代大型机
+	large_plane_airframe_4
+
+	addeq.event.air.new.88240
 
 
 	//////////////////////////////////////////////////////////////

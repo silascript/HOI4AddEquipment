@@ -28,17 +28,17 @@ idea_categories = {
 
 	#飞机
 	AddEquipmentTools_Air_Idea = {
-		#战斗机
-		slot = addeq_air_figher_ideas
+		#小型机
+		slot = addeq_air_small_ideas
 
-		#轰炸机
-		slot = addeq_air_bomber_ideas
+		# 舰载机
+		slot = addeq_air_cv_small_ideas
 
-		#喷气式飞机
-		slot = addeq_air_jet_ideas
+		#中型机
+		slot = addeq_air_medium_ideas
 
-		#火箭拦截器
-		slot = addeq_air_rocket_ideas
+		#大型机
+		slot = addeq_air_large_ideas
 
 		#运输机
 		slot = addeq_air_transport_ideas

@@ -49,6 +49,13 @@
   addeq_air_transport_ideas:0 "添加运输机"
 
 
+  # 1.12版飞机
+  addeq_air_small_ideas:0 "添加小型机"
+  addeq_air_cv_small_ideas:0 "添加舰载机"
+  addeq_air_medium_ideas:0 "添加中型机"
+  addeq_air_large_ideas:0 "添加大型机"
+
+
   #####################各子idea标题#####################
   
   #=================枪/牵引式火炮/运输船=================#
@@ -187,6 +194,16 @@
 
   #------------------运输机------------------#
   addeq_air_transport:0 "添加运输机"
+
+  #------------------1.12版机身-----------------#
+  # 小型机
+  addeq_air_small_iw:0 "添加战间小型机身"
+
+  # 舰载机
+
+  # 中型机
+
+  # 大型机
 
  ###########################事件###########################
 
@@ -934,5 +951,102 @@
 
    addeq.event.air.trans.87901.t:0 "添加I型运输机"
    addeq.event.air.trans.87901.d:0 "添加I型运输机\n请选择添加的数量"
+
+
+ #=======================1.12 新版飞机事件=======================#
+ # 数量
+ addeq.event.air.new.amount.a:0 "200"
+ addeq.event.air.new.amount.b:0 "500"
+ addeq.event.air.new.amount.c:0 "800"
+
+ # 小型机
+ # 战间小型机
+ addeq.event.air.new.88000.t:0 "添加战间小型机身"
+ addeq.event.air.new.88000.d:0 "添加战间小型机身\n请选择添加的数量"
+
+ # 基础小型机
+ addeq.event.air.new.88010.t:0 "添加基础小型机身"
+ addeq.event.air.new.88010.d:0 "添加基础机身\n请选择添加的数量"
+
+ # 改进小型机
+ addeq.event.air.new.88020.t:0 "添加改进小型机身"
+ addeq.event.air.new.88020.d:0 "添加改进小型机身\n请选择添加的数量"
+
+ # 先进小型机
+ addeq.event.air.new.88030.t:0 "添加先进小型机身"
+ addeq.event.air.new.88030.d:0 "添加先进小型机身\n请选择添加的数量"
+
+ # 现代小型机
+ addeq.event.air.new.88040.t:0 "添加现代小型机身"
+ addeq.event.air.new.88040.d:0 "添加现代小型机身\n请选择添加的数量"
+
+ #---------------------------舰载机----------------------------#
+ # 战间舰载机
+ addeq.event.air.new.88001.t:0 "添加战间舰载机身"
+ addeq.event.air.new.88001.d:0 "添加战间舰载机身\n请选择添加的数量"
+
+ # 基础舰载机
+ addeq.event.air.new.88011.t:0 "添加基础舰载机身"
+ addeq.event.air.new.88011.d:0 "添加基础舰载机身\n请选择添加的数量"
+
+ # 改进舰载机
+ addeq.event.air.new.88021.t:0 "添加改进舰载机身"
+ addeq.event.air.new.88021.d:0 "添加改进舰载机身\n请选择添加的数量"
+
+ # 先进舰载机
+ addeq.event.air.new.88031.t:0 "添加先进舰载机身"
+ addeq.event.air.new.88031.d:0 "添加先进舰载机身\n请选择添加的数量"
+
+ # 现代舰载机
+ addeq.event.air.new.88041.t:0 "添加现代舰载机身"
+ addeq.event.air.new.88041.d:0 "添加现代舰载机身\n请选择添加的数量"
+
+
+ #---------------------------中型机----------------------------#
+
+ # 战间中型机
+ addeq.event.air.new.88100.t:0 "添加战间中型机身"
+ addeq.event.air.new.88100.d:0 "添加战间中型机身\n请选择添加的数量"
+
+ # 基础中型机
+ addeq.event.air.new.88110.t:0 "添加基础中型机身"
+ addeq.event.air.new.88110.d:0 "添加基础中型机身\n请选择添加的数量"
+
+ # 改进中型机
+ addeq.event.air.new.88120.t:0 "添加改进中型机身"
+ addeq.event.air.new.88120.d:0 "添加改进中型机身\n请选择添加的数量"
+
+ # 先进中型机
+ addeq.event.air.new.88130.t:0 "添加先进中型机身"
+ addeq.event.air.new.88130.d:0 "添加先进中型机身\n请选择添加的数量"
+
+ # 现代中型机
+ addeq.event.air.new.88140.t:0 "添加现代中型机身"
+ addeq.event.air.new.88140.d:0 "添加现代中型机身\n请选择添加的数量"
+
+ #---------------------------大型机----------------------------#
+
+ # 战间大型机
+ addeq.event.air.new.88200.t:0 "添加战间中型机身"
+ addeq.event.air.new.88200.d:0 "添加战间中型机身\n请选择添加的数量"
+
+ # 基础大型机
+ addeq.event.air.new.88210.t:0 "添加基础中型机身"
+ addeq.event.air.new.88210.d:0 "添加基础中型机身\n请选择添加的数量"
+
+ # 改进大型机
+ addeq.event.air.new.88220.t:0 "添加改进中型机身"
+ addeq.event.air.new.88220.d:0 "添加改进中型机身\n请选择添加的数量"
+
+ # 先进大型机
+ addeq.event.air.new.88230.t:0 "添加先进中型机身"
+ addeq.event.air.new.88230.d:0 "添加先进中型机身\n请选择添加的数量"
+
+ # 现代大型机
+ addeq.event.air.new.88240.t:0 "添加现代中型机身"
+ addeq.event.air.new.88240.d:0 "添加现代中型机身\n请选择添加的数量"
+
+
+
 
 
