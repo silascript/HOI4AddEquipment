@@ -159,16 +159,17 @@ ideas = {
 	}
 
 	#运输机 transport_plane_equipment_1
-	addeq_air_transport_ideas = {
+	# 迁移到 addeq_air_new_idea.txt 文件中
+	#addeq_air_transport_ideas = {
 
-		addeq_air_transport = {
+	#	addeq_air_transport = {
 		
-			picture = FRA_motorized_focus
-			on_add = {
+	#		picture = FRA_motorized_focus
+	#		on_add = {
 				country_event = addeq.event.air.trans.87906
-			}
-		}	
-	}
+	#		}
+	#	}	
+	#}
 		
 
 

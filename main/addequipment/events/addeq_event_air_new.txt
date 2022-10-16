@@ -26,7 +26,7 @@ country_event = {
 
 	#添加200
 	option = {
-		# name = addeq.event.air.new.amount.a
+		name = addeq.event.air.new.amount.a
 
 		add_equipment_to_stockpile = {
 			type = small_plane_airframe_0 
@@ -38,7 +38,7 @@ country_event = {
 
 	#添加500
 	option = {
-		# name = addeq.event.air.new.amount.b
+		name = addeq.event.air.new.amount.b
 
 		add_equipment_to_stockpile = {
 			type = small_plane_airframe_0 
@@ -49,7 +49,7 @@ country_event = {
 
 	#添加800
 	option = {
-		# name = addeq.event.air.new.amount.c
+		name = addeq.event.air.new.amount.c
 
 		add_equipment_to_stockpile = {
 			type = small_plane_airframe_0 
