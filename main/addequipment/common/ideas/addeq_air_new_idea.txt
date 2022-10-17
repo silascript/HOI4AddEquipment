@@ -26,6 +26,16 @@ ideas = {
 			}
 
 		} # 添加基础小型机
+
+
+		# 添加改进小型机
+		addeq_air_small_improved = {
+			picture = generic_democratic_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88020
+			}
+
+		} # 添加改进小型机
 		
 
 	} # 小型机	
