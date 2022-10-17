@@ -28,19 +28,25 @@ idea_categories = {
 
 	#飞机
 	AddEquipmentTools_Air_Idea = {
-		#小型机
+
+		# 1.12 版本开始飞机科技改变
+		# 机身分为小型、中型和大型
+		# 代差分为 战间、基础、改进、先进和现代
+		# 舰载机只能用小型机机身
+
+		# 小型机
 		slot = addeq_air_small_ideas
 
 		# 舰载机
 		slot = addeq_air_cv_small_ideas
 
-		#中型机
+		# 中型机
 		slot = addeq_air_medium_ideas
 
-		#大型机
+		# 大型机
 		slot = addeq_air_large_ideas
 
-		#运输机
+		# 运输机
 		slot = addeq_air_transport_ideas
 		
 		cost = 0

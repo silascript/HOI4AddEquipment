@@ -27,7 +27,7 @@
 	小型机
 
 	战间 
-	战间小型机
+	战间小型机 Inter-War
 	small_plane_airframe_0
 	addeq.event.air.new.88000
 	
@@ -37,7 +37,7 @@
 
 	-------------------------------------------------
 
-	基础小型机
+	基础小型机 Basic
 	small_plane_airframe_1
 	addeq.event.air.new.88010
 
@@ -47,7 +47,7 @@
 	
 	-------------------------------------------------
 
-	改进小型机
+	改进小型机 Improved
 	small_plane_airframe_2
 	addeq.event.air.new.88020
 
@@ -58,7 +58,7 @@
 	-------------------------------------------------
 	
 	先进
-	先进小型机
+	先进小型机 Advanced
 	small_plane_airframe_3
 	addeq.event.air.new.88030
 
@@ -70,7 +70,7 @@
 	-------------------------------------------------
 
 
-	现代小型机
+	现代小型机 modern
 	small_plane_airframe_4
 	addeq.event.air.new.88040
 
