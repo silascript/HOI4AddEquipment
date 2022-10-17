@@ -314,6 +314,78 @@ country_event = {
 ######################################################
 # 中型机
 
+# 战间中型机
+country_event = {
+	id = addeq.event.air.new.88100
+	title = addeq.event.air.new.88100.t
+	desc = addeq.event.air.new.88100.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_medium_iw 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.new.amount.a
+
+		add_equipment_to_stockpile = {
+			type = medium_plane_airframe_0 
+			amount = 200
+			##producer = <TAG>
+		}	
+	}
+
+
+	#添加500
+	option = {
+		name = addeq.event.air.new.amount.b
+
+		add_equipment_to_stockpile = {
+			type = medium_plane_airframe_0 
+			amount = 500
+			##producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.new.amount.c
+
+		add_equipment_to_stockpile = {
+			type = medium_plane_airframe_0 
+			amount = 800
+			##producer = <TAG>
+		}	
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+} # 战间中型机
+
+# ----------------------------------------------- #
+# 基础中型机
+
+
+# ----------------------------------------------- #
+# 改进中型机
+
+# ----------------------------------------------- #
+# 先进中型机
+
+# ----------------------------------------------- #
+# 现代中型机
+
 
 ######################################################
 # 大型机

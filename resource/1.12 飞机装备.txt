@@ -84,27 +84,22 @@
 
 	战间中型机
 	medium_plane_airframe_0
-
 	addeq.event.air.new.88100
 
 	基础中型机
 	medium_plane_airframe_1
-
 	addeq.event.air.new.88110
 
 	改进中型机
 	medium_plane_airframe_2
-
 	addeq.event.air.new.88120
 
 	先进中型机
 	medium_plane_airframe_3
-
 	addeq.event.air.new.88130
 
 	现代中型机
 	medium_plane_airframe_4
-
 	addeq.event.air.new.88140
 
 

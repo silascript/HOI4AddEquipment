@@ -71,6 +71,17 @@ ideas = {
 
 	# 中型机
 	addeq_air_medium_ideas = {
+
+
+	# 添加战间中型机
+	addeq_air_medium_iw = {
+
+		picture = generic_air_bonus
+		on_add = {
+			country_event = addeq.event.air.new.88100 
+		}
+
+	} # 添加战间中型机
 		
 		
 
