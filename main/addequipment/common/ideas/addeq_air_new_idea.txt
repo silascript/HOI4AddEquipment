@@ -46,6 +46,16 @@ ideas = {
 			}
 
 		} # 添加先进小型机
+
+
+		# 添加现代小型机
+		addeq_air_small_modern = {
+			picture = generic_democratic_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88040
+			}
+
+		} # 添加现代小型机
 		
 
 	} # 小型机	
