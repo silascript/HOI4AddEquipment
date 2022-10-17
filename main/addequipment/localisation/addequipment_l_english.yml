@@ -200,6 +200,7 @@
   addeq_air_small_iw:0 "添加战间小型机身"
   addeq_air_small_basic:0 "添加基础小型机身"
   addeq_air_small_improved:0 "添加改进小型机身"
+  addeq_air_small_advanced:0 "添加先进小型机身"
 
   # 舰载机
 

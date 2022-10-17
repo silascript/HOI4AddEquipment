@@ -36,6 +36,16 @@ ideas = {
 			}
 
 		} # 添加改进小型机
+
+
+		# 添加先进小型机
+		addeq_air_small_advanced = {
+			picture = FRA_scw_intervention_nationalists_focus
+			on_add = {
+				country_event = addeq.event.air.new.88030
+			}
+
+		} # 添加先进小型机
 		
 
 	} # 小型机	
