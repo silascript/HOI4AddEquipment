@@ -207,6 +207,10 @@
 
   # 中型机
   addeq_air_medium_iw:0 "添加战间中型机身"
+  addeq_air_medium_basic:0 "添加基础中型机身"
+  addeq_air_medium_improved:0 "添加改进中型机身"
+  addeq_air_medium_advanced:0 "添加先进中型机身"
+  addeq_air_medium_modern:0 "添加现代中型机身"
 
   # 大型机
 

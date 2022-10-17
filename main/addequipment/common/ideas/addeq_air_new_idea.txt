@@ -73,17 +73,56 @@ ideas = {
 	addeq_air_medium_ideas = {
 
 
-	# 添加战间中型机
-	addeq_air_medium_iw = {
+		# 添加战间中型机
+		addeq_air_medium_iw = {
 
-		picture = generic_air_bonus
-		on_add = {
-			country_event = addeq.event.air.new.88100 
+			picture = generic_air_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88100 
+			}
+
+		} # 添加战间中型机
+	
+		# 添加基础中型机
+		addeq_air_medium_basic = {
+
+			picture = anti_soviet_pact
+			on_add = {
+				country_event = addeq.event.air.new.88110 
+			}
+
+		} # 添加基础中型机
+
+		# 添加改进中型机
+		addeq_air_medium_improved = {
+
+			picture = air_support_focus
+			on_add = {
+				country_event = addeq.event.air.new.88120 
+			}
+
+		} # 添加改进中型机
+
+		# 添加先进中型机
+		addeq_air_medium_advanced = {
+
+			picture = combined_bomber_offensive
+			on_add = {
+				country_event = addeq.event.air.new.88130 
+			}
+
+		} # 添加先进中型机
+
+		# 添加现代中型机	
+		addeq_air_medium_modern = {
+
+			picture = generic_fascism_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88140 
+			}
+
 		}
-
-	} # 添加战间中型机
-		
-		
+				
 
 	} # 中型机
 	
