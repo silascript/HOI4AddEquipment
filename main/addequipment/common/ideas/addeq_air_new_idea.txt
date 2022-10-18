@@ -132,7 +132,61 @@ ideas = {
 
 	# 大型机
 	addeq_air_large_ideas = {
+
+		# 战间大型机
+		addeq_air_large_iw = {
+
+			picture = generic_air_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88200 
+			}
+
+		} # 战间大型机
 	
+
+		# 基础大型机
+		addeq_air_large_basic = {
+
+			picture = anti_soviet_pact
+			on_add = {
+				country_event = addeq.event.air.new.88210 
+			}
+
+		} # 基础大型机
+
+
+		# 改进大型机
+		addeq_air_large_improved = {
+
+			picture = air_support_focus
+			on_add = {
+				country_event = addeq.event.air.new.88220 
+			}
+
+		} # 改进大型机
+
+
+		# 先进大型机
+		addeq_air_large_advanced = {
+
+			picture = combined_bomber_offensive
+			on_add = {
+				country_event = addeq.event.air.new.88230 
+			}
+
+		} # 先进大型机
+
+
+		# 现代大型机
+		addeq_air_large_modern = {
+
+			picture = generic_fascism_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88240 
+			}
+
+		} # 现代大型机
+
 
 	} # 大型机
 

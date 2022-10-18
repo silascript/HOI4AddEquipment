@@ -108,27 +108,22 @@
 
 	战间大型机
 	large_plane_airframe_0
-
 	addeq.event.air.new.88200
 
 	基础大型机
 	large_plane_airframe_1
-
 	addeq.event.air.new.88210
 
 	改进大型机
 	large_plane_airframe_2
-
 	addeq.event.air.new.88220
 
 	先进大型机
 	large_plane_airframe_3
-
 	addeq.event.air.new.88230
 
 	现代大型机
 	large_plane_airframe_4
-
 	addeq.event.air.new.88240
 
 
