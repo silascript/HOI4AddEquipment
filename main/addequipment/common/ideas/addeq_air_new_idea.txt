@@ -64,6 +64,57 @@ ideas = {
 	# 舰载机
 	addeq_air_cv_small_ideas = {
 
+		# 战间舰载机
+		addeq_air_cv_small_iw = {
+
+			picture = FRA_army_of_aggression_focus
+			on_add = {
+				country_event = addeq.event.air.new.88001 
+			}
+
+		} # 战间舰载机
+
+
+		# 基础舰载机	
+		addeq_air_cv_small_basic = {
+			picture = generic_fascism_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88011
+			}
+
+		} # 基础舰载机	
+
+
+		# 改进舰载机	
+		addeq_air_cv_small_improved = {
+			picture = generic_democratic_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88021
+			}
+
+		} # 改进舰载机	
+
+
+		# 先进舰载机	
+		addeq_air_cv_small_advanced = {
+			picture = FRA_scw_intervention_nationalists_focus
+			on_add = {
+				country_event = addeq.event.air.new.88031
+			}
+
+		} # 先进舰载机	
+
+
+		# 现代舰载机	
+		addeq_air_cv_small_modern = {
+			picture = generic_democratic_drift_bonus
+			on_add = {
+				country_event = addeq.event.air.new.88041
+			}
+
+		}
+
+
 	} # 舰载机
 
 

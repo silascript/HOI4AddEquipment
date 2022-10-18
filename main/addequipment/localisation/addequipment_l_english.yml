@@ -204,6 +204,11 @@
   addeq_air_small_modern:0 "添加现代小型机身"
 
   # 舰载机
+  addeq_air_cv_small_iw:0 "添加战间舰载机身"
+  addeq_air_cv_small_basic:0 "添加基础舰载机身"
+  addeq_air_cv_small_improved:0 "添加改进舰载机身"
+  addeq_air_cv_small_advanced:0 "添加先进舰载机身"
+  addeq_air_cv_small_modern:0 "添加现代舰载机身"
 
   # 中型机
   addeq_air_medium_iw:0 "添加战间中型机身"

@@ -310,6 +310,307 @@ country_event = {
 ######################################################
 # 舰载机
 
+# 战间舰载机
+country_event = {
+	id = addeq.event.air.new.88001
+	title = addeq.event.air.new.88001.t
+	desc = addeq.event.air.new.88001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_small_iw 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.new.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_0 
+			amount = 200
+			##producer = <TAG>
+		}	
+	}
+
+
+	#添加500
+	option = {
+		name = addeq.event.air.new.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_0 
+			amount = 500
+			##producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.new.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_0 
+			amount = 800
+			##producer = <TAG>
+		}	
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+} # 战间舰载机
+
+
+# ----------------------------------------------- #
+# 基础舰载机
+country_event = {
+	id = addeq.event.air.new.88011
+	title = addeq.event.air.new.88011.t
+	desc = addeq.event.air.new.88011.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_small_basic 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.new.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_1 
+			amount = 200
+			##producer = <TAG>
+		}	
+	}
+
+
+	#添加500
+	option = {
+		name = addeq.event.air.new.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_1 
+			amount = 500
+			##producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.new.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_1 
+			amount = 800
+			##producer = <TAG>
+		}	
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+} # 基础舰载机
+
+# ----------------------------------------------- #
+# 改进舰载机
+country_event = {
+	id = addeq.event.air.new.88021
+	title = addeq.event.air.new.88021.t
+	desc = addeq.event.air.new.88021.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_small_improved 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.new.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_2 
+			amount = 200
+			##producer = <TAG>
+		}	
+	}
+
+
+	#添加500
+	option = {
+		name = addeq.event.air.new.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_2 
+			amount = 500
+			##producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.new.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_2 
+			amount = 800
+			##producer = <TAG>
+		}	
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+} # 改进舰载机
+
+# ----------------------------------------------- #
+# 先进舰载机
+country_event = {
+	id = addeq.event.air.new.88031
+	title = addeq.event.air.new.88031.t
+	desc = addeq.event.air.new.88031.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_small_advanced 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.new.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_3 
+			amount = 200
+			##producer = <TAG>
+		}	
+	}
+
+
+	#添加500
+	option = {
+		name = addeq.event.air.new.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_3 
+			amount = 500
+			##producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.new.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_3 
+			amount = 800
+			##producer = <TAG>
+		}	
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+} # 先进舰载机
+
+
+# ----------------------------------------------- #
+# 现代舰载机
+country_event = {
+	id = addeq.event.air.new.88041
+	title = addeq.event.air.new.88041.t
+	desc = addeq.event.air.new.88041.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_air_cv_small_modern 
+		}
+	}
+
+	#添加200
+	option = {
+		name = addeq.event.air.new.amount.a
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_4 
+			amount = 200
+			##producer = <TAG>
+		}	
+	}
+
+
+	#添加500
+	option = {
+		name = addeq.event.air.new.amount.b
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_4 
+			amount = 500
+			##producer = <TAG>
+		}	
+	}
+
+	#添加800
+	option = {
+		name = addeq.event.air.new.amount.c
+
+		add_equipment_to_stockpile = {
+			type = cv_small_plane_airframe_4 
+			amount = 800
+			##producer = <TAG>
+		}	
+	}
+
+	#关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+} # 现代舰载机
+
 
 ######################################################
 # 中型机
@@ -677,6 +978,7 @@ country_event = {
 } # 战间大型机
 
 
+# ----------------------------------------------- #
 # 基础大型机
 country_event = {
 	id = addeq.event.air.new.88210
@@ -737,6 +1039,7 @@ country_event = {
 } # 基础大型机
 
 
+# ----------------------------------------------- #
 # 改进大型机
 country_event = {
 	id = addeq.event.air.new.88220
@@ -796,6 +1099,7 @@ country_event = {
 
 } # 改进大型机
 
+# ----------------------------------------------- #
 # 先进大型机
 country_event = {
 	id = addeq.event.air.new.88230
@@ -855,6 +1159,7 @@ country_event = {
 
 } # 先进大型机
 
+# ----------------------------------------------- #
 # 现代大型机
 country_event = {
 	id = addeq.event.air.new.88240
