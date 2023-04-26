@@ -7,6 +7,8 @@ idea_categories = {
 		slot = addeq_anti_ideas
 		slot = addeq_mechanized_ideas
 		slot = addeq_navy_ideas
+		# 添加列车
+		slot = addeq_train_ideas
 
 		cost = 0
 		removal_cost = 0

@@ -1,4 +1,4 @@
-version="8.0"
+version="8.1"
 name="HOI4 Add Equipment"
 path="mod/addequipment/"
 tags={

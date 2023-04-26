@@ -1,0 +1,10 @@
+
+# 标准列车
+train_equipment_1
+
+# 简易列车
+train_equipment_2
+
+# 装甲列车
+train_equipment_3
+

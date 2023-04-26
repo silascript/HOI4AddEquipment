@@ -1,0 +1,42 @@
+ideas = {
+
+	# 添加列车
+	addeq_train_ideas = {
+
+		# 添加 标准列车 train_equipment_1
+		addeq_train_1 = {
+			# picture = generic_infantry_bonus
+			on_add = {
+				country_event = addeq.event.train.81101	
+			}
+		} # 添加 标准列车
+
+		# 添加 简易列车 train_equipment_2
+		addeq_train_2 = {
+			# picture = generic_infantry_bonus
+			on_add = {
+				country_event = addeq.event.train.81102	
+			}
+		} # 添加 简易列车
+
+		# 添加 装甲列车 train_equipment_3
+		addeq_train_3 = {
+			# picture = generic_infantry_bonus
+			on_add = {
+				country_event = addeq.event.train.81103
+			}
+		} # 添加 装甲列车
+
+		# 添加 列车炮 railway_gun_equipment_1
+		# addeq_train_railway_gun_1 = {
+		# 	# picture = generic_infantry_bonus
+		# 	on_add = {
+		# 		country_event = addeq.event.train.81111
+		# 	}
+		# } # 添加 装甲列车
+
+
+
+	} # 添加列车
+
+}

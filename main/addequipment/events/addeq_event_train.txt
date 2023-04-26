@@ -1,0 +1,251 @@
+add_namespace = addeq.event.train
+
+##############################################
+#                       列车                  #
+##############################################
+
+
+# 标准列车
+country_event = {
+	id = addeq.event.train.81101
+	title = addeq.event.train.81101.t
+	desc = addeq.event.train.81101.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_train_1
+		}
+	}
+
+    # 添加 20
+	option = {
+		name = addeq.event.train.amount.a
+
+		add_equipment_to_stockpile = {
+            type = train_equipment_1 
+			amount = 20
+		}	
+	}
+
+
+    # 添加 50
+	option = {
+		name = addeq.event.train.amount.b
+
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 50
+		}	
+	} 
+    
+    # 添加 80
+    option = {
+		name = addeq.event.train.amount.c
+
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 80
+		}	
+	} 
+
+
+    #关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+
+} # 标准列车
+
+# ----------------------------------------------- #
+
+# 简易列车
+country_event = {
+	id = addeq.event.train.81102
+	title = addeq.event.train.81102.t
+	desc = addeq.event.train.81102.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_train_2
+		}
+	}
+
+    # 添加 20
+	option = {
+		name = addeq.event.train.amount.a
+
+		add_equipment_to_stockpile = {
+            type = train_equipment_2 
+			amount = 20
+		}	
+	}
+
+
+    #添加 50
+	option = {
+		name = addeq.event.train.amount.b
+
+		add_equipment_to_stockpile = {
+			type = train_equipment_2
+			amount = 50
+		}	
+	} 
+    
+    #添加 800
+    option = {
+		name = addeq.event.train.amount.c
+
+		add_equipment_to_stockpile = {
+			type = train_equipment_2
+			amount = 80
+		}	
+	} 
+
+
+    #关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+
+} # 简易列车
+
+
+# ----------------------------------------------- #
+
+# 装甲列车
+country_event = {
+	id = addeq.event.train.81103
+	title = addeq.event.train.81103.t
+	desc = addeq.event.train.81103.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addeq_train_3
+		}
+	}
+
+    # 添加 20
+	option = {
+		name = addeq.event.train.amount.a
+
+		add_equipment_to_stockpile = {
+            type = train_equipment_3 
+			amount = 20
+		}	
+	}
+
+
+    # 添加 50
+	option = {
+		name = addeq.event.train.amount.b
+
+		add_equipment_to_stockpile = {
+			type = train_equipment_3
+			amount = 50
+		}	
+	} 
+    
+    # 添加 80
+    option = {
+		name = addeq.event.train.amount.c
+
+		add_equipment_to_stockpile = {
+			type = train_equipment_3
+			amount = 80
+		}	
+	} 
+
+
+    #关闭
+	option = {
+		name = addeq.event.common.b
+	}
+
+
+} # 装甲列车
+
+
+# ----------------------------------------------- #
+
+
+# 列车炮
+# country_event = {
+# 	id = addeq.event.train.81111
+# 	title = addeq.event.train.81111.t
+# 	desc = addeq.event.train.81111.d
+
+# 	is_triggered_only = yes
+# 	trigger = {
+# 		is_ai = no
+# 	}
+
+# 	#移除idea
+# 	immediate = {
+# 		hidden_effect = { 
+# 			remove_ideas = addeq_train_railway_gun_1
+# 		}
+# 	}
+
+#     # 添加 20
+# 	option = {
+# 		name = addeq.event.train.amount.a
+
+# 		add_equipment_to_stockpile = {
+#             type =  railway_gun_equipment_1
+# 			amount = 20
+# 		}	
+# 	}
+
+
+#     # 添加 50
+# 	option = {
+# 		name = addeq.event.train.amount.b
+
+# 		add_equipment_to_stockpile = {
+# 			type = railway_gun_equipment_1
+# 			amount = 50
+# 		}	
+# 	} 
+    
+#     # 添加 80
+#     option = {
+# 		name = addeq.event.train.amount.c
+
+# 		add_equipment_to_stockpile = {
+# 			type = railway_gun_equipment_1
+# 			amount = 80
+# 		}	
+# 	} 
+
+
+#     #关闭
+# 	option = {
+# 		name = addeq.event.common.b
+# 	}
+
+
+# } # 列车炮
+
+
+
+

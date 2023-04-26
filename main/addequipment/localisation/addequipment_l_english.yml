@@ -1,20 +1,20 @@
 ﻿l_english:
   
   #####################标题#####################
-  #
+  # Idea 栏
   AddEquipmentTools_Idea:0 "添加步兵炮兵装备"
   AddEquipmentTools_Tank_Idea:0 "添加坦克"
   AddEquipmentTools_Air_Idea:0 "添加飞机"
 
-  #Idea组标题
-  #步兵炮兵装备
+  # Idea组标题
+  # 步兵炮兵装备
   addeq_infantry_ideas:0 "添加步兵装备"
   addeq_artillery_ideas:0 "添加炮兵装备"
   addeq_anti_ideas:0 "添加牵引式防空及反坦装备"
   addeq_navy_ideas:0 "添加海军装备"
   addeq_mechanized_ideas:0 "添加机械化装备"
 
-  #坦克
+  # 坦克
   # 轻型坦克
   addeq_tank_light_ideas:0 "添加轻型坦克"
 
@@ -32,20 +32,20 @@
   # 两栖坦克
   addeq_tank_amphibious_ideas:0 "添加两栖坦克"
 
-  #飞机
-  #战斗飞机
+  # 飞机
+  # 战斗飞机
   addeq_air_figher_ideas:0 "添加战斗机"
 
-  #轰炸飞机
+  # 轰炸飞机
   addeq_air_bomber_ideas:0 "添加轰炸机"
 
-  #喷气式飞机
+  # 喷气式飞机
   addeq_air_jet_ideas:0 "添加喷气式飞机"
 
-  #截击机
+  # 截击机
   addeq_air_rocket_ideas:0 "添加截击机"
 
-  #运输机
+  # 运输机
   addeq_air_transport_ideas:0 "添加运输机"
 
 
@@ -55,6 +55,8 @@
   addeq_air_medium_ideas:0 "添加中型机"
   addeq_air_large_ideas:0 "添加大型机"
 
+  # 列车
+  addeq_train_ideas:0 "添加列车"
 
   #####################各子idea标题#####################
   
@@ -110,6 +112,15 @@
 
   #运输船
   addeq_convoy_1:0 "添加运输船"
+
+
+  # 列车
+  addeq_train_1:0 "添加标准列车"
+	addeq_train_2:0 "添加简易列车"
+	addeq_train_3:0 "添加装甲列车"
+  # addeq_train_railway_gun_1:0 "添加列车炮"
+
+
   
   #===================坦克===================#
   
@@ -368,7 +379,26 @@
 
   addeq.event.mechanize.83003.t:0 "添加III级机械化装备"
   addeq.event.mechanize.83003.d:0 "添加III级机械化装备\n请选择添加的数量"
+
+
+  # 列车
+  addeq.event.train.amount.a:0 "20"
+  addeq.event.train.amount.b:0 "50"
+  addeq.event.train.amount.c:0 "80"
   
+  addeq.event.train.81101.t:0 "添加标准列车"
+  addeq.event.train.81101.d:0 "添加标准列车\n请选择添加的数量"
+
+  addeq.event.train.81102.t:0 "添加简易列车"
+  addeq.event.train.81102.d:0 "添加简易列车\n请选择添加的数量"
+
+  addeq.event.train.81103.t:0 "添加装甲列车"
+  addeq.event.train.81103.d:0 "添加装甲列车\n请选择添加的数量"
+
+  # addeq.event.train.81111.t:0 "添加列车炮"
+  # addeq.event.train.81111.d:0 "添加列车炮\n请选择添加的数量"
+
+
 
   #海军
   #运输船
